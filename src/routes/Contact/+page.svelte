@@ -1,27 +1,28 @@
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <div id="content">
-    <h1 id="title">Contact Us</h1>
-    <div id="card_cont">
-        <div class="card">
+    
+    <div id="block_cont" class="">
+        <div class="block" id="form">
+            <h1 id="title">Contact Us</h1>
             <form action="">
-                <h4>Name</h4>
+                <h2>Name</h2>
                 <input type="text">
-                <h4>Email</h4>
+                <h2>Email</h2>
                 <input type="text">
-                <h4>Phone</h4>
+                <h2>Phone</h2>
                 <input type="text">
-                <h4>Questions/Messages</h4><br>
-                <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
-                <button>Submit</button>
+                <h2>Questions/Messages</h2>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                <input type="submit" value="Submit" class="button">
             </form>
         </div>
-        <div class="card">
+        <div class="block" id="deets">
             <iframe title="map" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.8396650489076!2d78.36211373353493!3d17.43603045514316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93aa78147351%3A0x91d35a329aca87f2!2sDelhi%20Public%20School%2C%20Hyderabad%20Sr.%20Sec.%20Campus!5e0!3m2!1sen!2sin!4v1684669283155!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div style="height:30%;margin:10% 0 10% 5%">
-                <h2 style="font-weight: 400;">Delhi Public School,<br>Hyderabad</h2>
+            <div>
+                <h2 style="font-weight: 400;"><center>Delhi Public School,Hyderabad</center></h2>
             </div>
-        
         </div>
     </div>
 </div>
@@ -30,85 +31,51 @@
 
 
 <style>
-    
+    #block_cont{
+        /* Dimensions */
+        width:100vw;
+        height: auto;
+
+        /*Flex Box*/
+        display: grid;
+    }
+
+    .block{
+        border: 1px solid black;
+    }
 
     #title{
+        height: 10vh;
         text-align: center;
-        padding: 5vmin 0 7.5vmin 0;
-        margin: auto;
     }
-    
-    #card_cont{
+
+    #form form{
+        margin: auto;
+        height: 75vh;
+        width: 80%;
+        text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        width:100vw;
-        min-height: 100vh;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
     }
 
-    .card{
-        aspect-ratio: 3.5/5;
-        width: 80vw;
-        border: 3px solid rgba(0, 0, 0, 0.25);
-        border-radius: 15px;
-        margin-bottom: 5%;
-    }
-    
-    .card h4{
-        font-weight: 400;
-        margin-top: 7.5%;
+    #form .button{
+        width: 50%;
+        background-color: green;
+
     }
 
-    .card textarea{
-        height: 20%;
-        width: 90%;
-        margin: auto;
-        display: block;
+    #deets{
+        height: 90vh;
     }
 
-    .card button{
-        background-color: #06562F;
-        color: white;
-        border: none;
-        border-radius: 25px;
-        padding: 5%;
-        width: 25vw;
-        margin:auto;
-        display: block;
-    }
-
-    .card form{
-        width: 80%;
-        height: 100%;
-        margin: auto;
-    }
-    .card input{
-        height: 7.5%;
-        border:none;
-        border-bottom: solid 1px black;
-        width: 100%;
-    }
-
-    .map{
-        width: 100%;
-        height: 50%;
-    }
-
-
+    /* Styles for Wider Screens */
     @media (min-width:600px){
-        #title{
-            padding: 2.5vh 5vw 7.5vh 5vw;
-            text-align: left;
-        }
-        .card{
-            width:40vw;
-            aspect-ratio: 1;
-        }
-        #card_cont{
+        #block_cont{
             min-height: 80vh;
-            flex-direction: row;
+            grid-template-columns: auto auto;
         }
-        
     }
 </style>

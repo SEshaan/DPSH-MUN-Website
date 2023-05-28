@@ -45,6 +45,7 @@
     }
 
 	nav {
+        z-index: 10;
 		width: 100vw;
 		height: 8vh;
         position: fixed;

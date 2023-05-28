@@ -24,7 +24,7 @@
     #😲{
         width: 100vw;
         height: 80vh;
-        background-image: url("./MUN_Background.jpg");
+        background-image: url("./munbg.jpeg");
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
