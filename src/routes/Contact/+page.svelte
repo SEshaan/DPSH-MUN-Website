@@ -1,3 +1,7 @@
+<script>
+    let link = "./contactbg.png"
+</script>
+
 <div id="content">
 	<div id="con">
 		<h1>Contact Us</h1>
@@ -31,7 +35,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-        background-image: url("./contactbg.png");
+        background-image: url({link});
         background-position: 90% 90%;
         backdrop-filter: blur(4px);
 
