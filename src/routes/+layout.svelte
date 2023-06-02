@@ -36,7 +36,7 @@
             <li><a href='./Allocations' id="Allocations" >Allocations</a></li>
             <li><a href='./Resources' id="Resources" >Resources</a></li>
             <li><a href='./Secretariat' id="Secretariat" >Secretariat</a></li>
-            <li><a href='./Commitiies' id="Commities" >Commitiies</a></li>
+            <li><a href='./Committees' id="Committees" >Committees </a></li>
             <li><a href='./Contact' id="Contact" >Contact Us</a></li>
         </ul>
     </div>
@@ -49,7 +49,7 @@
         <li><a href='./Allocations'>Allocations</a></li>
         <li><a href='./Resources'>Resources</a></li>
         <li><a href='./Secretariat'>Secretariat</a></li>
-        <li><a href='./Commitiies'>Commitiies</a></li>
+        <li><a href='./Committees'>Committees </a></li>
         <li><a href='./Contact'>Contact Us</a></li>
     </ul>
 </div>
