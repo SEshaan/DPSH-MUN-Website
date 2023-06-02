@@ -54,7 +54,6 @@
 
     // @ts-ignore and fuck yourself
     let announcements = [{date:"12/12/12",title:"Delegate registrations are open"}]
-	let Link = './munbg.jpeg'
 </script>
 
 <div id="😲">
@@ -144,7 +143,7 @@
 	#😲 {
 		width: 100vw;
 		height: 80vh;
-		background-image: url({Link});
+		background-image: url('/munbg.jpeg');
 		background-position: 50% 50%;
 		background-repeat: no-repeat;
 		background-size: cover;
