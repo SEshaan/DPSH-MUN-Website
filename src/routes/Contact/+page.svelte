@@ -1,81 +1,98 @@
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
 <div id="content">
-    
-    <div id="block_cont" class="">
-        <div class="block" id="form">
-            <h1 id="title">Contact Us</h1>
-            <form action="">
-                <h2>Name</h2>
-                <input type="text">
-                <h2>Email</h2>
-                <input type="text">
-                <h2>Phone</h2>
-                <input type="text">
-                <h2>Questions/Messages</h2>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-                <input type="submit" value="Submit" class="button">
-            </form>
-        </div>
-        <div class="block" id="deets">
-            <iframe title="map" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.8396650489076!2d78.36211373353493!3d17.43603045514316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93aa78147351%3A0x91d35a329aca87f2!2sDelhi%20Public%20School%2C%20Hyderabad%20Sr.%20Sec.%20Campus!5e0!3m2!1sen!2sin!4v1684669283155!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div>
-                <h2 style="font-weight: 400;"><center>Delhi Public School,Hyderabad</center></h2>
+	<div id="con">
+		<h1>Contact Us</h1>
+		<form action="POST">
+			<div class="field_cont">
+                <h3>Name</h3>
+			    <input type="text" />
             </div>
-        </div>
-    </div>
+			<div class="field_cont">
+                <h3>Email</h3>
+			    <input type="text" />
+            </div>
+			<div class="field_cont">
+                <h3>Phone</h3>
+			    <input type="text" />
+            </div>
+			<div class="field_cont">
+                <h3>Questions/Messages</h3>
+			    <textarea name="messages" id="" cols="30" rows="2" />
+            </div>
+            <button>Submit →</button>
+		</form>
+	</div>
 </div>
 
 
-
-
 <style>
-    #block_cont{
-        /* Dimensions */
-        width:100vw;
-        height: auto;
+	#content {
+		background-color: white;
+		height: 90vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+        background-image: url("./contactbg.png");
+        background-position: 90% 90%;
+        backdrop-filter: blur(4px);
 
-        /*Flex Box*/
-        display: grid;
+	}
+	#con {
+		height: 80vh;
+		width: auto;
+		aspect-ratio: 1/1;
+		background-color: white;
+		text-align: center;
+        box-shadow: rgb(63, 63, 63) -4px 4px 16px;
+	}
+	#con input {
+		background: none;
+		border: solid lightgray 1px;
+        width: 95%;
+        height: 25px;
+	}
+	#con textarea {
+		background: none;
+		border: solid lightgray 1px;
+		resize: none;
+        width: 95%;
+	}
+	#con h1 {
+		padding: 5%;
+	}
+    #con h3{
+        font-size: small;
+        font-weight: 200;
+        
     }
-
-    .block{
-        border: 1px solid black;
-    }
-
-    #title{
-        height: 10vh;
-        text-align: center;
-    }
-
-    #form form{
+    #con form{
+        width: 60%;
+        height: 80%;
         margin: auto;
-        height: 75vh;
-        width: 80%;
-        text-align: center;
+        text-align: left;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: stretch;
-        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+    #con .field_cont{
+        width: 100%;
+        min-height: 10%;
+    }
+    #con button{
+        width: 6rem;
+        height: 2rem;
+        border: none;
+        background-color: black;
+        color: white;
+        margin: 0 auto 0 auto;
+        border-radius: 5%;
     }
 
-    #form .button{
-        width: 50%;
-        background-color: green;
-
-    }
-
-    #deets{
-        height: 90vh;
-    }
-
-    /* Styles for Wider Screens */
-    @media (min-width:600px){
-        #block_cont{
-            min-height: 80vh;
-            grid-template-columns: auto auto;
+    @media (max-width:800px){
+        #con{
+            aspect-ratio: 3/5;
+            height: auto;
+            width: 70vw;
         }
     }
 </style>

@@ -2,8 +2,7 @@
     import { browser } from '$app/environment';
 
     if (browser) { 
-        window.location.href = './Home';
+        window.location.href = './Index';
     }
 </script>
 
-<h1>Redirecting</h1>

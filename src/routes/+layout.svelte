@@ -1,9 +1,28 @@
 <script>
+	import { onMount } from "svelte";
+
     export const prerender = true;
     let sidebar = false
     function Sidebar(){
         sidebar = !sidebar
     }
+
+    let page = "Home"
+
+    function refresh(){}
+
+    onMount(() => {
+        // @ts-ignore
+        function refresh()  {
+            document.querySelector("#Index")?.classList.remove("active")
+            document.querySelector("#" + page)?.classList.remove("active")
+            page = window.location.toString().split("/")[window.location.toString().split("/").length-1]
+            document.querySelector("#" + page)?.classList.add("active")
+        }
+        setInterval(() => {
+            refresh()
+        }, 100);
+    })
 </script>
 
 
@@ -13,27 +32,27 @@
     <img id="hamburger_menu" src="./Hamburger_Menu.png" alt="Menu" on:click={Sidebar}/>
     <div id="Nav_Buttons">
         <ul style="list-style: none;">
-            <li><a href='./Home' class="active">Home</a></li>
-            <li><a href='./Allocations'>Allocations</a></li>
-            <li><a href='./Resources'>Resources</a></li>
-            <li><a href='./Secretariat'>Secretariat</a></li>
-            <li><a href='./Commitiies'>Commitiies</a></li>
-            <li><a href='./Contact'>Contact Us</a></li>
-        </ul>
-    </div>
-    <div id="sidebar" class:active={sidebar}>
-        <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <img src="./Close_Button.png" alt="Close Button" srcset="" id="Close_Button" on:click={Sidebar}><br><br>
-        <ul style="list-style: none;">
-            <li><a href='./Home' class="active">Home</a></li>
-            <li><a href='./Allocations'>Allocations</a></li>
-            <li><a href='./Resources'>Resources</a></li>
-            <li><a href='./Secretariat'>Secretariat</a></li>
-            <li><a href='./Commitiies'>Commitiies</a></li>
-            <li><a href='./Contact'>Contact Us</a></li>
+            <li><a href='./Index' id="Index" class="active">Home</a></li>
+            <li><a href='./Allocations' id="Allocations" >Allocations</a></li>
+            <li><a href='./Resources' id="Resources" >Resources</a></li>
+            <li><a href='./Secretariat' id="Secretariat" >Secretariat</a></li>
+            <li><a href='./Commitiies' id="Commities" >Commitiies</a></li>
+            <li><a href='./Contact' id="Contact" >Contact Us</a></li>
         </ul>
     </div>
 </nav>
+<div id="sidebar" class:active={sidebar}>
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <img src="./Close_Button.png" alt="Close Button" srcset="" id="Close_Button" on:click={Sidebar}><br><br>
+    <ul style="list-style: none;">
+        <li><a href='./Index'>Home</a></li>
+        <li><a href='./Allocations'>Allocations</a></li>
+        <li><a href='./Resources'>Resources</a></li>
+        <li><a href='./Secretariat'>Secretariat</a></li>
+        <li><a href='./Commitiies'>Commitiies</a></li>
+        <li><a href='./Contact'>Contact Us</a></li>
+    </ul>
+</div>
 <div id="margin"></div>
 
 <slot />
@@ -51,6 +70,7 @@
         position: fixed;
         background-color: white;
         overflow: hidden;
+        filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
     }
 
     #sidebar{
@@ -61,6 +81,7 @@
         right: 0;
         height: 100vh;
         background-color: white;
+        z-index: 10;
     }
 
     #sidebar ul li{
@@ -71,10 +92,6 @@
         font-size: larger;
         color: gray;
         text-decoration: none;
-    }
-
-    #sidebar ul li a.active{
-        color: black;
     }
 
     #Close_Button{
@@ -136,7 +153,7 @@
         color: grey;
     }
 
-	@media (min-width: 800px) {
+	@media (min-width: 900px) {
         #margin{
             width:100vw;
             height: 10vh;
