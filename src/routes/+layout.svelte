@@ -14,9 +14,20 @@
     onMount(() => {
         // @ts-ignore
         function refresh()  {
-            document.querySelector("#Index")?.classList.remove("active")
+            document.querySelector("#Home")?.classList.remove("active")
+            if(!page){
+                page = window.location.toString().split("/")[window.location.toString().split("/").length-1].split("?")[0]
+                if(!page){  
+                    document.querySelector("#Home")?.classList.add("active")
+                }
+                return
+            }
             document.querySelector("#" + page)?.classList.remove("active")
-            page = window.location.toString().split("/")[window.location.toString().split("/").length-1]
+            page = window.location.toString().split("/")[window.location.toString().split("/").length-1].split("?")[0]
+            if(!page){
+                document.querySelector("#Home")?.classList.add("active")
+                return
+            }
             document.querySelector("#" + page)?.classList.add("active")
         }
         setInterval(() => {
@@ -32,7 +43,7 @@
     <img id="hamburger_menu" src="./Hamburger_Menu.png" alt="Menu" on:click={Sidebar}/>
     <div id="Nav_Buttons">
         <ul style="list-style: none;">
-            <li><a href='./Index' id="Index" class="active">Home</a></li>
+            <li><a href='./' id="Home" class="active">Home</a></li>
             <li><a href='./Allocations' id="Allocations" >Allocations</a></li>
             <li><a href='./Resources' id="Resources" >Resources</a></li>
             <li><a href='./Secretariat' id="Secretariat" >Secretariat</a></li>
@@ -45,7 +56,7 @@
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <img src="./Close_Button.png" alt="Close Button" srcset="" id="Close_Button" on:click={Sidebar}><br><br>
     <ul style="list-style: none;">
-        <li><a href='./Index'>Home</a></li>
+        <li><a href='./'>Home</a></li>
         <li><a href='./Allocations'>Allocations</a></li>
         <li><a href='./Resources'>Resources</a></li>
         <li><a href='./Secretariat'>Secretariat</a></li>
