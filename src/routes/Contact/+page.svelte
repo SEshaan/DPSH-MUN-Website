@@ -1,3 +1,5 @@
+<script src="https://js.hcaptcha.com/1/api.js?hl=fr" async defer></script>
+
 <div id="content">
 	<div id="con">
 		<h1>Contact Us</h1>
