@@ -1,24 +1,31 @@
 <script>
+	import { onMount } from "svelte";
 
+
+    let commities = ["DISEC","NATO","UNSC","UNHRC","LK","IMF","IP"]
+    
 </script>
 
 <div id="intro">
-    <h1>Our Committees</h1>
+    <h1 >Our Committees</h1>
 </div>
 <div id="committees">
-    {#each ["DISEC" ,"UNSC" ,"NATO","UNHRC","IP","LS","IMF"] as i}
+    {#each commities as i}
         <div class="section">
-            <img src={"./committees/"+i+".png"} alt="">
-            <h1>{i}</h1>
-            <a href="./Allocations?{i}">View Allocations →</a>
+            <img src={"./committees/"+i+".jpg"} alt="">
+            <div>
+            <a href="./Resources?{i}">Resources → </a><br>
+            <a href="./Allocations?{i}">Allocations →</a>
+            </div>
         </div>
     {/each}
 </div>
 
 
+
 <style>
 
-    #committees{
+#committees{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -27,7 +34,16 @@
     }
     .section a{
         text-decoration: none;
-        color: black;
+        color: #057019;
+        font-size:small
+    }
+    .section a:hover{
+        color:black;
+        transition:0.5s
+    }
+    .section a:not(:hover){
+        color:#057019;
+        transition:0.5s
     }
     .section{
         margin: 2.5%;
@@ -38,8 +54,6 @@
         aspect-ratio: 1/1;
         height: auto;
         width: 40vw;
-        border: solid black 2px;
-        padding: 2.5%;
     }
     .section img{
         aspect-ratio: 1/1;
@@ -53,7 +67,10 @@
         align-items: center;
         width: 100vw;
         height: 50vh;
-        background-color: #057019;
+        background-image:url("./another bg.png");
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
         color: white;
     }
     @media (min-width:600px){
@@ -62,6 +79,12 @@
         }
         .section img{
             width: 15vw;
+        }
+        .section a{
+            font-size:large
+        }
+        #intro {
+            font-size:x-large
         }
     }
 </style>
