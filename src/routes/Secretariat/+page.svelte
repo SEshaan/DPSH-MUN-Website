@@ -31,12 +31,12 @@
     ]
 </script>
 
-<div id="intro">
+<!-- <div id="intro">
     <div style="text-align: center;">
         <span style="font-weight: 100;">The</span><br>
         <span style="font-weight: 700;font-size:xxx-large">Secretariat</span>
     </div>
-</div>
+</div> -->
 
 {#each spec_bois as specboi}
 <div class="spec_bois">
