@@ -67,7 +67,7 @@
         align-items: center;
         width: 100vw;
         height: 50vh;
-        background-image:url("./another bg.png");
+        background-image:url("/another bg.png");
 		background-position: 50% 50%;
 		background-repeat: no-repeat;
 		background-size: cover;
