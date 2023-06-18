@@ -16,6 +16,7 @@
 	"devDependencies": {
 		"@hcaptcha/types": "^1.0.3",
 		"@sveltejs/adapter-static": "next",
+		"@sveltejs/adapter-vercel": "^3.0.1",
 		"@sveltejs/kit": "^1.5.0",
 		"@vercel/node": "^2.14.4",
 		"eslint": "^8.28.0",
