@@ -1,32 +1,82 @@
-<script src="https://js.hcaptcha.com/1/api.js?hl=fr" async defer></script>
+<script lang="ts">
+	import HCaptcha from 'svelte-hcaptcha';
+	let isSubmitting = false;
+	let captcha;
+	type data = {
+		Name: string;
+		Phone: number;
+		Email: string;
+		Captcha: string;
+		Message: string;
+	};
+	const jsonData: data = {};
+	let res = '';
+	const collectCaptchaCallback = (token: string) => {
+		// console.log(token);
+		return (jsonData.Captcha = token.detail.token);
+	};
+
+	export function submitForm(e: any) {
+		// console.log(e);
+		isSubmitting = true;
+		res = 'Please wait, submitting...';
+		return fetch('/api/contact', {
+			body: JSON.stringify(jsonData),
+			method: 'POST'
+		})
+			.then((res) => res.json())
+			.then((r) => {
+				res = r.message;
+				isSubmitting = false;
+				captcha.reset();
+			});
+	}
+</script>
 
 <div id="content">
 	<div id="con">
 		<h1>Contact Us</h1>
-		<form action="POST">
+		<form on:submit={submitForm}>
 			<div class="field_cont">
 				<h3>Name</h3>
-				<input type="text" />
+				<input id="name" type="text" bind:value={jsonData.Name} required={true} />
 			</div>
 			<div class="field_cont">
 				<h3>Email</h3>
-				<input type="text" />
+				<input id="email" type="email" bind:value={jsonData.Email} required={true} />
 			</div>
 			<div class="field_cont">
 				<h3>Phone</h3>
-				<input type="text" />
+				<input id="phone" type="number" bind:value={jsonData.Phone} />
 			</div>
 			<div class="field_cont">
 				<h3>Questions/Messages</h3>
-				<textarea name="messages" id="" cols="30" rows="2" />
+				<textarea
+					name="messages"
+					id="message"
+					cols="30"
+					rows="2"
+					bind:value={jsonData.Message}
+					required={true}
+				/>
 			</div>
-			<div
+			<center class="field_cont">
+				<HCaptcha
+					sitekey="fc19ae35-5278-4414-a8ca-e3f1f42165f4"
+					size="normal"
+					on:success={collectCaptchaCallback}
+					bind:this={captcha}
+				/>
+			</center>
+			<!-- <div
+				id="hcaptcha"
 				class="h-captcha"
-				data-sitekey="44f0c4c7-70c7-4dbc-929f-d75b5a6487fd"
-				data-error-callback="onError"
-			/>
-			<button>Submit →</button>
+				data-sitekey="fc19ae35-5278-4414-a8ca-e3f1f42165f4"
+				data-callback={collectCaptchaCallback}
+				/> -->
+			<button disabled={isSubmitting}>Submit →</button>
 		</form>
+		{res}
 	</div>
 </div>
 

@@ -1,0 +1,76 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model aippm {
+  id         Int     @id @default(autoincrement()) @map("_id")
+  Politician String  @db.VarChar(50)
+  Party      String  @db.VarChar(50)
+  Allocation String? @db.VarChar(100)
+  Section    String? @db.Char(3)
+}
+
+model annoucements {
+  id       Int     @id
+  Title    String? @db.VarChar(255)
+  Type     Int?
+  Message  String? @db.MediumText
+  IsActive Boolean @default(true)
+}
+
+model disec {
+  id         Int     @id @default(autoincrement()) @map("_id")
+  Country    String  @db.VarChar(50)
+  Allocation String? @db.VarChar(100)
+  Section    String? @db.Char(3)
+}
+
+model do_not_use_allocations {
+  id        Int     @id
+  Name      String  @db.VarChar(255)
+  Country   String? @db.VarChar(255)
+  Committee String  @db.VarChar(255)
+}
+
+model inqueries {
+  id      Int       @id @default(autoincrement())
+  Name    String    @db.VarChar(255)
+  Email   String?   @db.VarChar(255)
+  Phone   Int?
+  Message String?   @db.MediumText
+  Date    DateTime? @db.Date
+}
+
+model ip {
+  id         Int     @id @default(autoincrement()) @map("_id")
+  Committee  String? @db.VarChar(50)
+  Allocation String  @db.VarChar(50)
+  Section    String  @db.Char(3)
+}
+
+model unhrc {
+  id         Int     @id @default(autoincrement()) @map("_id")
+  Country    String  @db.VarChar(50)
+  Allocation String? @db.VarChar(100)
+  Section    String? @db.Char(3)
+}
+
+model unodc {
+  id         Int     @id @default(autoincrement()) @map("_id")
+  Country    String  @db.VarChar(50)
+  Allocation String? @db.VarChar(100)
+  Section    String? @db.Char(3)
+}
+
+model unsc {
+  id         Int     @id @default(autoincrement()) @map("_id")
+  Status     String  @db.VarChar(50)
+  Country    String  @db.VarChar(50)
+  Allocation String? @db.VarChar(100)
+  Section    String? @db.Char(3)
+}
