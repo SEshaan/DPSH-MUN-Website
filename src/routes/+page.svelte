@@ -56,10 +56,15 @@
     let announcements = [{date:"12/12/12",title:"Delegate registrations are open"}]
 </script>
 
+<div style="width:100vw;height:100vh;background-color:#3f4f5f">
+	<div id="Title" style="text-align: left;">
+		<h3>Delhi Public School, Hyderabad</h3>Model United Nations<br> 2023-24
+	</div>
+</div>
+
 <div id="😲">
-	<div id="Title">
-		<h2 id="🧐">DPSH MUN</h2>
-		<span id="🤯">2023</span>
+	<div id="Title" style="text-align: left;">
+		<h3>Delhi Public School, Hyderabad</h3>Model United Nations<br> 2023-24
 	</div>
 </div>
 <div id="Content">

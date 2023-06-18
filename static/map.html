@@ -9,7 +9,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
     <script src="./datamaps.world.hires.min.js"></script>
     <script>
-    var map = new Datamap({element: document.getElementById('container'),projection: 'mercator',
+    var map = new Datamap({fill:"#ffffff",element: document.getElementById('container'),projection: 'mercator',
     geographyConfig: {
         popupTemplate: function(geography, data) { //this function should just return a string
           if (!data.delegate){return ""}
@@ -23,8 +23,14 @@
             this.data = {
                 "SC":{
                     USA: {
-                        fillKey: 'MEDIUM',
+                        fillKey: 'HIGH',
                         delegate:"Joe Biden"
+                    },
+                    CAN:{
+                        delegate:"Srinivas Confetti"
+                    },
+                    HUN:{
+                        delegate:"hungry guy"
                     }
                 },
                 "DISEC":{

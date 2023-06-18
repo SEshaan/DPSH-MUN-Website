@@ -79,7 +79,7 @@
 		width: 100vw;
 		height: 8vh;
         position: fixed;
-        background-color: white;
+        background-color: #3f4f5f;
         overflow: hidden;
         filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
     }
@@ -91,7 +91,7 @@
         top: 0;
         right: 0;
         height: 100vh;
-        background-color: white;
+        background-color: #3f4f5f;
         z-index: 10;
     }
 
@@ -147,7 +147,7 @@
     }
 
     #Nav_Buttons li a.active{
-        color: black !important;
+        color: white !important;
     }
 
     #Nav_Buttons li a {
@@ -157,11 +157,11 @@
 
     #Nav_Buttons li:hover a {
         transition: 0.25s;
-        color: black;
+        color: whitesmoke;
     }
     #Nav_Buttons li:not(:hover) a {
         transition: 0.25s;
-        color: grey;
+        color: lightgray;
     }
 
 	@media (min-width: 900px) {
