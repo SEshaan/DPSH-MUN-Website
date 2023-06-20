@@ -75,7 +75,7 @@
         overflow: visible;
     }
     .card img{
-        height: 75%;
+        width: 100%;
         aspect-ratio: 3/2;
         width: auto;
         object-fit: contain;
