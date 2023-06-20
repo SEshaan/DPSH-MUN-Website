@@ -2,11 +2,11 @@
     let spec_bois = [
         {"Name": "Dhruv B Nair", "Image": " ", "Designation": "Secretary General","Message":"some positive message"},
         {"Name": "Bhavani Shankar Adusumilli", "Image": " ", "Designation": "Deputy Secretary General","Message":"some positive message"},
-        {"Name": "Srinivas Kantheti", "Image": " ", "Designation": "Director General","Message":"some positive message"},
+        {"Name": "Srinivas Kantheti", "Image": "https://dpshmun.netlify.app/assets/images/gang/IMG_3370.JPG", "Designation": "Director General","Message":"some positive message"},
     ]
     let normie_bois = [
         
-{"Name": "Sai Srikar", "Image": " ", "Designation": "Charge’ D Affairs"},
+{"Name": "Sai Srikar", "Image": "", "Designation": "Charge’ D Affairs"},
 {"Name": "Rishika Karpurapu", "Image": " ", "Designation": "Chief of Staff"},
 {"Name": "Yamini Tumu", "Image": " ", "Designation": "Head of Policy"},
 {"Name": "Sai Sriya Talatam", "Image": " ", "Designation": "USG of Policy"},
@@ -41,7 +41,7 @@
 {#each spec_bois as specboi}
 <div class="spec_bois">
     <div id="image"><img src={specboi.Image} alt=""></div>
-    <div style="width: 60vw;" class="info">
+    <div class="info">
         <div><h1>{specboi["Name"]}</h1><h4 style="font-weight: 100;">{specboi["Designation"]}</h4></div><br>
         <div class="msg"><span>{specboi["Message"]}</span></div>
     </div>
@@ -65,6 +65,8 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         padding:1% 0.5% 0 0.5%;
+        background-color: #3f4f5f;
+        color: #D0BEA8;
     }
     .card{
         aspect-ratio: 5/3;
@@ -77,7 +79,6 @@
     .card img{
         width: 100%;
         aspect-ratio: 3/2;
-        width: auto;
         object-fit: contain;
     }
     #intro{
@@ -90,25 +91,38 @@
     }
     .spec_bois{
         width: 100vw;
-        height: 100vh;
-        background-color: #057019;
+        height: 60vh;
+        background-color: #3f4f5f;
         color: white;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
     }
 
     .spec_bois{
 
     }
+    .spec_bois:nth-child(odd){
+        flex-direction: row-reverse;
+    }
     .spec_bois #image{
         aspect-ratio:3/2;
         background-color:black;
         height:100%;
+        overflow-y: hidden;
+    }
+    .spec_bois #image img{
+        
+        width: auto;
+        height: 100%;
+        aspect-ratio: 3/2;
     }
     
     .spec_bois .info{
-        
+        width: auto;
+        flex-grow: 1;
+        background-color: white;
+        height: 100%;
     }
 
     @media (min-width:600px){
@@ -124,7 +138,18 @@
     }
 
     @media (max-width:600px){
-        
-
+        .spec_bois,.spec_bois:nth-child(odd){
+            flex-direction: column;
+        }
+        .spec_bois .info{
+            width: 100vw;
+        }
+        .spec_bois #image{
+            width: 100vw;
+        }
+        .spec_bois #image img{
+            height: auto;
+            width: 100%;
+        }
     }
 </style>

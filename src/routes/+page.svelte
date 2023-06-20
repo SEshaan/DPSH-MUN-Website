@@ -28,15 +28,11 @@
 		date = new Date();
 		// @ts-ignore
 		countdown = new Date(d1 - date).getTime();
-		months = Math.floor(countdown / (1000 * 60 * 60 * 24 * 30)).toString();
-		days = Math.floor((countdown / (1000 * 60 * 60 * 24)) % 30).toString();
+		days = Math.floor((countdown / (1000 * 60 * 60 * 24))).toString();
 		hours = Math.floor((countdown % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString();
 		minutes = Math.floor((countdown % (1000 * 60 * 60)) / (1000 * 60)).toString();
 		seconds = Math.floor((countdown % (1000 * 60)) / 1000).toString();
 
-		if (months.length != 2) {
-			months = '0' + months;
-		}
 		if (days.length != 2) {
 			days = '0' + days;
 		}
@@ -72,36 +68,25 @@
 	<div id="countdown">
 		<div class="pair">
 			<div class="card_holder">
-				<div class="card">{months[0]}</div>
-				<div class="card">{months[1]}</div>
-			</div>
-			<h2>Months</h2>
-		</div>
-		<div class="pair">
-			<div class="card_holder">
-				<div class="card">{days[0]}</div>
-				<div class="card">{days[1]}</div>
+				<div class="card">{days}</div>
 			</div>
 			<h2>Days</h2>
 		</div>
 		<div class="pair">
 			<div class="card_holder">
-				<div class="card">{hours[0]}</div>
-				<div class="card">{hours[1]}</div>
+				<div class="card">{hours}</div>
 			</div>
 			<h2>Hours</h2>
 		</div>
 		<div class="pair">
 			<div class="card_holder">
-				<div class="card">{minutes[0]}</div>
-				<div class="card">{minutes[1]}</div>
+				<div class="card">{minutes}</div>
 			</div>
 			<h2>Minutes</h2>
 		</div>
 		<div class="pair">
 			<div class="card_holder">
-				<div class="card">{seconds[0]}</div>
-				<div class="card">{seconds[1]}</div>
+				<div class="card">{seconds}</div>
 			</div>
 			<h2>Seconds</h2>
 		</div>
@@ -170,6 +155,8 @@
 	#Content {
 		width: 100vw;
 		height: auto;
+		background: #3f4f5f;
+		color: white;
 	}
 
 	#Content h1 {
@@ -189,7 +176,7 @@
 		justify-content: space-evenly;
 		align-items: center;
         flex-wrap: wrap;
-		width: 80vw;
+		width: 50vw;
 		margin: auto;
 		text-align: center;
         border: solid gray 2px;
@@ -209,14 +196,13 @@
 		height: 3rem;
 		width: auto;
 		text-align: center;
-        background-color: rgb(235, 235, 235);
 	}
     .pair h2{
         font-weight: 400;
     }
 	.card_holder {
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
 	}
 
@@ -224,10 +210,6 @@
 		#Title {
 			font-size: xxx-large;
 		}
-		#Content {
-			display: initial;
-		}
-
         #Intro{
             columns:2;
         }
