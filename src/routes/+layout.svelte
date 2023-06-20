@@ -78,6 +78,7 @@
         display: inline-flex;
         align-items: center;
         font-size: x-large;
+        color: #D0BEA8;
         
     }
 	nav {
@@ -153,21 +154,20 @@
     }
 
     #Nav_Buttons li a.active{
-        color: white !important;
+        color: #D0BEA8 !important;
     }
 
     #Nav_Buttons li a {
-        color: grey;
         text-decoration: none;
     }
 
     #Nav_Buttons li:hover a {
         transition: 0.25s;
-        color: whitesmoke;
+        color: #D0BEA8;
     }
     #Nav_Buttons li:not(:hover) a {
         transition: 0.25s;
-        color: lightgray;
+        color: #ac9d8a;
     }
 
 	@media (min-width: 900px) {
