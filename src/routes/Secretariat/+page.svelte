@@ -2,7 +2,7 @@
     let spec_bois = [
         {"Name": "Dhruv B Nair", "Image": " ", "Designation": "Secretary General","Message":"some positive message"},
         {"Name": "Bhavani Shankar Adusumilli", "Image": " ", "Designation": "Deputy Secretary General","Message":"some positive message"},
-        {"Name": "Srinivas Kantheti", "Image": "https://dpshmun.netlify.app/assets/images/gang/IMG_3370.JPG", "Designation": "Director General","Message":"some positive message"},
+            {"Name": "Srinivas Kantheti", "Image": "https://dpshmun.netlify.app/assets/images/gang/IMG_3370.JPG", "Designation": "Director General","Message":"some positive message"},
     ]
     let normie_bois = [
         
@@ -93,7 +93,7 @@
         width: 100vw;
         height: 60vh;
         background-color: #3f4f5f;
-        color: white;
+        color: #D0BEA8;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -121,8 +121,10 @@
     .spec_bois .info{
         width: auto;
         flex-grow: 1;
-        background-color: white;
         height: 100%;
+        text-align: center;
+        padding: 5%;
+        box-sizing: border-box;
     }
 
     @media (min-width:600px){
