@@ -1,7 +1,7 @@
 <script>
     let spec_bois = [
         {"Name": "Dhruv B Nair", "Image": " ", "Designation": "Secretary General","Message":"some positive message"},
-        {"Name": "Bhavani Shankar", "Image": " ", "Designation": "Deputy Secretary General","Message":"some positive message"},
+        {"Name": "Bhavani Shankar Adusumilli", "Image": " ", "Designation": "Deputy Secretary General","Message":"some positive message"},
         {"Name": "Srinivas Kantheti", "Image": " ", "Designation": "Director General","Message":"some positive message"},
     ]
     let normie_bois = [
@@ -40,7 +40,7 @@
 
 {#each spec_bois as specboi}
 <div class="spec_bois">
-    <img src={specboi.Image} alt="">
+    <div id="image"><img src={specboi.Image} alt=""></div>
     <div style="width: 60vw;" class="info">
         <div><h1>{specboi["Name"]}</h1><h4 style="font-weight: 100;">{specboi["Designation"]}</h4></div><br>
         <div class="msg"><span>{specboi["Message"]}</span></div>
@@ -64,18 +64,19 @@
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        padding:1% 0.5% 0 0.5%;
     }
     .card{
         aspect-ratio: 5/3;
         width: 40vw;
         height: auto;
         text-align: center;
-        margin: 2.5%;
+        margin: 0.75%;
         overflow: visible;
     }
     .card img{
         height: 75%;
-        aspect-ratio: 2/1;
+        aspect-ratio: 3/2;
         width: auto;
         object-fit: contain;
         
@@ -97,25 +98,14 @@
         justify-content: space-evenly;
         align-items: center;
     }
-    .info .msg{
-        display: block;
-        min-width: 30vw;
-        height: 30vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+    .spec_bois{
+
     }
-    .info{
-        display: flex;
-        align-items: center;
+    .spec_bois #image{
+
     }
-    .spec_bois img{
-        aspect-ratio: 2/1;
-        width: auto;
-        height: 10vh;
-        object-fit: contain;
-        border: 2px grey solid;
-    }
+    
 
     @media (min-width:600px){
         .card{
