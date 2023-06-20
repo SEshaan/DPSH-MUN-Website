@@ -90,7 +90,7 @@
     }
     .spec_bois{
         width: 100vw;
-        height: 40vh;
+        height: 100vh;
         background-color: #057019;
         color: white;
         display: flex;
@@ -125,5 +125,6 @@
 
     @media (max-width:600px){
         
+
     }
 </style>
