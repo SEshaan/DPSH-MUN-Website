@@ -52,8 +52,8 @@
 {#each normie_bois as normie}
     <div class="card">
         <img src={normie.Image} alt="">
-        <h4 style="font-weight: 300;">{normie.Designation}</h4>
-        <h3 style="font-weight: 700;">{normie.Name}</h3>
+        <h5 style="font-weight: 300;">{normie.Designation}</h5>
+        <h4 style="font-weight: 700;">{normie.Name}</h4>
     </div>
 {/each}
 </div>
@@ -134,8 +134,8 @@
         .spec_bois img{
             height: 20vh;
         }
-        .card h3{
-            font-size: x-large;
+        .card h4{
+            font-size: large;
         }
     }
 
