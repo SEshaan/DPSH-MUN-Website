@@ -79,7 +79,6 @@
         aspect-ratio: 3/2;
         width: auto;
         object-fit: contain;
-        
     }
     #intro{
         display: flex;
@@ -103,9 +102,14 @@
 
     }
     .spec_bois #image{
-
+        aspect-ratio:3/2;
+        background-color:black;
+        height:100%;
     }
     
+    .spec_bois .info{
+        
+    }
 
     @media (min-width:600px){
         .card{
