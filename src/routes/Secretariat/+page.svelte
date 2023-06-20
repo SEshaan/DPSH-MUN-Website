@@ -1,7 +1,7 @@
 <script>
     let spec_bois = [
         {"Name": "Dhruv B Nair", "Image": " ", "Designation": "Secretary General","Message":"some positive message"},
-        {"Name": "Bhavani Shankar", "Image": " ", "Designation": "Deputy Secretary General","Message":"some positive message"},
+        {"Name": "Bhavani Shankar Adusumilli", "Image": " ", "Designation": "Deputy Secretary General","Message":"some positive message"},
         {"Name": "Srinivas Kantheti", "Image": " ", "Designation": "Director General","Message":"some positive message"},
     ]
     let normie_bois = [
