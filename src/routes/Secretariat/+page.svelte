@@ -1,8 +1,8 @@
 <script>
     let spec_bois = [
         {"Name": "Dhruv B Nair", "Image": "./SC/Dhruv.JPG ", "Designation": "Secretary General","Message":"some positive message"},
-        {"Name": "Bhavani Shankar Adusumilli", "Image": "./SC/Bhavani Shankar.JPG ", "Designation": "Deputy Secretary General","Message":"some positive message"},
-            {"Name": "Srinivas Kantheti", "Image": "./SC/Srinivas.JPG", "Designation": "Director General","Message":"some positive message"},
+        {"Name": "Bhavani Shankar Adusumilli", "Image": "./SC/Bhavani Shankar.JPG ", "Designation": "Deputy Secretary General","Message":"Shankar has an unwavering passion for photography, cinema and technology. He immerses himself in the world around him, constantly seeking unique perspectives and adding tangible inputs to the people around him. Being a cinephile, his main topic of conversation during lunch breaks is the beauty of Imax format, whose repeated discussion is not appreciated by his peers. As the deputy secretary general for this conference, he aims to provide delegates with a friendly field to express their views, thoughts, and arguments about pressing global issues."},
+        {"Name": "Srinivas Kantheti", "Image": "./SC/Srinivas Portrait.JPG", "Designation": "Director General","Message":"some positive message"},
     ]
     let normie_bois = [
         
@@ -24,19 +24,19 @@
 {"Name": "Shweta Kraleti", "Image": "./SC/Shweta.JPG", "Designation": "Head of Conference Affairs"},
 {"Name": "Alekhya Ajay Kumar", "Image": "./SC/Alekhya.JPG", "Designation": "USG of Conference Affairs"},
 {"Name": "Sruti Boyapati", "Image": "./SC/Sruti.JPG", "Designation": "Head of Marketing"},
-{"Name": "Sri Sai Vyshnavi", "Image": "./SC/Vyshnavi.JPG", "Designation": "DR Sri Sai Vyshnavi"},
+{"Name": "Sri Sai Vyshnavi", "Image": "./SC/Vyshnavi.JPG", "Designation": "Head of Marketing & PR"},
 {"Name": "Prisha Pradhan", "Image": "./SC/Prisha.JPG", "Designation": "USG of Marketing"},
 {"Name": "Preethi Uyyuru", "Image": "./SC/Preethi (2).JPG", "Designation": "Head of Photography"},
 {"Name": "Gayatri Gorti", "Image": "./SC/Gayatri.JPG", "Designation": "USG of Photography"}
     ]
 </script>
 
-<!-- <div id="intro">
+<div id="intro">
+    <img class="bg" src="./SC/SEC GROUP.JPG" alt="">
     <div style="text-align: center;">
-        <span style="font-weight: 100;">The</span><br>
-        <span style="font-weight: 700;font-size:xxx-large">Secretariat</span>
+        <span style="font-weight: 700;">Secretariat</span>
     </div>
-</div> -->
+</div>
 
 {#each spec_bois as specboi}
 <div class="spec_bois">
@@ -82,12 +82,32 @@
         object-fit: contain;
     }
     #intro{
+        box-sizing: border-box;
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         flex-direction: column;
         width: 100vw;
-        height: 50vh;
+        height: auto;
+        aspect-ratio:2.25/1;
+        color: #ccd4d7;
+        background-color: #3f4f5f;
+        font-size:15vmin
+    }
+    #intro div{
+        z-index: 2;
+        margin-top: 2.5%;
+    }
+    .bg{
+        left: 0;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 2.25/1;
+        position: absolute;
+        object-fit: cover;
+        object-position: bottom;
+        z-index: 1;
+        filter: saturate(0.7) opacity(0.75);
     }
     .spec_bois{
         width: 100vw;
@@ -96,23 +116,26 @@
         color: #D0BEA8;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center;   
     }
 
-    .spec_bois{
-
-    }
     .spec_bois:nth-child(odd){
         flex-direction: row-reverse;
     }
+
     .spec_bois #image{
         aspect-ratio:3/2;
         background-color:black;
         height:100%;
         overflow-y: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
     }
+
     .spec_bois #image img{
-        
+        object-fit: cover;
+        object-position: center;
         width: auto;
         height: 100%;
         aspect-ratio: 3/2;
@@ -127,12 +150,23 @@
         box-sizing: border-box;
     }
 
+    .spec_bois .msg{
+        word-wrap: break-word;
+        max-width: 40vw;
+        margin: auto;
+        text-align: justify;
+        
+    }
+    .msg span{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
     @media (min-width:600px){
         .card{
-            width: 20vw;
+            width: 21vw;
         }
-        .spec_bois img{
-            height: 20vh;
+        .spec_bois #image{
+            max-width:50vw;
         }
         .card h4{
             font-size: large;
@@ -145,6 +179,7 @@
         }
         .spec_bois .info{
             width: 100vw;
+            padding: 0;
         }
         .spec_bois #image{
             width: 100vw;
@@ -152,6 +187,12 @@
         .spec_bois #image img{
             height: auto;
             width: 100%;
+        }
+        .spec_bois .msg{
+            max-width: 90vw;
+        }
+        #intro{
+            font-size: 10vmin;
         }
     }
 </style>

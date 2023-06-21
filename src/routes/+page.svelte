@@ -50,11 +50,24 @@
 
     // @ts-ignore and fuck yourself
     let announcements = [{date:"12/12/12",title:"Delegate registrations are open"}]
+
+
+	let commities = ["DISEC","NATO","UNSC","UNHRC","LK","IMF","IP"]
+	let status = 0
+	/**
+	 * @param {Number} x
+	 */
+	function move(x){
+		if(status + x < 0){status = commities.length}
+		status = (status + x) % commities.length
+		// @ts-ignore
+		document.getElementById("poster").src = "./committees/" + commities[status] + ".jpg"
+	}
 </script>
 
 
 <div id="😲">
-	<div id="Title" style="text-align: left;">
+	<div id="Title" style="">
 		<h3>Delhi Public School, Hyderabad</h3>Model United Nations<br> 2023-24
 	</div>
 </div>
@@ -108,9 +121,65 @@
 		</div>
 		<br>
 	</div>
+	<h1 id="com">Committees</h1><br>
+	<div id="commities">
+		<div id="current">
+	
+				<button on:click={() => {move(-1)}}>←</button>
+				<div id="img">
+					<img id="poster" src="./committees/DISEC.jpg" alt="">
+				</div>
+				<button on:click={() => {move(1)}}>→</button>
+			
+		</div>
+	</div>
+	<br>
+	<h1 id="dat">Important Dates</h1>
+	<ul>
+		<li></li>
+	</ul>
+	
 </div>
 
 <style>
+	#dat{
+		text-align: center;
+	}
+	button{
+		font-size: xx-large;
+		background-color: transparent;
+		color:#D0BEA8;
+		border: none;
+	}
+	#com{
+		text-align: center;
+	}
+	#commities{
+		width: 100vw;
+		min-height: 30vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	#img{
+		height: auto;
+		width: 50vw;
+		aspect-ratio: 1/1;
+		overflow: hidden;
+		
+	}
+	#current{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#img img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		transition: 0.5s;
+	}
 	#stats_holder{
 		width: 100vw;
 		min-height: 20vh;
@@ -144,7 +213,7 @@
 	}
 
 	#Title {
-		color: #8c7e6c;
+		color: white;
 		font-size: xx-large;
 		text-align: center;
 	}
@@ -203,11 +272,14 @@
 			width: 25%;
 		}
 		#stats_holder{
-			width: 80vw;
+			width: 100vw;
 			margin: auto;
 		}
 		#countdown{
 			width: 50vw;
+		}
+		#img{
+			width: 40vh;
 		}
 	}
 </style>

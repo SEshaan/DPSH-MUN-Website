@@ -55,10 +55,15 @@
         margin:auto;
         display: block;
         overflow: scroll;
+        overflow-x: hidden;
     }
     @media (max-width:600px){
         iframe{
             width: 150vw !important;
+        }
+        .frame{
+            overflow-x: scroll;
+            overflow-y: hidden;
         }
         .frame{
             height: 50vh;
