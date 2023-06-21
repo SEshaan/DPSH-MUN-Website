@@ -129,7 +129,7 @@
 
     @media (min-width:600px){
         .card{
-            width: 15vw;
+            width: 20vw;
         }
         .spec_bois img{
             height: 20vh;
