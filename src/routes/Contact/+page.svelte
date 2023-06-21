@@ -45,19 +45,22 @@
 		height: 80vh;
 		width: auto;
 		aspect-ratio: 1/1;
-		background-color: white;
+		background-color: #3f4f5e;
+		color: #d0bea8;
 		text-align: center;
 		box-shadow: rgb(63, 63, 63) -4px 4px 16px;
 	}
 	#con input {
 		background: none;
-		border: solid lightgray 1px;
+		border: none;
+		border-bottom: solid #be965b 1px;
 		width: 95%;
 		height: 25px;
 	}
 	#con textarea {
 		background: none;
-		border: solid lightgray 1px;
+		border: none;
+		border-bottom: solid #be965b 1px;
 		resize: none;
 		width: 95%;
 	}
@@ -86,7 +89,7 @@
 		width: 6rem;
 		height: 2rem;
 		border: none;
-		background-color: #057019;
+		background-color: #be965b;
 		color: white;
 		margin: 0 auto 0 auto;
 		border-radius: 5%;
