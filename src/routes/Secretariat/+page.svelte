@@ -174,6 +174,11 @@
     }
 
     @media (max-width:600px){
+        .spec_bois{
+            height: auto;
+            min-height: 60vw;
+            padding: 2.5% 0 2.5% 0;
+        }
         .spec_bois,.spec_bois:nth-child(odd){
             flex-direction: column;
         }
