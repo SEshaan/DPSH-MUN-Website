@@ -1,33 +1,33 @@
 <script>
     let spec_bois = [
-        {"Name": "Dhruv B Nair", "Image": " ", "Designation": "Secretary General","Message":"some positive message"},
-        {"Name": "Bhavani Shankar Adusumilli", "Image": " ", "Designation": "Deputy Secretary General","Message":"some positive message"},
-            {"Name": "Srinivas Kantheti", "Image": "https://dpshmun.netlify.app/assets/images/gang/IMG_3370.JPG", "Designation": "Director General","Message":"some positive message"},
+        {"Name": "Dhruv B Nair", "Image": "./SC/Dhruv.JPG ", "Designation": "Secretary General","Message":"some positive message"},
+        {"Name": "Bhavani Shankar Adusumilli", "Image": " ./SC/Bhavani Shankar.JPG ", "Designation": "Deputy Secretary General","Message":"some positive message"},
+            {"Name": "Srinivas Kantheti", "Image": "./SC/Srinivas.JPG", "Designation": "Director General","Message":"some positive message"},
     ]
     let normie_bois = [
         
-{"Name": "Sai Srikar", "Image": "", "Designation": "Charge’ D Affairs"},
-{"Name": "Rishika Karpurapu", "Image": " ", "Designation": "Chief of Staff"},
-{"Name": "Yamini Tumu", "Image": " ", "Designation": "Head of Policy"},
-{"Name": "Sai Sriya Talatam", "Image": " ", "Designation": "USG of Policy"},
-{"Name": "Siddharth Gumma", "Image": " ", "Designation": "Head of Delegate Affairs"},
-{"Name": "Sanya Thakur", "Image": " ", "Designation": "USG of Delegate Affairs"},
-{"Name": "Ashmita Sirivella", "Image": " ", "Designation": "Head of Logistics"},
-{"Name": "Abhinav Vadadi", "Image": " ", "Designation": "Head of Hospitality"},
-{"Name": "Naila Sarah", "Image": " ", "Designation": "USG of Hospitality"},
-{"Name": "Shravishta Ghawalkar", "Image": " ", "Designation": "Head of OC"},
-{"Name": "Ditti Vijay Maroo", "Image": " ", "Designation": "Head of OC"},
-{"Name": "Yajat Varma", "Image": " ", "Designation": "Head of IT"},
-{"Name": "Eshaan Sistla", "Image": " ", "Designation": "Head of IT"},
-{"Name": "Sreyoshi Dutta", "Image": " ", "Designation": "Head of Design"},
-{"Name": "Anavi Anand", "Image": " ", "Designation": "USG of Design"},
-{"Name": "Shweta Kraleti", "Image": " ", "Designation": "Head of Conference Affairs"},
-{"Name": "Alekhya Ajay Kumar", "Image": " ", "Designation": "USG of Conference Affairs"},
-{"Name": "Sruti Boyapati", "Image": " ", "Designation": "Head of Marketing"},
-{"Name": "Sri Sai Vyshnavi", "Image": " ", "Designation": "DR Sri Sai Vyshnavi"},
-{"Name": "Prisha Pradhan", "Image": " ", "Designation": "USG of Marketing"},
-{"Name": "Preethi Uyyuru", "Image": " ", "Designation": "Head of Photography"},
-{"Name": "Gayatri Gorti", "Image": " ", "Designation": "USG of Photography"}
+{"Name": "Sai Srikar", "Image": " ./SC/Srikar.JPG ", "Designation": "Charge’ D Affairs"},
+{"Name": "Rishika Karpurapu", "Image": " ./SC/Rishika.JPG ", "Designation": "Chief of Staff"},
+{"Name": "Yamini Tumu", "Image": " ./SC/Yamini.JPG ", "Designation": "Head of Policy"},
+{"Name": "Sai Sriya Talatam", "Image": " ./SC/Sriya.JPG ", "Designation": "USG of Policy"},
+{"Name": "Siddharth Gumma", "Image": " ./SC/Siddarth.JPG ", "Designation": "Head of Delegate Affairs"},
+{"Name": "Sanya Thakur", "Image": " ./SC/Sanya.JPG ", "Designation": "USG of Delegate Affairs"},
+{"Name": "Ashmita Sirivella", "Image": " ./SC/Ashmita.JPG ", "Designation": "Head of Logistics"},
+{"Name": "Abhinav Vadadi", "Image": " ./SC/Abhinav.JPG ", "Designation": "Head of Hospitality"},
+{"Name": "Naila Sarah", "Image": " ./SC/Naila Sarah (2).JPG ", "Designation": "USG of Hospitality"},
+{"Name": "Shravishta Ghawalkar", "Image": "  ./SC/Shravishta.JPG", "Designation": "Head of OC"},
+{"Name": "Ditti Vijay Maroo", "Image": " ./SC/Ditti.JPG ", "Designation": "Head of OC"},
+{"Name": "Yajat Varma", "Image": " ./SC/Yajat.JPG ", "Designation": "Head of IT"},
+{"Name": "Eshaan Sistla", "Image": " ./SC/Eshaan.JPG ", "Designation": "Head of IT"},
+{"Name": "Sreyoshi Dutta", "Image": " ./SC/Sreyoshi.JPG ", "Designation": "Head of Design"},
+{"Name": "Anavi Anand", "Image": " ./SC/Anavi.JPG ", "Designation": "USG of Design"},
+{"Name": "Shweta Kraleti", "Image": " ./SC/Shweta.JPG ", "Designation": "Head of Conference Affairs"},
+{"Name": "Alekhya Ajay Kumar", "Image": " ./SC/Alekhya.JPG ", "Designation": "USG of Conference Affairs"},
+{"Name": "Sruti Boyapati", "Image": " ./SC/Sruti.JPG ", "Designation": "Head of Marketing"},
+{"Name": "Sri Sai Vyshnavi", "Image": " ./SC/Vyshnavi.JPG ", "Designation": "DR Sri Sai Vyshnavi"},
+{"Name": "Prisha Pradhan", "Image": " ./SC/Prisha.JPG ", "Designation": "USG of Marketing"},
+{"Name": "Preethi Uyyuru", "Image": " ./SC/Preethi (2).JPG ", "Designation": "Head of Photography"},
+{"Name": "Gayatri Gorti", "Image": " ./SC/Gayatri.JPG ", "Designation": "USG of Photography"}
     ]
 </script>
 
