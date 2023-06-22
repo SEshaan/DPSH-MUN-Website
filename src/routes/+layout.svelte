@@ -12,6 +12,8 @@
     function refresh(){}
 
     onMount(() => {
+         // @ts-ignore
+        document.getElementById("com").oninput= () => {window.location = "./" + document.getElementById("com").value}
         // @ts-ignore
         function refresh()  {
             document.querySelector("#Home")?.classList.remove("active")
@@ -34,11 +36,12 @@
             refresh()
         }, 100);
     })
+   
 </script>
 
 
 <nav>
-	<img id="logo" src="./MUN_Banner.png" alt="MUN Logo" />
+	<a id="Title" href="../"><img id="logo" src="./logo.png" alt="MUN Logo" /><div style="text-align: center; display:flex;justify-content:center;align-items:center;flex-direction:column;height:100%"><span style="font-weight: 600;">DPSH MUN</span><span style="text-align: center;font-size:large;font-weight:100">2023</span></div></a>
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
     <img id="hamburger_menu" src="./Hamburger_Menu.png" alt="Menu" on:click={Sidebar}/>
     <div id="Nav_Buttons">
@@ -47,7 +50,7 @@
             <li><a href='./Allocations' id="Allocations" >Allocations</a></li>
             <li><a href='./Resources' id="Resources" >Resources</a></li>
             <li><a href='./Secretariat' id="Secretariat" >Secretariat</a></li>
-            <li><a href='./Committees' id="Committees" >Committees </a></li>
+            <li><a href='javascript:void(0)' id="Committees"> <select name="" id="com"><option value="" disabled selected>Committees</option><option value="DISEC">DISEC</option><option value="UNHRC">UNHRC</option></select></a></li>
             <li><a href='./Contact' id="Contact" >Contact Us</a></li>
         </ul>
     </div>
@@ -60,7 +63,7 @@
         <li><a href='./Allocations'>Allocations</a></li>
         <li><a href='./Resources'>Resources</a></li>
         <li><a href='./Secretariat'>Secretariat</a></li>
-        <li><a href='./Committees'>Committees </a></li>
+        <li ><a href="./">Committees </a></li>
         <li><a href='./Contact'>Contact Us</a></li>
     </ul>
 </div>
@@ -69,17 +72,31 @@
 <slot />
 
 <style>
+    #com{
+        border: none;
+        background-color: transparent;
+        color: #ac9d8a;
+        font-size: medium;
+    }
     #margin{
         width:100vw;
         height: 8vh;
     }
 
+
+    #Title{
+        display: inline-flex;
+        align-items: center;
+        font-size: x-large;
+        color: #ac9d8a;
+        text-decoration: none;
+    }
 	nav {
         z-index: 10;
 		width: 100vw;
 		height: 8vh;
         position: fixed;
-        background-color: white;
+        background-color: #3F4F5F;
         overflow: hidden;
         filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
     }
@@ -91,7 +108,7 @@
         top: 0;
         right: 0;
         height: 100vh;
-        background-color: white;
+        background-color: #3f4f5f;
         z-index: 10;
     }
 
@@ -147,21 +164,20 @@
     }
 
     #Nav_Buttons li a.active{
-        color: black !important;
+        color: #D0BEA8 !important;
     }
 
     #Nav_Buttons li a {
-        color: grey;
         text-decoration: none;
     }
 
     #Nav_Buttons li:hover a {
         transition: 0.25s;
-        color: black;
+        color: #D0BEA8;
     }
     #Nav_Buttons li:not(:hover) a {
         transition: 0.25s;
-        color: grey;
+        color: #ac9d8a;
     }
 
 	@media (min-width: 900px) {

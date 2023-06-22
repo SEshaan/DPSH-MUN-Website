@@ -28,15 +28,11 @@
 		date = new Date();
 		// @ts-ignore
 		countdown = new Date(d1 - date).getTime();
-		months = Math.floor(countdown / (1000 * 60 * 60 * 24 * 30)).toString();
-		days = Math.floor((countdown / (1000 * 60 * 60 * 24)) % 30).toString();
+		days = Math.floor((countdown / (1000 * 60 * 60 * 24))).toString();
 		hours = Math.floor((countdown % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString();
 		minutes = Math.floor((countdown % (1000 * 60 * 60)) / (1000 * 60)).toString();
 		seconds = Math.floor((countdown % (1000 * 60)) / 1000).toString();
 
-		if (months.length != 2) {
-			months = '0' + months;
-		}
 		if (days.length != 2) {
 			days = '0' + days;
 		}
@@ -54,12 +50,25 @@
 
     // @ts-ignore and fuck yourself
     let announcements = [{date:"12/12/12",title:"Delegate registrations are open"}]
+
+
+	let commities = ["DISEC","NATO","UNSC","UNHRC","LK","IMF","IP"]
+	let status = 0
+	/**
+	 * @param {Number} x
+	 */
+	function move(x){
+		if(status + x < 0){status = commities.length}
+		status = (status + x) % commities.length
+		// @ts-ignore
+		document.getElementById("poster").src = "./committees/" + commities[status] + ".jpg"
+	}
 </script>
 
+
 <div id="😲">
-	<div id="Title">
-		<h2 id="🧐">DPSH MUN</h2>
-		<span id="🤯">2023</span>
+	<div id="Title" style="">
+		<h3>Delhi Public School, Hyderabad</h3>Model United Nations<br> 2023-24
 	</div>
 </div>
 <div id="Content">
@@ -67,78 +76,129 @@
 	<div id="countdown">
 		<div class="pair">
 			<div class="card_holder">
-				<div class="card">{months[0]}</div>
-				<div class="card">{months[1]}</div>
-			</div>
-			<h2>Months</h2>
-		</div>
-		<div class="pair">
-			<div class="card_holder">
-				<div class="card">{days[0]}</div>
-				<div class="card">{days[1]}</div>
+				<div class="card">{days}</div>
 			</div>
 			<h2>Days</h2>
 		</div>
 		<div class="pair">
 			<div class="card_holder">
-				<div class="card">{hours[0]}</div>
-				<div class="card">{hours[1]}</div>
+				<div class="card">{hours}</div>
 			</div>
 			<h2>Hours</h2>
 		</div>
 		<div class="pair">
 			<div class="card_holder">
-				<div class="card">{minutes[0]}</div>
-				<div class="card">{minutes[1]}</div>
+				<div class="card">{minutes}</div>
 			</div>
 			<h2>Minutes</h2>
 		</div>
 		<div class="pair">
 			<div class="card_holder">
-				<div class="card">{seconds[0]}</div>
-				<div class="card">{seconds[1]}</div>
+				<div class="card">{seconds}</div>
 			</div>
 			<h2>Seconds</h2>
 		</div>
 	</div>
-    <div id="Intro">
-		<div>
-            <h1>What is the DPSH MUN?</h1>
-		<p>
-			The DPS Model United Nations (MUN) is a simulation of the United Nations where students from
-			grades 11 and 12 gather to discuss and debate current global issues. The aim of the MUN is to
-			promote critical thinking, diplomacy, and negotiation skills among the participants.
-		</p>
-		<br />
-		<p>
-			Each committee discusses and debates different topics ranging from climate change to
-			international security. The debates are structured in a formal manner, following the same
-			procedures and rules as the real United Nations. A school MUN provides students with an
-			opportunity to learn about international affairs and to develop their public speaking and
-			research skills.
-		</p>
-        </div><br>
-        <h1>Announcements</h1>
-        <div id="announcements">
-            <ul>
-                {#each announcements as announcement }
-                    <li><span style="font-size:larger;font-weight:500">{announcement.date}</span> - {announcement.title} </li> 
-                {/each}
-            </ul>
-        </div>
+	<br>
+	<div id="stats">
+		<div id="stats_holder">
+			<div class="stat">
+				<h1>5+</h1>
+				<h3>Commities</h3>
+			</div>
+			<div class="stat">
+				<h1>10+</h1>
+				<h3>People</h3>
+			</div>
+			<div class="stat">
+				<h1>1+</h1>
+				<h3>Days</h3>
+			</div>
+			<div class="stat">
+				<h1>atleast 2+</h1>
+				<h3>Chairpeople</h3>
+			</div>
+		</div>
+		<br>
 	</div>
+	<h1 id="com">Committees</h1><br>
+	<div id="commities">
+		<div id="current">
+	
+				<button on:click={() => {move(-1)}}>←</button>
+				<div id="img">
+					<img id="poster" src="./committees/DISEC.jpg" alt="">
+				</div>
+				<button on:click={() => {move(1)}}>→</button>
+			
+		</div>
+	</div>
+	<br>
+	<h1 id="dat">Important Dates</h1>
+	<ul>
+		<li></li>
+	</ul>
+	
 </div>
 
 <style>
-    #announcements{
-        height: 40vh;
-        overflow: scroll;
-    }
+	#dat{
+		text-align: center;
+	}
+	button{
+		font-size: xx-large;
+		background-color: transparent;
+		color:#D0BEA8;
+		border: none;
+	}
+	#com{
+		text-align: center;
+	}
+	#commities{
+		width: 100vw;
+		min-height: 30vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	#img{
+		height: auto;
+		width: 50vw;
+		aspect-ratio: 1/1;
+		overflow: hidden;
+		
+	}
+	#current{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#img img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		transition: 0.5s;
+	}
+	#stats_holder{
+		width: 100vw;
+		min-height: 20vh;
+		background-color: #bf975b;
+		color: #3f4f5f;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.stat{
+		width: 50%;
+		height: 20vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
 
-    #announcements li{
-        font-weight: 300;
-        font-size: larger;
-    }
 
 	#😲 {
 		width: 100vw;
@@ -158,25 +218,12 @@
 		text-align: center;
 	}
 
-	#🧐 {
-		font-weight: 600;
-	}
 
 	#Content {
 		width: 100vw;
 		height: auto;
-	}
-
-	#Content h1 {
-		text-align: center;
-		padding: 10%;
-	}
-
-	#Content #Intro p {
-		width: 80vw;
-		padding: 0 10vw 0 10vw;
-		text-align: justify;
-        break-inside: avoid-column;
+		background: #3f4f5f;
+		color: #D0BEA8;
 	}
 
 	#countdown {
@@ -184,7 +231,7 @@
 		justify-content: space-evenly;
 		align-items: center;
         flex-wrap: wrap;
-		width: 80vw;
+		width: 85vw;
 		margin: auto;
 		text-align: center;
         border: solid gray 2px;
@@ -198,20 +245,19 @@
         justify-content: center;
         align-items: center;
 		font-size: xx-large;
-		font-weight: 800;
+		font-weight: 100;
 		aspect-ratio: 1/2;
 		padding: 1rem;
 		height: 3rem;
 		width: auto;
 		text-align: center;
-        background-color: rgb(235, 235, 235);
 	}
     .pair h2{
         font-weight: 400;
     }
 	.card_holder {
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
 	}
 
@@ -219,28 +265,21 @@
 		#Title {
 			font-size: xxx-large;
 		}
-		#Content {
-			display: initial;
-		}
-
-        #Intro{
-            columns:2;
-        }
-		#Content #Intro h1 {
-			text-align: center;
-            padding: 2vmax;
-			font-size: xx-large;
-		}
-
-		#Content #Intro p {
-			width: 40vw;
-			padding: 0 5vw 0 5vw;
-			text-align: justify;
-			font-size: large;
-		}
-
         #countdown{
             padding: 0;
         }
+		.stat{
+			width: 25%;
+		}
+		#stats_holder{
+			width: 100vw;
+			margin: auto;
+		}
+		#countdown{
+			width: 50vw;
+		}
+		#img{
+			width: 40vh;
+		}
 	}
 </style>
