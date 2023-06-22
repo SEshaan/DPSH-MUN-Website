@@ -1,17 +1,18 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-export default {
-    preprocess: [vitePreprocess()],
-    kit: {
-        adapter: adapter({
-            pages: 'build',
-            assets: 'build',
-            fallback: null,
-            precompress: false,
-            strict: true
-            
-        }),
-        
-    }
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+	preprocess: [vitePreprocess()],
+	kit: {
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: null,
+			precompress: false,
+			strict: true
+		}),
+	}
 };
+
+export default config;
