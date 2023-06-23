@@ -67,8 +67,8 @@
 
 
 <div id="😲">
-	<div id="Title" style="">
-		<h3>Delhi Public School, Hyderabad</h3>Model United Nations<br> 2023-24
+	<div id="Title" style="font-weight: 300;">
+		<h6 style="font-weight: 100;">Debate•Discuss•Deliberate</h6><h3>Delhi Public School, Hyderabad</h3>Model United Nations<br> 2023-24<br>
 	</div>
 </div>
 <div id="Content">
@@ -146,7 +146,7 @@
 		text-align: center;
 	}
 	button{
-		font-size: xx-large;
+		font-size: xxx-large;
 		background-color: transparent;
 		color:#D0BEA8;
 		border: none;
