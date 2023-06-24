@@ -9,6 +9,21 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
     <script src="./datamaps.world.hires.min.js"></script>
     <script>
+let committees = []
+let temp = []
+var data;
+fetch('.api/allocations?c=disec', requestOptions)
+    .then((response) => response.json())
+    .then((result) => {data_update(result)})
+    .catch((error) => console.log('error', error));
+function data_update(x){
+    committees = x["data"]
+    committees.forEach(element => {
+        element['fillKey'] = "available"
+    });
+}
+
+
     var map = new Datamap({fill:"#ffffff",element: document.getElementById('container'),projection: 'mercator',
     geographyConfig: {
         borderColor:"#3f4f5e",
