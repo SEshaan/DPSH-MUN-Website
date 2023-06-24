@@ -1,4 +1,5 @@
 <script>
+	// @ts-ignore
 	import { json } from '@sveltejs/kit';
 	import { onMount } from 'svelte';
 
@@ -23,17 +24,20 @@
     /**
 	 * @type {string}
 	 */
+    // @ts-ignore
     var data;
 
 	// @ts-ignore
 	fetch('https://dpshmun.vercel.app/api/allocations?c=disec', requestOptions)
 		.then((response) => response.text())
-		.then((result) => console.log(data = result))
+		// @ts-ignore
+		.then((result) => {JSON.parse(result).then((e) => {data_update(e)})})
 		.catch((error) => console.log('error', error));
 
-    function data_update(){
-        let x = json(data)
-        console.log(x)
+    // @ts-ignore
+    function data_update(x){
+        // @ts-ignore
+        committees = x["data"]
     }
 </script>
 
