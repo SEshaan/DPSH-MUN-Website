@@ -31,7 +31,7 @@
 	fetch('https://dpshmun.vercel.app/api/allocations?c=disec', requestOptions)
 		.then((response) => response.text())
 		// @ts-ignore
-		.then((result) => {JSON.parse(result).then((e) => {data_update(e)})})
+		.then((result) => {data_update(JSON.parse(result))})
 		.catch((error) => console.log('error', error));
 
     // @ts-ignore
