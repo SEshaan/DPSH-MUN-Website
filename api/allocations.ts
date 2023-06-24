@@ -5,14 +5,14 @@ import db from './utils/database';
 //
 
 async function get(request: VercelRequest, response: VercelResponse): Promise<VercelResponse> {
-	const committeeList = ['disec', 'unsc', 'unhrc', 'unodc', 'aippm', 'ip'];
+	const committeeList = ['disec', 'unsc', 'unhrc', 'lk', 'imf', 'nato', 'ip'];
 	try {
 		const { c } = request.query;
 		if (!c)
 			return response.status(400).json({
-				error: true,
-				message: 'No search parameter given.',
-				data: []
+				error: false,
+				message: 'Add `c` search parameter to get list of allocations.',
+				data: committeeList
 			});
 
 		const committee = c.toString().toLowerCase();
