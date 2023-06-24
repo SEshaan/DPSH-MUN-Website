@@ -13,6 +13,8 @@
 
     onMount(() => {
         // @ts-ignore
+        document.getElementById("com").oninput= () => {window.location = "./" + document.getElementById("com").value}
+        // @ts-ignore
         function refresh()  {
             document.querySelector("#Home")?.classList.remove("active")
             if(!page){
@@ -48,7 +50,8 @@
             <li><a href='./Allocations' id="Allocations" >Allocations</a></li>
             <li><a href='./Resources' id="Resources" >Resources</a></li>
             <li><a href='./Secretariat' id="Secretariat" >Secretariat</a></li>
-            <li><a href='javascript:void(0)' id="Committees" style=""><div id="drop"><a href="./DISEC"> <ul> <li><a href="./DISEC">DISEC</a></li> <li><a href="./UNSC">UNSC</a></li> </ul></a></div>Committees</a></li>
+            <!-- <li><a href='./#com' id="Committees" style="">Committees</a></li> -->
+            <li><a href='javascript:void(0)' id="Committees"> <select name="" id="com"><option value="" disabled selected>Committees</option><option value="DISEC">DISEC</option><option value="UNHRC">UNHRC</option></select></a></li>
             <li><a href='./Contact' id="Contact" >Contact Us</a></li>
         </ul>
     </div>
@@ -70,25 +73,6 @@
 <slot />
 
 <style>
-    #drop{
-        z-index: 6;
-        position: absolute;
-        display: inline-block;
-        background-color: #3F4F5F;
-        opacity: 0;
-        width: 5vw;
-        height: 10vh;
-        margin-top: 20px;
-    }
-    #drop li{
-        width: 100%;
-        height: 100%;
-        display: block;
-    }
-    #Committees:hover #drop{
-        opacity: 1;
-        transition: 0.25s;
-    }
     #com{
         border: none;
         background-color: transparent;
@@ -99,8 +83,6 @@
         width:100vw;
         height: 8vh;
     }
-
-
     #Title{
         display: inline-flex;
         align-items: center;
