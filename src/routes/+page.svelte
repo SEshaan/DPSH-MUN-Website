@@ -203,6 +203,10 @@ Arpit B. Bhate
 	</div>
 
 	<br />
+	
+<div id="FAQs">
+	<h1 style="padding: 5%;font-size:xxx-large">FAQs</h1>
+</div>
 </div>
 
 <style>
@@ -225,7 +229,7 @@ Arpit B. Bhate
 	}
 	#comhold {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-between;
 		align-items: center;
 		width: 200vw;
 	}

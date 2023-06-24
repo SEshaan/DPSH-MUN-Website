@@ -18,7 +18,9 @@
 		redirect: 'follow'
 	};
 
-    // @ts-ignore
+    /**
+	 * @type {any[]}
+	 */
     let committees = []
 
     /**
