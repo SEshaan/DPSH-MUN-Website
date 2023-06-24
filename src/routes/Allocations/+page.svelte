@@ -88,7 +88,7 @@
 		<tbody>
 			<tr class="head"><th>S.No</th><th>Country</th><th>Delegate</th><th>Class</th></tr>
 			{#each committees as i}
-				<tr><td>{i}</td><td>Belgium</td><td>Sri sai surya venkata some fellow</td><td>12-K</td></tr>
+				<tr><td>{i['id']}</td><td>{i['country']}</td><td>{i['name']}</td><td>{i['section']}</td></tr>
 			{/each}
 		</tbody>
 	</table>
