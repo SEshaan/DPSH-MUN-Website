@@ -17,7 +17,7 @@
           return '<div class="hoverinfo" style="font-family: \'Plus Jakarta Sans\', sans-serif;font-weight:600">' + geography.properties.name + " - " + data.delegate +  '</div>';
         }
   },fills: {
-      defaultFill: '#be965b' //the keys in this object map to the "fillKey" of [data] or [bubbles]
+      defaultFill: '#D0BEA8' //the keys in this object map to the "fillKey" of [data] or [bubbles]
     },});
     
     class map_handler{
@@ -26,7 +26,6 @@
             this.data = {
                 "SC":{
                     USA: {
-                        fillKey: 'HIGH',
                         delegate:"Joe Biden"
                     },
                     CAN:{
@@ -37,7 +36,9 @@
                     }
                 },
                 "DISEC":{
-                    USA: {fillKey: 'LOW',delegate:"deez nuts"},
+                    USA: {
+                        delegate:"deez nuts"
+                    },
                     CAN: '#0fa0fa'
                 }
             }

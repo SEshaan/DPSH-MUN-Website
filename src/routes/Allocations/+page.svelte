@@ -16,7 +16,7 @@
 </script>
 
     
-
+    <br>
     <div id="🧐">
         <h1>Allocations</h1>
     <br>
@@ -35,6 +35,9 @@
 
 
 <style>
+    h1{
+        color: #D0BEA8;
+    }
     #🧐{
         margin-left: 5vw;
     }
@@ -53,17 +56,15 @@
         aspect-ratio: 2/1;
         width: 75vw;
         margin:auto;
-        display: block;
-        overflow: scroll;
-        overflow-x: hidden;
+        overflow: visible;
     }
     @media (max-width:600px){
         iframe{
             width: 150vw !important;
         }
-        .frame{
+        .frame{   
+            display: block;
             overflow-x: scroll;
-            overflow-y: hidden;
         }
         .frame{
             height: 50vh;
