@@ -9,7 +9,6 @@
 		"skipLibCheck": true,
 		"sourceMap": false,
 		"strict": true,
-		"target": "ES3"
 	},
 	"exclude": ["./api/*"]
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias and https://kit.svelte.dev/docs/configuration#files
