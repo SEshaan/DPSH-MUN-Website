@@ -80,7 +80,7 @@
 			// @ts-ignore
 			scrollableElement.scrollBy({
 				// @ts-ignore
-				left: event.deltaY*3,
+				left: event.deltaY * 3,
 				behavior: 'smooth'
 			});
 		});
@@ -126,32 +126,45 @@
 			<h2>Seconds</h2>
 		</div>
 	</div>
-	<br>
+	<br />
 
 	<div id="letter">
-		<h1>Letter from the Secretary</h1><br>
-		<p>
-			Dear Delegates and Faculty Advisors,<br><br>
-
-It is my great pleasure to invite you to the 13th edition of Harvard Model United Nations India, from August 12th to 15th 2023. Every year, HMUN India sees hundreds of delegates from across India and around the world come together to debate and develop solutions for some of the most pressing issues on the planet. I am ecstatic to watch the debate unfold again, this year. I am also honored to welcome you, for the first time in conference history, to the host city of Bengaluru (which happens to be my hometown too).
-<br><br>
-Our conference theme - Exploring New Horizons - recognises the bold actions that our generation will have to take in the coming years. HMUN India’s new home is one example of these horizons, as are the adaptations that everyone makes in this constantly changing world. But more pressingly, people across the world need to push boundaries in order to accomplish the goals that we have set for ourselves.
-<br><br>
-Our team has been hard at work ensuring that our conference continues to further the high standard of the past 12 years. Our diverse slate of committees covers some of the most pressing issues of today - from the ongoing crisis in Myanmar to the growing threat of weapons in space - while also addressing fascinating historical topics that still have an impact on our world. Every one of these committees will challenge you to think beyond the boundaries of conventional wisdom and hopefully offer a new perspective to take with you beyond this conference.
-<br><br>
-To our delegates - whether this is your first conference or your fifteenth - I hope that this year’s conference helps you view the world in a different light and think of old problems in new and innovative ways. As a former delegate at HMUN India myself, I have been witness to the transformative power of this incredible experience. I am truly excited to share this opportunity with you.
-<br><br>
-The Conference Team and I cannot wait to see you at The Hilton, Bengaluru in August!
-<br><br>
-Sincerely,<br>
-
-Arpit B. Bhate
-<br><br>
-<img src="./SC/Dhruv.JPG" alt="">
-		</p>
+		<h1>Letter from the Secretary</h1>
+		<br />
+		<div id="lettercont">
+			<img src="./SC/letter.JPG" alt="" id="letterimg" />
+			<p>
+				<br><br>
+				Dear Dipsites and honorable Delegates,<br /><br />
+				It gives me immense pleasure to welcome all the esteemed participants to yet another edition
+				of the Delhi Public School Model United Nations 2023 (DPSHMUN'23). Irrespective of the number
+				of editions of DPSHMUN, our main principles for the MUN remain the same – Debate.Discuss.Deliberate
+				<br /><br />
+				MUN is indeed an art form in itself. It's more than just debates or speeches. It's also about
+				lobbying, negotiations; a showcase of diplomacy in its true sense. To truly enjoy and relish
+				this art form, students only require the skill and courage to speak up when the time comes. In
+				MUNs, one must have the ability to be passionate about the topic they speak about and the portfolio
+				they represent. Students usually discover their hidden skills and talents while they participate
+				in a MUN. I, myself, am deeply indebted to the craft of participating in MUNs as it gave me the
+				realization which changed my interests in many ways. <br /><br />
+				We, the Secretariat, are grateful for the enthusiasm shown by the participants. The motive is
+				to keep things simple but significant, and the team has done the same. A new edition, and we
+				have brought a new set of committees and agendas for the delegates to explore. From international
+				security and global conflicts to human rights and economic policies, this edition offers it all.
+				We also provide experience-packed EB members who are dynamic and will make sure that the conference
+				will be filled with energy. To make sure this the conference is beginner friendly, we aim to
+				provide all resources and guidance to kick start your journey in the MUN. <br /><br />
+				So, join us this July and get to experience this yourself. I and the team cannot wait to host
+				you all at the DPSHMUN'23. <br /><br />
+				Sincerely,<br />
+				Dhruv B Nair <br />
+				Secretary General, DPSHMUN'23
+				<br /><br />
+			</p>
+		</div>
 	</div>
 
-	<br>
+	<br />
 	<div id="stats">
 		<div id="stats_holder">
 			<div class="stat">
@@ -173,11 +186,11 @@ Arpit B. Bhate
 		</div>
 		<br />
 	</div>
-	<br>
+	<br />
 	<div id="combg">
 		<h1 id="com" style="padding-left: 5%;">Committees</h1>
-	<br />
-	<!-- <div id="commities">
+		<br />
+		<!-- <div id="commities">
 		<div id="current">
 	
 				<button on:click={() => {move(-1)}}>←</button>
@@ -189,39 +202,104 @@ Arpit B. Bhate
 		</div>
 	</div> -->
 
-	<div id="committiees">
-		<div id="comhold">
-			{#each commities as com}
-				<a href="./{com}">
-					<div id="img">
-						<img id="poster" src="./committees/{com}.jpg" alt="" />
-					</div>
-				</a>
-			{/each}
+		<div id="committiees">
+			<div id="comhold">
+				{#each commities as com}
+					
+						<div id="img">
+							<a href="./{com}">
+							<img id="poster" src="./committees/{com}.jpg" alt="" />
+						</a>
+						</div>
+					
+				{/each}
+			</div>
 		</div>
-	</div>
 	</div>
 
 	<br />
-	
-<div id="FAQs">
-	<h1 style="padding: 5%;font-size:xxx-large">FAQs</h1>
-</div>
+
+	<div id="FAQs">
+		<h1 style="font-size:xxx-large">FAQs</h1><br>
+		<ul>
+			<li>
+				<h3>Will there be any help or technical guidance provided?</h3><br>
+				<span>Yes, as part of our training sessions, we will discuss how the committee would operate and what the effective Rules of Procedure (ROP) would stand at. We look forward to meeting you there! 
+					<br><br>Additionally, we have already released a Delegate Handbook that aims to aid you with general navigation through the committee. 
+				</span>
+			</li>
+			<br>
+			<li>
+				<h3>How do we prepare for the conference?</h3><br>
+				<span> Pre-conference preparation majorly consists of research. Analysis and understanding of the agenda at hand play a major role in this. Background Guides that will be released by the said committee will provide you with a foundation to initiate your research. For further tips on preparation please refer to the "Tips & tricks to secure awards at DPSHMUN’23” section of the delegate Handbook. 
+
+				</span>
+			</li>
+			<br>
+			<li>
+				<h3>What is the dress code for the conference?</h3><br>
+				<span>
+					DPSHMUN’23 strives to ensure professionalism in all aspects of the conference; hence delegates are expected to adhere to a dress code throughout the 2 days. If you are a member of the Lok Sabha, traditionals are compulsory on both days. Jeans, cargo pants, hats, caps, skirts with inappropriate length and other indecent clothing
+					are strictly prohibited <br><br>
+					Day 1: Western Business Attire <br>
+					Day 2: Indian Traditional Attire <br>
+					
+				</span>
+			</li>
+			<br>
+			<li>
+				<h3>When will the allocations be released?</h3><br>
+				<span> The allocations will be released sometime in the week, and you will be notified on both GCR and allocations will also be posted on the softboard.
+ 
+				</span>
+			</li>
+			<br>
+			<li>
+				<h3>What would be the timing of the conference?</h3><br>
+				<span>The conference timings will be the same as the school timings  (7:45-2:30)
+				</span>
+			</li>
+			<br>
+			<li>
+				<h3>Is there a payment that is to be made?</h3><br>
+				<span>No, the conference is free for all DPSH students. 
+
+				</span>
+			</li>
+			<br>
+			<li>
+				<h3>What are the ideal criterias for a delegate to win an award?</h3><br>
+				<span>Every delegate who participates can’t win an award however, it is certain that the award goes to those who speak, provide a substantial debate and also have the ability to influence and move the committee. Besides that, participation certificates will be provided to everyone who attends both the days of the conference.
+				</span>
+			</li>
+		</ul>
+	</div>
 </div>
 
 <style>
-	#letter{
+	#FAQs{
+		padding: 5%;
+	}
+	#FAQs h3{
+		font-size: x-large;
+	}
+	#letterimg{
+		aspect-ratio:3/4;
+		height: auto;
+		width:80%;
+		margin: auto;
+		object-fit: cover;
+	}
+	#lettercont{
+		display:flex;
+		justify-content:space-evenly;
+		flex-direction: column;
+	}
+	#letter {
 		padding: 5%;
 		font-size: x-large;
 	}
-	#letter img{
-		width: 100%;
-		height: auto;
-		aspect-ratio: 2/1;
-		object-fit: cover;
-		object-position: bottom;
-	}
-	#letter p{
+	#letter p {
 		text-align: justify;
 		width: 90%;
 		margin: auto;
@@ -231,10 +309,12 @@ Arpit B. Bhate
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		width: 200vw;
+		min-width: 200vw;
 	}
-	#comhold #img {
-		margin: 2.5%
+	#comhold a {
+		margin: 2.5%;
+		width: auto;
+		height: auto;
 	}
 	#committiees {
 		overflow-x: scroll;
@@ -378,6 +458,14 @@ Arpit B. Bhate
 	}
 
 	@media (min-width: 600px) {
+		#letterimg{
+			width: 45%;
+			margin: initial;
+		}
+		#lettercont{
+			flex-direction: row;
+			font-size: large;
+		}
 		#Title {
 			font-size: xxx-large;
 		}
@@ -405,8 +493,9 @@ Arpit B. Bhate
 			font-size: x-large;
 			font-weight: 700;
 		}
-		#letter p{
-			width: 75%;
+		#letter p {
+			width: 45%;
+			margin: initial;
 		}
 	}
 </style>
