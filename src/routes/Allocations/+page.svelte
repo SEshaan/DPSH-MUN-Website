@@ -1,4 +1,5 @@
 <script>
+	import { json } from '@sveltejs/kit';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -16,6 +17,12 @@
 		redirect: 'follow'
 	};
 
+    // @ts-ignore
+    let committees = []
+
+    /**
+	 * @type {string}
+	 */
     var data;
 
 	// @ts-ignore
@@ -23,6 +30,11 @@
 		.then((response) => response.text())
 		.then((result) => console.log(data = result))
 		.catch((error) => console.log('error', error));
+
+    function data_update(){
+        let x = json(data)
+        console.log(x)
+    }
 </script>
 
 <br />
@@ -71,7 +83,7 @@
 	<table>
 		<tbody>
 			<tr class="head"><th>S.No</th><th>Country</th><th>Delegate</th><th>Class</th></tr>
-			{#each [1, 2] as i}
+			{#each committees as i}
 				<tr><td>{i}</td><td>Belgium</td><td>Sri sai surya venkata some fellow</td><td>12-K</td></tr>
 			{/each}
 		</tbody>
