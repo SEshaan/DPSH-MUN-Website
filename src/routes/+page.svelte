@@ -173,7 +173,9 @@ Arpit B. Bhate
 		</div>
 		<br />
 	</div>
-	<h1 id="com">Committees</h1>
+	<br>
+	<div id="combg">
+		<h1 id="com" style="padding-left: 5%;">Committees</h1>
 	<br />
 	<!-- <div id="commities">
 		<div id="current">
@@ -198,12 +200,9 @@ Arpit B. Bhate
 			{/each}
 		</div>
 	</div>
+	</div>
 
 	<br />
-	<h1 id="dat">Important Dates</h1>
-	<ul>
-		<li />
-	</ul>
 </div>
 
 <style>
@@ -231,7 +230,7 @@ Arpit B. Bhate
 		width: 200vw;
 	}
 	#comhold #img {
-		margin: 0 2.5% 0 2.5%;
+		margin: 2.5%
 	}
 	#committiees {
 		overflow-x: scroll;
@@ -268,7 +267,8 @@ Arpit B. Bhate
 		border: none;
 	}
 	#com {
-		text-align: center;
+		text-align: left;
+		font-size: xxx-large;
 	}
 	#commities {
 		width: 100vw;

@@ -37,6 +37,7 @@
         }, 100);
     })
    
+    let commities = ['DISEC', 'NATO', 'UNSC', 'UNHRC', 'LK', 'IMF', 'IP'];
 </script>
 
 
@@ -51,7 +52,7 @@
             <li><a href='./Resources' id="Resources" >Resources</a></li>
             <li><a href='./Secretariat' id="Secretariat" >Secretariat</a></li>
             <!-- <li><a href='./#com' id="Committees" style="">Committees</a></li> -->
-            <li><a href='javascript:void(0)' id="Committees"> <select name="" id="com"><option value="" disabled selected>Committees</option><option value="DISEC">DISEC</option><option value="UNHRC">UNHRC</option></select></a></li>
+            <li><a href='javascript:void(0)' id="Committees"> <select name="" id="com"><option value="" disabled selected>Committees</option>{#each commities as com} <option value="{com}">{com}</option>{/each}</select></a></li>
             <li><a href='./Contact' id="Contact" >Contact Us</a></li>
         </ul>
     </div>
@@ -64,7 +65,7 @@
         <li><a href='./Allocations'>Allocations</a></li>
         <li><a href='./Resources'>Resources</a></li>
         <li><a href='./Secretariat'>Secretariat</a></li>
-        <li ><a href="./">Committees </a></li>
+        <li><div>Committees <br> <ul>{#each commities as com} <li><a href="./{com}">{com}</a></li> {/each}</ul></div></li>
         <li><a href='./Contact'>Contact Us</a></li>
     </ul>
 </div>
