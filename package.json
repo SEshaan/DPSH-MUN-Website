@@ -36,7 +36,7 @@
 		"vite-plugin-image-optimizer": "^1.1.6",
 		"vitest": "^0.25.3"
 	},
-	"type": "commonjs",
+	"type": "module",
 	"dependencies": {
 		"@prisma/client": "^4.15.0",
 		"datamaps": "^0.5.9"
