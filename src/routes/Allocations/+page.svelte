@@ -16,7 +16,7 @@
 		redirect: 'follow'
 	};
 
-	fetch('http://dpshmun.vercel.app/api/allocations?c=disec', requestOptions)
+	fetch('https://dpshmun.vercel.app/api/allocations?c=disec', requestOptions)
 		.then((response) => response.text())
 		.then((result) => console.log(result))
 		.catch((error) => console.log('error', error));
