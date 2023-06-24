@@ -103,20 +103,20 @@
 	<div id="stats">
 		<div id="stats_holder">
 			<div class="stat">
-				<h1>5+</h1>
-				<h3>Commities</h3>
-			</div>
-			<div class="stat">
-				<h1>10+</h1>
-				<h3>People</h3>
-			</div>
-			<div class="stat">
-				<h1>1+</h1>
+				<h1>2</h1>
 				<h3>Days</h3>
 			</div>
 			<div class="stat">
-				<h1>atleast 2+</h1>
-				<h3>Chairpeople</h3>
+				<h1>8</h1>
+				<h3>Commities</h3>
+			</div>
+			<div class="stat">
+				<h1>15+</h1>
+				<h3>EB Members</h3>
+			</div>
+			<div class="stat">
+				<h1>200+</h1>
+				<h3>Delegates</h3>
 			</div>
 		</div>
 		<br>
@@ -192,7 +192,7 @@
 	}
 	.stat{
 		width: 50%;
-		height: 20vh;
+		height: 30vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -253,7 +253,7 @@
 		text-align: center;
 	}
     .pair h2{
-        font-weight: 400;
+        font-weight: 600;
     }
 	.card_holder {
 		display: flex;
@@ -281,5 +281,13 @@
 		#img{
 			width: 40vh;
 		}
+		
+	.stat h1{
+		font-size: xxx-large;
+	}
+	.stat h3{
+		font-size: x-large;
+		font-weight: 700;
+	}
 	}
 </style>
