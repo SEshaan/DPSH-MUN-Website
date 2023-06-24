@@ -1,7 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-// @ts-ignore-5097 - Vercel doesn't like importing typescript files without the file suffix, for some reason
-import db from './utils/database.ts';
+import db from './utils/database';
 
 // Fetch all active announcements
 
