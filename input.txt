@@ -1,15 +1,50 @@
-United States of America	Sree Pratham Raviprolu	11-F
-Russia 	Sidhant Rathi	12-G
-China 	Aarushi Mohindru	11-C
-United Kingdom	Aaruushi Dhar	11-A
-France 	Chembolu Anushka	12-J
-Albania	Ashima Sahoo	11-F
-Brazil	Mihika Dangwal	11-E
-Ecuador	Ishaan Nayudu	11-G
-Gabon	Srimanth. I.V	11-J
-Ghana	Pranavi Gulla	11-G
-Japan	Ishaan Asoori	11-E
-Malta	Varanasi Manasa	11-E
-Mozambique 	Anshujaat Kotha	11-E
-Switzerland	Sumedha Das	11-B
-United Arab Emirates	Gautham K. Myneni	11-A
+Shri A. Raja	Dravida Munnetra Kazhagam	Nilgiris (Tamil Nadu)	Satvik Linga	11-C
+Shri Narayana Swamy Abbaiah	Bharatiya Janata Party	Chitradurga (Karnataka)	Stuti Tiwari	11-J
+Dr. Farooq Abdullah	Jammu and Kashmir National Conference	Srinagar (Jammu and Kashmir)	Vaishnavi T	11-E
+Shri Deepak (Dev) Adhikari	All India Trinamool Congress	Ghatal (West Bengal)	Ahan	11-C
+Adv. A. M. Ariff	Communist Party of India (Marxist)	Alappuzha (Kerala)	Akshita Agarwal	11-C
+Shri Rajendra Agrawal	Bharatiya Janata Party	Meerut (Uttar Pradesh)	Sathvik E	11-D
+Smt. Sajda Ahmed	All India Trinamool Congress	Uluberia (West Bengal)	B.Mohan Reddy	12-C
+Shri Guharam Ajgalley	Bharatiya Janata Party	Janjgir-Champa (Chhattisgarh)	Maheen sultana	11-G
+Shri Hanuman Beniwal	Rashtriya Loktantrik Party	Nagaur (Rajasthan)	Vignesh	11-D
+Smt. Ranjanben Dhananjay Bhatt	Bharatiya Janata Party	Vadodara (Gujarat)	Anantosh Srivastava	12-J
+Shri Bholanath (B.P. Saroj)	Bharatiya Janata Party	Machhlishahr (Uttar Pradesh)	Shlokh Reddy	12-D
+Smt. Chinta Anuradha	Yuvajana Sramika Rythu Congress Party	Amalapuram (Andhra Pradesh)	Nidhi Alla	11-B
+Smt. Maneka Sanjay Gandhi	Bharatiya Janata Party	Sultanpur (Uttar Pradesh)	Purvai Garg	11-E
+Smt. Sonia Gandhi	Indian National Congress	Rae Bareli (Uttar Pradesh)	Kabir Nagpal	12-B
+Shri Maddila Gurumoorthy	Yuvajana Sramika Rythu Congress Party	Tirupati Andhra Pradesh)	Aashrith Reddy	11-H
+Sadhvi Niranjan Jyoti	Bharatiya Janata Party	Fatehpur (Uttar Pradesh)	Perumandla Nithya Reddy	11-H
+Shri Kuruva Gorantla Madhav	Yuvajana Sramika Rythu Congress Party	Hindupur (Andhra Pradesh)	Jasraj Ahluwalia	11-J
+Smt. Kavitha Maloth	Telangana Rashtra Samithi	Mahabubabad (Telangana)	Nainika Reddy Chilukuri	11-E
+Shri Rajnath Singh	Bharatiya Janata Party	Haidergarh (Uttar Pradesh)	Parth Poddar	11-H
+Shri Narendra Damodardas Modi	Bharatiya Janata Party	Varanasi (Uttar Pradesh)	Ishita Chintalapati	11-H
+Smt. Mahua Moitra	All India Trinamool Congress	Krishnanagar (West Bengal)	Joshita Chennu	12-F
+Shri Arjun Munda	Bharatiya Janata Party	Khunti (Jharkhand)	Jayesh Kanodia	12-A
+Shri S. Muniswamy	Bharatiya Janata Party	Kolar (Karnataka)	Raja Rajeshwari	12-D
+Shri K. Muraleedharan	Indian National Congress	Vadakara (Kerala)	Aditi Bajaj	11-F
+Ms. Chandrani Murmu	Biju Janata Dal	Keonjhar (Odisha)	Anika Gulati	12-D
+Shri Malook Nagar	Bahujan Samaj Party	Bijnor (Uttar Pradesh)	Sivaiahgari sri avani	11-K
+Shri P.R. Natarajan	Communist Party of India (Marxist)	Coimbatore (Tamil Nadu)	Chris Nathan	12-I
+Dr. Ramesh Pokhriyal Nishank	Bharatiya Janata Party	Hardwar (Uttarakhand)	Manvi Yadav	11-F
+Shri Omprakash Bhupalsingh alias Pavan Rajenimbalkar	Shiv Sena	Osmanabad (Maharashtra)	Khyathi	11-K
+Shri Mukesh Rajput	Bharatiya Janata Party	Farrukhabad (Uttar Pradesh)	Pranshu	11-F
+Shri Vishnu Dayal Ram	Bharatiya Janata Party	Palamu (Jharkhand)	Nishtha Nagpal	11-K
+Shri Sellaperumal Ramalingam	Dravida Munnetra Kazhagam	Mayiladuthurai (Tamil Nadu)	Hrishika Kothamasu	11-K
+Smt Navneet Ravi Rana	Independent	Amravati (Maharashtra)	Siddhartha Reddy	11-D
+Shri Nama Nageswara Rao	Telangana Rashtra Samithi	Khammam (Telangana)	Anya Rao	12-J
+Shri Anumula Revanth Reddy	Indian National Congress	Malkajgiri (Telangana)	Sangam Dhiraj Kumar	12-J 
+Shri Haji Fazlur Rehman	Bahujan Samaj Party	Saharanpur (Uttar Pradesh)	Rishi Gupta	11-H
+Shri Amit Anil Chandra Shah	Bharatiya Janata Party	Gandhinagar (Gujarat)	Nalin Goyal	11-H
+Dr. Arvind Kumar Sharma	Bharatiya Janata Party	Rohtak (Haryana)	Garvit Sonthalia	11-J
+Dr. Mahesh Sharma	Bharatiya Janata Party	Gautam Buddha Nagar (Uttar Pradesh)	Sharath Yadav	11-H
+Shri Jugal Kishore Sharma	Bharatiya Janata Party	Jammu (Jammu and Kashmir)	Nikhil Potluri	11-F
+Shri Kuldeep Rai Sharma	Indian National Congress	Andaman and Nicobar Islands (Andaman and Nicobar Islands)	Savith Mullapudi	11-D
+Shri Mahabali Singh	Janata Dal (United)	Karakat (Bihar)	Yug Vijay Wargi	11-H
+Shri Anurag Singh Thakur	Bharatiya Janata Party	Hamirpur (Himachal Pradesh)	Valluru Sai Kesav	11-I
+Dr. Shashi Tharoor	Indian National Congress	Thiruvananthapuram (Kerala)	Kontemukkula Kalyani	11-J
+Shri Rajmohan Unnithan	Indian National Congress	Kasaragod (Kerala)	G. Darsh Dhana Koti	11-K
+Shri Balashowry Vallabbhaneni	Yuvajana Sramika Rythu Congress Party	Machilipatnam (Andhra Pradesh)	Sarvadhar Reddy Nmula	11-A
+Shri Vijayakumar (Alias) Vijay Vasanth	Indian National Congress	Kanniyakumari (Tamil Nadu)	Nelabhotla Alekhya	12-C
+Komatireddy Venkat Reddy	Indian National Congress	Bhuvanagiri (Telangana)	Sireesh	12-D
+Shri Asaduddin Owaisi 	All India Majlis-e-Ittehadul Muslimeen	Hyderabad (Telangana)	Vishruth Peddineni	12-J
+Shri Smriti Zubin Irani	Bharatiya Janata Party	Amethi (Uttar Pradesh) 	Stephen Arya	11-G

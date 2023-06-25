@@ -157,9 +157,6 @@
         text-align: justify;
         
     }
-    .msg span{
-        font-family: 'Times New Roman', Times, serif;
-    }
 
     @media (min-width:600px){
         .card{

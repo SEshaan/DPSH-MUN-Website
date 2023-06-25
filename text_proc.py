@@ -5,6 +5,6 @@ final = ""
 
 for i in x:
     y = i.split("\t")
-    final += (f'(" ","{y[0]}","{y[1]}","{y[2].split("-")[0] + y[2].split("-")[1]}"),')
+    final += (f'("{y[0]}","{y[1]}","{y[3]}","{y[4].split("-")[0] + y[4].split("-")[1]}"),')
 
 print(final)

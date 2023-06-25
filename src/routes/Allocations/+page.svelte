@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
 	// @ts-ignore
 	import { json } from '@sveltejs/kit';
 	import { onMount } from 'svelte';
@@ -16,6 +18,8 @@
 		f?.addEventListener('change', () => {
 			// @ts-ignore
 			var text = f.value;
+			// @ts-ignore
+			current_row = rows[f.value]
 			load_com(text)
 		});
 	});
@@ -41,7 +45,6 @@
 	 */
 	async function load_com(x){
 		// @ts-ignore
-		debugger
 	fetch('https://dpshmun.vercel.app/api/allocations?c='+x.toLowerCase(), requestOptions)
 		.then((response) => response.text())
 		// @ts-ignore
@@ -54,6 +57,39 @@
         // @ts-ignore
         committees = x["data"]
     }
+	let rows = {
+		disec:{
+			labels:["S.No","Country","Delegate","Class"],
+			db_row:["id","Country","Allocation","Section"]
+		},
+		unsc:{
+			labels:["S.No","Country","Delegate","Class"],
+			db_row:["id","Country","Allocation","Section"]
+		},
+		unhrc:{
+			labels:["S.No","Country","Delegate","Class"],
+			db_row:["id","Country","Allocation","Section"]
+		},
+		nato:{
+			labels:["S.No","Country","Delegate","Class"],
+			db_row:["id","Country","Allocation","Section"]
+		},
+		imf:{
+			labels:["S.No","Country","Delegate","Class"],
+			db_row:["id","Country","Allocation","Section"]
+		},
+		lk:{
+			labels:["S.No","Leader","Party","Name","Section"],
+			db_row:["id","Politician","Party","Allocation","Section"]
+		},
+		ip:{
+			labels:["S.No","Committee","Name","Section"],
+			db_row:["id","Committee","Allocation","Section"]
+		}
+	}
+
+	let current_row = rows['disec']
+
 </script>
 
 <br />
@@ -110,9 +146,9 @@
 	</select><br /><br />
 	<table>
 		<tbody>
-			<tr class="head"><th>S.No</th><th>Country</th><th>Delegate</th><th>Class</th></tr>
+			<tr class="head"><th>{current_row["labels"][0]}</th><th>{current_row["labels"][1]}</th><th>{current_row["labels"][2]}</th><th>{current_row["labels"][3]}</th>{#if current_row["labels"][4]}<th>{current_row["labels"][4]}</th>{/if}</tr>
 			{#each committees as i}
-				<tr><td>{i['id']}</td><td>{i['Country']}</td><td>{i['Allocation']}</td><td>{i['Section']}</td></tr>
+				<tr><td>{i[current_row.db_row[0]]}</td><td>{i[current_row.db_row[1]]}</td><td>{i[current_row.db_row[2]]}</td><td>{i[current_row.db_row[3]]}</td>{#if current_row.db_row[4]}<td>{i[current_row.db_row[4]]}</td>{/if}</tr>
 			{/each}
 		</tbody>
 	</table>

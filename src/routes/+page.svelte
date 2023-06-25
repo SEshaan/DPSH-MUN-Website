@@ -129,7 +129,7 @@
 	<br />
 
 	<div id="letter">
-		<h1>Letter from the Secretary</h1>
+		<h1>Letter from the Secretary-General</h1>
 		<br />
 		<div id="lettercont">
 			<img src="./SC/letter.JPG" alt="" id="letterimg" />
