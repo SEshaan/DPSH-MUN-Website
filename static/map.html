@@ -43,7 +43,7 @@
         
         com = await fetch(("api/allocations?c=" + committee.toLowerCase()),requestOptions).then((r) => {return r.json()}).then((r) => {return r.data})
         com.forEach(element => {
-            packed_data[codes[element['Country']]] = {
+            packed_data[codes[element['Country'].trim()]] = {
                 delegate:element['Allocation'],
                 section:element['Section'],
                 fillKey:"available"

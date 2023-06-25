@@ -56,7 +56,7 @@
         width: 100vw;
         height: 70vh;
         
-        background-image: url("/disec.jpeg");
+        background-image: url("/DISEC.png");
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -70,6 +70,7 @@
         width: 50vmin;
         height: auto;
         aspect-ratio: 1/1;
+        box-shadow: 0px 10px 20px 20px rgba(0,0,0,0.75)
     }
     @media (min-width:600px){
         #content{
