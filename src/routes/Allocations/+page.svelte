@@ -4,7 +4,7 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		const e = document.querySelector('#com_sel');
+		var e = document.querySelector('#com_sel');
 		e?.addEventListener('change', () => {
 			// @ts-ignore
 			var text = e.options[e.selectedIndex].text;
@@ -12,7 +12,7 @@
 			document.getElementById('frame').contentWindow.postMessage(text, '*');
 		});
 
-		const f = document.querySelector('#tab_sel');
+		var f = document.querySelector('#tab_sel');
 		f?.addEventListener('change', () => {
 			// @ts-ignore
 			var text = f.options[e.selectedIndex].text;
