@@ -54,7 +54,6 @@ model unhrc {
 
 model unsc {
   id         Int     @id @default(autoincrement()) @map("_id")
-  Status     String  @db.VarChar(50)
   Country    String  @db.VarChar(50)
   Allocation String? @db.VarChar(100)
   Section    String? @db.Char(3)
@@ -69,8 +68,15 @@ model imf {
 
 model lk {
   id         Int     @id @default(autoincrement()) @map("_id")
-  Politician String  @db.VarChar(50)
+  politician String? @db.VarChar(255)
   Party      String  @db.VarChar(50)
+  Allocation String? @db.VarChar(100)
+  Section    String? @db.Char(3)
+}
+
+model nato {
+  id         Int     @id @default(autoincrement()) @map("_id")
+  Country    String  @db.VarChar(50)
   Allocation String? @db.VarChar(100)
   Section    String? @db.Char(3)
 }
