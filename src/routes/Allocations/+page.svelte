@@ -65,7 +65,10 @@
 	<br />
 	<select name="" id="com_sel">
 		<option value="disec" id="disec">DISEC</option>
-		<option value="sc" id="sc">SC</option>
+		<option value="unsc" id="sc">SC</option>
+		<option value="unhrc">UNHRC</option>
+		<option value="imf">IMF</option>
+		<option value="nato">NATO</option>
 	</select>
 </div>
 <div class="frame">
@@ -95,8 +98,14 @@
 	<h1>Allocations List</h1>
 	<br />
 	<select name="" id="tab_sel">
+		
 		<option value="disec" id="disec">DISEC</option>
-		<option value="sc" id="sc">SC</option>
+		<option value="unsc" id="sc">SC</option>
+		<option value="unhrc">UNHRC</option>
+		<option value="imf">IMF</option>
+		<option value="nato">NATO</option>
+		<option value="ip">IP</option>
+		<option value="lk">LK</option>
 	</select><br /><br />
 	<table>
 		<tbody>
