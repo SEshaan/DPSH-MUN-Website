@@ -172,7 +172,7 @@
 				<h3>Days</h3>
 			</div>
 			<div class="stat">
-				<h1>8</h1>
+				<h1>7</h1>
 				<h3>Commities</h3>
 			</div>
 			<div class="stat">
