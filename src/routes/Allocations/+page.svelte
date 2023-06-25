@@ -11,6 +11,13 @@
 			// @ts-ignore
 			document.getElementById('frame').contentWindow.postMessage(text, '*');
 		});
+
+		const f = document.querySelector('#tab_sel');
+		f?.addEventListener('change', () => {
+			// @ts-ignore
+			var text = f.options[e.selectedIndex].text;
+			load_com(text)
+		});
 	});
 
 	var requestOptions = {
@@ -29,12 +36,17 @@
     // @ts-ignore
     var data;
 
-	// @ts-ignore
-	fetch('https://dpshmun.vercel.app/api/allocations?c=disec', requestOptions)
+	/**
+	 * @param {string} x
+	 */
+	async function load_com(x){
+		// @ts-ignore
+	fetch('https://dpshmun.vercel.app/api/allocations?c='+x.toLowerCase(), requestOptions)
 		.then((response) => response.text())
 		// @ts-ignore
 		.then((result) => {data_update(JSON.parse(result))})
 		.catch((error) => console.log('error', error));
+	}
 
     // @ts-ignore
     function data_update(x){

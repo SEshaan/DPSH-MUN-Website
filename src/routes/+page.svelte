@@ -304,6 +304,7 @@
 		width: 90%;
 		margin: auto;
 		font-size: medium;
+		line-height: 24px;
 	}
 	#comhold {
 		display: flex;
