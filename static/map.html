@@ -41,7 +41,7 @@
         }
 
         
-        com = await fetch((".api/allocations?c=" + committee.toLowerCase()),requestOptions).then((r) => {return r.json()}).then((r) => {return r.data})
+        com = await fetch(("api/allocations?c=" + committee.toLowerCase()),requestOptions).then((r) => {return r.json()}).then((r) => {return r.data})
         com.forEach(element => {
             packed_data[codes[element['Country']]] = {
                 delegate:element['Allocation'],
