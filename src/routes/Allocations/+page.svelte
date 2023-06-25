@@ -81,7 +81,7 @@
 		},
 		lk:{
 			labels:["S.No","Leader","Party","Name","Section"],
-			db_row:["id","Politician","Party","Allocation","Section"]
+			db_row:["id","politician","Party","Allocation","Section"]
 		},
 		ip:{
 			labels:["S.No","Committee","Name","Section"],
