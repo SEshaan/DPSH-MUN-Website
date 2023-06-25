@@ -41,6 +41,7 @@
 	 */
 	async function load_com(x){
 		// @ts-ignore
+		debugger
 	fetch('https://dpshmun.vercel.app/api/allocations?c='+x.toLowerCase(), requestOptions)
 		.then((response) => response.text())
 		// @ts-ignore
