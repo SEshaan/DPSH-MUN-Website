@@ -22,6 +22,7 @@
 			current_row = rows[f.value]
 			load_com(text)
 		});
+		load_com("disec")
 	});
 
 	var requestOptions = {
