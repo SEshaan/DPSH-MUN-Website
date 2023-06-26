@@ -415,6 +415,7 @@
 		color: white;
 		font-size: xx-large;
 		text-align: center;
+		text-shadow: 2px 2px 16px rgba(0,0,0,0.75);
 	}
 
 	#Content {

@@ -1,6 +1,6 @@
 <script>
     let spec_bois = [
-        {"Name": "Dhruv B Nair", "Image": "./SC/Dhruv.JPG ", "Designation": "Secretary General","Message":"some positive message"},
+        {"Name": "Dhruv B Nair", "Image": "./SC/Dhruv.jpeg ", "Designation": "Secretary General","Message":"some positive message"},
         {"Name": "Bhavani Shankar Adusumilli", "Image": "./SC/Bhavani Shankar.JPG ", "Designation": "Deputy Secretary General","Message":"Shankar has an unwavering passion for photography, cinema and technology. He immerses himself in the world around him, constantly seeking unique perspectives and adding tangible inputs to the people around him. Being a cinephile, his main topic of conversation during lunch breaks is the beauty of Imax format, whose repeated discussion is not appreciated by his peers. As the deputy secretary general for this conference, he aims to provide delegates with a friendly field to express their views, thoughts, and arguments about pressing global issues."},
         {"Name": "Srinivas Kantheti", "Image": "./SC/Srinivas Portrait.JPG", "Designation": "Director General","Message":"some positive message"},
     ]
