@@ -56,7 +56,7 @@
         </div>
     </div>
     
-    <div id="links">
+    <div id="links" class="unavailable">
         <h1>Links</h1>
         <div id="link_holder">
             <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
