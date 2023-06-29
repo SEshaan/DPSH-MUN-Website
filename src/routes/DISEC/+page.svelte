@@ -34,7 +34,7 @@
             </div>
             <div class="card">
                 <img src="./SC/Dhruv.JPG" alt=""><br><br>
-                <h2>Dhruv B Nair</h2><br>
+                <h2>Dhruv B Nair</h2><h3>Committee Expert</h3><br>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem eaque temporibus perspiciatis suscipit. Quisquam excepturi sunt, laboriosam quis ex voluptates dolor quam molestiae dolorem, architecto dolore reprehenderit expedita. Distinctio.</p>
             </div>
         </div>
@@ -147,6 +147,10 @@
     }
     .card h2{
         font-size: xx-large;
+        text-align: center;
+    }
+    .card h3{
+        font-weight: 100;
         text-align: center;
     }
     .card p{
