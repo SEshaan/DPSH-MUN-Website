@@ -60,7 +60,7 @@
 <div id="sidebar" class:active={sidebar}>
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <img src="./Close_Button.png" alt="Close Button" srcset="" id="Close_Button" on:click={Sidebar}><br><br>
-    <ul style="list-style: none;">
+    <ul style="list-style: none; text-decoration:none">
         <li><a href='./'>Home</a></li>
         <li><a href='./Allocations'>Allocations</a></li>
         <li><a href='./Resources'>Resources</a></li>
