@@ -4,60 +4,74 @@
 </div>
 
 <div id="content">
-    <div id="Description">
-        <h1>IMF</h1><br>
-        <div> Holding the regard of a fundamental post-WW2 institution, the IMF aims to promote global macroeconomic and financial stability by providing policy advice and capacity development support to help countries build and maintain strong economies. It provides short- and medium-term loans to help countries that are experiencing balance of payments problems and difficulty meeting international payment obligations 
+    <div id="desc">
+        <div id="img">
+            <img src="./committees_logos/imf.png" alt="">
+        </div>
+        <div id="info">
+            <h1>International Montary Fund</h1><br>
+            <p>Holding the regard of a fundamental post-WW2 institution, the IMF aims to promote global macroeconomic and financial stability by providing policy advice and capacity development support to help countries build and maintain strong economies. It provides short- and medium-term loans to help countries that are experiencing balance of payments problems and difficulty meeting international payment obligations</p>
+        </div>
+    </div>
+
+    <div id="agenda">
+        <h1>Agenda</h1><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic neque quasi rerum consequatur eum sit at voluptates ullam impedit quis mollitia animi asperiores est, necessitatibus cum aliquid veritatis quisquam architecto.</p>
+    </div>
+    <br><hr><br>
+
+    <div id="eb">
+        <h1>EB Members</h1><br>
+        <div id="cards">
+            <div class="card">
+                <img src="./SC/Dhruv.JPG" alt=""><br><br>
+                <h2>Dhruv B Nair</h2><br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem eaque temporibus perspiciatis suscipit. Quisquam excepturi sunt, laboriosam quis ex voluptates dolor quam molestiae dolorem, architecto dolore reprehenderit expedita. Distinctio.</p>
+            </div>
+            <div class="card">
+                <img src="./EB/Nikhil.jpeg" alt=""><br><br>
+                <h2>Dhruv B Nair</h2><h3>Co-Chairperson</h3><br>
+                <p>Nikhil is currently pursuing a B.Tech degree in Computer Science. Having surmounted invaluable debate and public speaking experience throughout his MUN journey - spanning over 13 conferences in the capacity as a delegate, EB, and secretariat member - he believes that MUNs provide a platform for students to build on social qualities that help them tackle the obstacles we all face in life. He looks forward to being a part of the Executive Board for this year's edition of DPSHMUN, hoping to deliver an enjoyable conference experience.</p>
+            </div>
+            <div class="card">
+                <img src="./SC/Dhruv.JPG" alt=""><br><br>
+                <h2>Dhruv B Nair</h2><h3>Committee Expert</h3><br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem eaque temporibus perspiciatis suscipit. Quisquam excepturi sunt, laboriosam quis ex voluptates dolor quam molestiae dolorem, architecto dolore reprehenderit expedita. Distinctio.</p>
+            </div>
+        </div>
+    </div><br><br>
+
+    <h1 id="bgtitle">Background Guide</h1>
+    <div id="bgguide">
+        
+        <div id="bgdesc">
+        <p><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex alias rerum iste, et, qui vitae, labore natus autem ratione minima voluptas officia incidunt quam non aut cumque sed a possimus!
+        <br><br></p>
+        </div>
+        <div id="preview">
+            <img src="./preview/handbook.jpg" alt="">
         </div>
     </div>
     
-    <div id="Agenda">
-        <h1>Agenda</h1><br>
-        <div>To ensure that nukes arent in the hands of osama bin laden</div>
-    </div>
-    
-    <div id="Eb">
-        <h1>EB Members</h1><br>
-        <ul>
-            <li>Osama Bin Laden</li>
-        </ul>
-    </div>
-    
-    <div id="Resources">
-        <h1>Resources</h1><br>
-        <ul>
-            <li><a href="www.google.com">Background Guides →</a></li>
-        </ul>
+    <div id="links">
+        <h1>Links</h1>
+        <div id="link_holder">
+            <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
 
 
 <style>
-    a{
-        color: #D0BEA8;
-        text-decoration: underline;
-    }
-    #Description,#Agenda,#Eb,#Resources{
-        padding: 5%;
-        text-align: justify;
-        font-size: large;
-    }
-    #content{
-        color: #D0BEA8;
-    }
-    #content::before{
-        position: absolute;
-        width: 3px;
-        background-color: black;
-    }
-    h1{
-        font-size: xxx-large;
-        color: #D0BEA8;
-    }
     #intro{
         width: 100vw;
         height: 70vh;
         
-        background-image: url("/DISEC.png");
+        background-image: url("/committees_background/IMF.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -73,9 +87,176 @@
         aspect-ratio: 1/1;
         box-shadow: 0px 10px 20px 20px rgba(0,0,0,0.75)
     }
+    #content{
+        width: 100vw;
+        color: #D0BEA8;
+    }
+    #desc{
+        background-color: #be9460;
+        color: #3e4f5f;
+    }
+    #desc #img img{
+        width: 50vw;
+        height: auto;
+        margin: auto;
+        filter: brightness(0);
+    }
+    #img{
+        width: 100vw;
+        padding: 5% 0 5% 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #info{
+        width: 80vw;
+        margin: auto;
+    }
+    #info h1{
+        text-align: center;
+    }
+    #info p{
+        text-align: justify;
+    }
+    #agenda{
+        width: 100vw;
+        text-align: center;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+    #agenda p{
+        text-align: justify;
+        font-size: large;
+    }
+    #agenda h1{
+        font-size: xxx-large;
+    }
+    #eb h1{
+        font-size: xxx-large;
+        margin-left: 5%;
+    }
+    #cards{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 60vw;
+        margin: 5%;
+    }
+    .card img{
+        aspect-ratio: 4/3;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .card h2{
+        font-size: xx-large;
+        text-align: center;
+    }
+    .card h3{
+        font-weight: 100;
+        text-align: center;
+    }
+    .card p{
+        text-align: justify;
+    }
+    #bgguide #preview img{
+        object-fit: contain;
+        height: auto;
+        width: 100%;
+    }
+    #bgtitle{
+        font-size: xxx-large;
+        margin-left: 5%;
+    }
+    #bgguide #preview{
+        width: 60vw;
+    }
+    #bgguide p{
+        width: 75vw;
+        text-align: justify;
+    }
+    #bgguide{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    #links h1{
+        margin-left: 5%;
+        font-size: xxx-large;
+    }
+    #link_holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #link_holder iframe{
+        margin: 2.5%;
+        width: 40vw;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
     @media (min-width:600px){
-        #content{
-            columns: 2;
+        #desc{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            min-height: 50vh;
+        }
+        #info{
+            max-width: 50vw;
+            margin: 0;
+            font-size: large;
+        }
+        #info h1{
+            text-align: right;
+        }
+        #info p{
+            text-align: justify;
+            text-align-last: right;
+        }
+        #desc #img{
+            width: 20vw;
+            justify-self: stretch;
+        }
+        #agenda p{
+            max-width: 50vw;
+            margin: auto;
+        }
+        #eb h1{
+            font-size: xxx-large;
+        }
+        #cards{
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .card{
+            margin: 0;
+            width: 25vw;
+        }
+        #bgguide{
+            flex-direction: row-reverse;
+            align-items: start;
+            box-sizing: border-box;
+            padding: 5%;
+        }
+        #bgguide p{
+            max-width: 40vw;
+            font-size: large;
+            align-self: flex-start;
+        }
+        #bgguide #bgdesc{
+            box-sizing: border-box;
+        }
+        #bgguide #preview{
+            width: 25vw;
+        }
+        #link_holder iframe{
+            width: 25vw;
         }
     }
 </style>
