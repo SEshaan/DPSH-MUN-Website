@@ -4,59 +4,67 @@
 </div>
 
 <div id="content">
-    <div id="Description">
-        <h1>DISEC</h1><br>
-        <div>Being the General Assembly's First Committee DISEC aims at establishing and maintaining international peace and security by preventing the negative armament of the world's human and economic resources. It considers all disarmament and international security matters within the scope of the UN Charter or relating to the powers and functions of any other organ of the UN. All of its resolutions are recommendatory in nature.</div>
+    <div id="desc">
+        <div id="img">
+            <img src="./committees_logos/disec.png" alt="">
+        </div>
+        <div id="info">
+            <h1>Disarmament and International Security Committee</h1><br>
+            <p>Being the General Assembly's First Committee DISEC aims at establishing and maintaining international peace and security by preventing the negative armament of the world's human and economic resources. It considers all disarmament and international security matters within the scope of the UN Charter or relating to the powers and functions of any other organ of the UN. All of its resolutions are recommendatory in nature.</p>
+        </div>
     </div>
-    
-    <div id="Agenda">
+
+    <div id="agenda">
         <h1>Agenda</h1><br>
-        <div>To ensure that nukes arent in the hands of osama bin laden</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic neque quasi rerum consequatur eum sit at voluptates ullam impedit quis mollitia animi asperiores est, necessitatibus cum aliquid veritatis quisquam architecto.</p>
     </div>
-    
-    <div id="Eb">
+
+    <div id="eb">
         <h1>EB Members</h1><br>
-        <ul>
-            <li>Osama Bin Laden</li>
-        </ul>
+        <div id="cards">
+            <div class="card">
+                <img src="./SC/Dhruv.JPG" alt=""><br><br>
+                <h2>Dhruv B Nair</h2><br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem eaque temporibus perspiciatis suscipit. Quisquam excepturi sunt, laboriosam quis ex voluptates dolor quam molestiae dolorem, architecto dolore reprehenderit expedita. Distinctio.</p>
+            </div>
+            <div class="card">
+                <img src="./SC/Dhruv.JPG" alt=""><br><br>
+                <h2>Dhruv B Nair</h2><br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem eaque temporibus perspiciatis suscipit. Quisquam excepturi sunt, laboriosam quis ex voluptates dolor quam molestiae dolorem, architecto dolore reprehenderit expedita. Distinctio.</p>
+            </div>
+            <div class="card">
+                <img src="./SC/Dhruv.JPG" alt=""><br><br>
+                <h2>Dhruv B Nair</h2><br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem eaque temporibus perspiciatis suscipit. Quisquam excepturi sunt, laboriosam quis ex voluptates dolor quam molestiae dolorem, architecto dolore reprehenderit expedita. Distinctio.</p>
+            </div>
+        </div>
+    </div><br><br>
+
+    <h1 style="font-size:xxx-large;text-align:center">Background Guide</h1>
+    <div id="bgguide">
+        
+        <div id="bgdesc">
+        <p><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex alias rerum iste, et, qui vitae, labore natus autem ratione minima voluptas officia incidunt quam non aut cumque sed a possimus!
+        <br><br></p>
+        </div>
+        <div id="preview">
+            <img src="./preview/handbook.jpg" alt="">
+        </div>
     </div>
     
-    <div id="Resources">
-        <h1>Resources</h1><br>
-        <ul>
-            <li><a href="www.google.com">Background Guides →</a></li>
-        </ul>
+    <div id="links">
+        <h1>Links</h1>
     </div>
 </div>
 
 
 <style>
-    a{
-        color: #D0BEA8;
-        text-decoration: underline;
-    }
-    #Description,#Agenda,#Eb,#Resources{
-        padding: 5%;
-        text-align: justify;
-        font-size: large;
-    }
-    #content{
-        color: #D0BEA8;
-    }
-    #content::before{
-        position: absolute;
-        width: 3px;
-        background-color: black;
-    }
-    h1{
-        font-size: xxx-large;
-        color: #D0BEA8;
-    }
     #intro{
         width: 100vw;
         height: 70vh;
         
-        background-image: url("/DISEC.png");
+        background-image: url("/committees_background/DISEC.png");
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -72,9 +80,155 @@
         aspect-ratio: 1/1;
         box-shadow: 0px 10px 20px 20px rgba(0,0,0,0.75)
     }
+    #content{
+        width: 100vw;
+        color: #D0BEA8;
+    }
+    #desc{
+        background-color: #be9460;
+        color: #3e4f5f;
+    }
+    #desc #img img{
+        width: 50vw;
+        height: auto;
+        margin: auto;
+        filter: brightness(0);
+    }
+    #img{
+        width: 100vw;
+        padding: 5% 0 5% 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #info{
+        width: 80vw;
+        margin: auto;
+    }
+    #info h1{
+        text-align: center;
+    }
+    #info p{
+        text-align: justify;
+    }
+    #agenda{
+        width: 100vw;
+        text-align: center;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+    #agenda p{
+        text-align: justify;
+        font-size: large;
+    }
+    #agenda h1{
+        font-size: xxx-large;
+    }
+    #eb h1{
+        text-align: center;
+        font-size: xxx-large;
+    }
+    #cards{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 60vw;
+        margin: 5%;
+    }
+    .card img{
+        aspect-ratio: 4/3;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .card h2{
+        font-size: xx-large;
+        text-align: center;
+    }
+    .card p{
+        text-align: justify;
+    }
+    #bgguide #preview img{
+        object-fit: contain;
+        height: auto;
+        width: 100%;
+    }
+    #bgguide #preview{
+        width: 60vw;
+    }
+    #bgguide p{
+        width: 75vw;
+        text-align: justify;
+    }
+    #bgguide{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    #links h1{
+        text-align: center;
+        font-size: xxx-large;
+    }
     @media (min-width:600px){
-        #content{
-            columns: 2;
+        #desc{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            min-height: 50vh;
+        }
+        #info{
+            max-width: 50vw;
+            margin: 0;
+            font-size: large;
+        }
+        #info h1{
+            text-align: right;
+        }
+        #info p{
+            text-align: justify;
+            text-align-last: right;
+        }
+        #desc #img{
+            width: 20vw;
+            justify-self: stretch;
+        }
+        #agenda p{
+            max-width: 50vw;
+            margin: auto;
+        }
+        #eb h1{
+            font-size: xxx-large;
+            text-align: center;
+        }
+        #cards{
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .card{
+            margin: 0;
+            width: 25vw;
+        }
+        #bgguide{
+            flex-direction: row-reverse;
+            align-items: start;
+            box-sizing: border-box;
+            padding: 5%;
+        }
+        #bgguide p{
+            max-width: 40vw;
+            font-size: large;
+            align-self: flex-start;
+        }
+        #bgguide #bgdesc{
+            box-sizing: border-box;
+        }
+        #bgguide #preview{
+            width: 25vw;
         }
     }
 </style>
