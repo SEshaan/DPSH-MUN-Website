@@ -1,6 +1,6 @@
 <script>
     let spec_bois = [
-        {"Name": "Dhruv B Nair", "Image": "./SC/Dhruv.jpeg ", "Designation": "Secretary General","Message":"Dhruv B Nair, the Sec-Gen for this year's DPSHMUN, is a visionary young mind filled with passion and enthusiasm towards doing what he loves. He has always believed in making an impact and has an overstriding attitude of never settling for mediocrity. A quality of his that is praised, at the same time considered to be a hassle, is his strive for perfection.\n One of his favorite quotes being - 'Never tell the sky is the limit, when there are footprints on the moon' \n He is currently a commerce student with law being his field of interest. He has been in the MUN circuit since 2017 and has had 20+ experience in various national and international MUNs. His interest in public speaking never fades, as he still loves participating in debates and similar competitions. This year he comes up with a goal of providing the best through simplicity and he works with his team to achieve the same at the highest level and to make sure this edition of the DPSHMUN is something to be remembered for a long time."},
+        {"Name": "Dhruv B Nair", "Image": "./SC/Dhruv.jpeg ", "Designation": "Secretary General","Message":"Dhruv B Nair, the Sec-Gen for this year's DPSHMUN, is a visionary young mind filled with passion and enthusiasm towards doing what he loves. He has always believed in making an impact and has an overstriding attitude of never settling for mediocrity. A quality of his that is praised, at the same time considered to be a hassle, is his strive for perfection.\n One of his favorite quotes being - 'Never tell the sky is the limit, when there are footprints on the moon'  He is currently a commerce student with law being his field of interest. He has been in the MUN circuit since 2017 and has had 20+ experience in various national and international MUNs. His interest in public speaking never fades, as he still loves participating in debates and similar competitions. This year he comes up with a goal of providing the best through simplicity and he works with his team to achieve the same at the highest level and to make sure this edition of the DPSHMUN is something to be remembered for a long time."},
         {"Name": "Bhavani Shankar Adusumilli", "Image": "./SC/Bhavani Shankar.JPG ", "Designation": "Deputy Secretary General","Message":"Shankar has an unwavering passion for photography, cinema and technology. He immerses himself in the world around him, constantly seeking unique perspectives and adding tangible inputs to the people around him. Being a cinephile, his main topic of conversation during lunch breaks is the beauty of Imax format, whose repeated discussion is not appreciated by his peers. As the deputy secretary general for this conference, he aims to provide delegates with a friendly field to express their views, thoughts, and arguments about pressing global issues."},
         {"Name": "Srinivas Kantheti", "Image": "./SC/Srinivas Portrait.JPG", "Designation": "Director General","Message":"some positive message"},
     ]
@@ -146,7 +146,7 @@
         flex-grow: 1;
         height: 100%;
         text-align: center;
-        padding: 5%;
+        padding: 2.5%;
         box-sizing: border-box;
     }
 
@@ -155,7 +155,7 @@
         max-width: 40vw;
         margin: auto;
         text-align: justify;
-        font-size: small;
+        font-size: medium;
     }
 
     @media (min-width:600px){

@@ -19,7 +19,7 @@
     </div>
 
     <div id="ppt">
-        <h1 style="text-align: center;">MUN PPT</h1>
+        <h1 class="heading">MUN PPT</h1>
         <br>
         <div id="presentation">
         
@@ -27,7 +27,7 @@
     </div><br>
 
     <div id="bgguides">
-        <h1>Background Guides</h1><br>
+        <h1 class="heading">Background Guides</h1><br>
         <div id="guides">
             <div class="guide">
                 <a href="./guides/handbook.pdf">
@@ -74,6 +74,10 @@
     h1{
         font-size: xxx-large;
     }
+    .heading{
+        font-size: xxx-large;
+        margin-left: 5%;
+    }
     #intro{
         padding: 5%;
         box-sizing: border-box;
@@ -85,9 +89,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    #bgguides h1{
-        text-align: center;
     }
     #guides{
         display: flex;
