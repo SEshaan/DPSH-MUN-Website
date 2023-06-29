@@ -40,7 +40,7 @@
         </div>
     </div><br><br>
 
-    <h1 style="font-size:xxx-large;text-align:center">Background Guide</h1>
+    <h1 id="bgtitle">Background Guide</h1>
     <div id="bgguide">
         
         <div id="bgdesc">
@@ -55,6 +55,12 @@
     
     <div id="links">
         <h1>Links</h1>
+        <div id="link_holder">
+            <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
 
@@ -125,8 +131,8 @@
         font-size: xxx-large;
     }
     #eb h1{
-        text-align: center;
         font-size: xxx-large;
+        margin-left: 5%;
     }
     #cards{
         width: 100vw;
@@ -161,6 +167,10 @@
         height: auto;
         width: 100%;
     }
+    #bgtitle{
+        font-size: xxx-large;
+        margin-left: 5%;
+    }
     #bgguide #preview{
         width: 60vw;
     }
@@ -175,8 +185,20 @@
         flex-direction: column;
     }
     #links h1{
-        text-align: center;
+        margin-left: 5%;
         font-size: xxx-large;
+    }
+    #link_holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #link_holder iframe{
+        margin: 2.5%;
+        width: 40vw;
+        height: auto;
+        aspect-ratio: 16/9;
     }
     @media (min-width:600px){
         #desc{
@@ -207,7 +229,6 @@
         }
         #eb h1{
             font-size: xxx-large;
-            text-align: center;
         }
         #cards{
             flex-direction: row;
@@ -232,6 +253,9 @@
             box-sizing: border-box;
         }
         #bgguide #preview{
+            width: 25vw;
+        }
+        #link_holder iframe{
             width: 25vw;
         }
     }

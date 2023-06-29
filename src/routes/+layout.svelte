@@ -65,7 +65,7 @@
         <li><a href='./Allocations'>Allocations</a></li>
         <li><a href='./Resources'>Resources</a></li>
         <li><a href='./Secretariat'>Secretariat</a></li>
-        <li><div>Committees <br> <ul>{#each commities as com} <li><a href="./{com}">{com}</a></li> {/each}</ul></div></li>
+        <li><div style="color:gray">Committees <br> <ul>{#each commities as com} <li><a href="./{com}">{com}</a></li> {/each}</ul></div></li>
         <li><a href='./Contact'>Contact Us</a></li>
     </ul>
 </div>
@@ -119,7 +119,7 @@
     #sidebar ul li a {
         font-size: larger;
         color: gray;
-        text-decoration: none;
+        text-decoration: none !important;
     }
 
     #Close_Button{

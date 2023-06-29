@@ -51,8 +51,6 @@
 		}
 	}, 100);
 
-	// @ts-ignore and fuck yourself
-	// @ts-ignore
 	// @ts-ignore
 	let announcements = [{ date: '12/12/12', title: 'Delegate registrations are open' }];
 
@@ -61,7 +59,6 @@
 	/**
 	 * @param {Number} x
 	 */
-	// @ts-ignore
 	// @ts-ignore
 	function move(x) {
 		if (status + x < 0) {
@@ -342,37 +339,15 @@
 	.pair {
 		width: 25%;
 	}
-	#dat {
-		text-align: center;
-	}
-	button {
-		font-size: xxx-large;
-		background-color: transparent;
-		color: #d0bea8;
-		border: none;
-	}
 	#com {
 		text-align: left;
 		font-size: xxx-large;
-	}
-	#commities {
-		width: 100vw;
-		min-height: 30vh;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
 	}
 	#img {
 		height: auto;
 		width: 50vw;
 		aspect-ratio: 1/1;
 		overflow: hidden;
-	}
-	#current {
-		display: flex;
-		justify-content: center;
-		align-items: center;
 	}
 	#img img {
 		width: 100%;
