@@ -5,7 +5,7 @@
 
     onMount(() => {
         let e = document.querySelector("#presentation")
-        e.innerHTML = '<iframe title="PPT" src="https://onedrive.live.com/embed?resid=3F03CFDBE97CB596%211207&amp;authkey=!ALcI72XXhkJ5j28&amp;em=2&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=0" width="' + window.innerWidth*0.9 + '" height="'+ window.innerWidth*0.6*0.9 +'" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>'
+        e.innerHTML = '<iframe title="PPT" src="https://onedrive.live.com/embed?resid=3F03CFDBE97CB596%211296&amp;authkey=!APO4aGLS3106Q6w&amp;em=2&amp;wdAr=1.7770833333333333" width="' + window.innerWidth*0.9 + '" height="'+ window.innerWidth*0.6*0.9 +'" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>'
         console.log('ifrme')
     })
 </script>
@@ -103,6 +103,10 @@
     .guide img{
         width: 100%;
         height: auto;
+    }
+    
+    .unavailable {
+        display: none;
     }
     @media (min-width:600px){
         .guide{

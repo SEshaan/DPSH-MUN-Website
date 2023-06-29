@@ -200,6 +200,10 @@
         height: auto;
         aspect-ratio: 16/9;
     }
+    
+    .unavailable {
+        display: none;
+    }
     @media (min-width:600px){
         #desc{
             display: flex;
