@@ -77,6 +77,7 @@
         background-image: url("/committees_background/LK.png");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
 
         color: white;
 

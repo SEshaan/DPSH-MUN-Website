@@ -74,6 +74,7 @@
         background-image: url("/committees_background/IMF.png");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
 
         color: white;
 
