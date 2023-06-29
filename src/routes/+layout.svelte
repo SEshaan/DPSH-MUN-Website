@@ -61,12 +61,12 @@
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <img src="./Close_Button.png" alt="Close Button" srcset="" id="Close_Button" on:click={Sidebar}><br><br>
     <ul style="list-style: none; text-decoration:none">
-        <li><a href='./'>Home</a></li>
-        <li><a href='./Allocations'>Allocations</a></li>
-        <li><a href='./Resources'>Resources</a></li>
-        <li><a href='./Secretariat'>Secretariat</a></li>
-        <li><div style="color:gray">Committees <br> <ul>{#each commities as com} <li><a href="./{com}">{com}</a></li> {/each}</ul></div></li>
-        <li><a href='./Contact'>Contact Us</a></li>
+        <li><a href='./' class="mob_link">Home</a></li>
+        <li><a href='./Allocations' class="mob_link">Allocations</a></li>
+        <li><a href='./Resources' class="mob_link">Resources</a></li>
+        <li><a href='./Secretariat' class="mob_link">Secretariat</a></li>
+        <li><div style="color:#D0BEA8">Committees <br> <ul>{#each commities as com} <li><a href="./{com}" class="mob_link">{com}</a></li> {/each}</ul></div></li>
+        <li><a href='./Contact' class="mob_link">Contact Us</a></li>
     </ul>
 </div>
 <div id="margin"></div>
@@ -119,6 +119,11 @@
     #sidebar ul li a {
         font-size: larger;
         color: gray;
+        text-decoration: none !important;
+    }
+
+    .mob_link{
+        color:  #D0BEA8 !important;
         text-decoration: none !important;
     }
 
