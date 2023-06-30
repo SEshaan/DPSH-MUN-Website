@@ -16,18 +16,13 @@
 
     <div id="agenda">
         <h1>Agenda</h1><br>
-        <p>Discussing international security policies with special emphasis on extremist factions.</p>
+        <p>Coming Soon</p>
     </div>
     <br><hr><br>
 
     <div id="eb">
         <h1>EB Members</h1><br>
         <div id="cards">
-            <div class="card">
-                <img src="./SC/Dhruv.JPG" alt=""><br><br>
-                <h2>Dhruv B Nair</h2><br>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem eaque temporibus perspiciatis suscipit. Quisquam excepturi sunt, laboriosam quis ex voluptates dolor quam molestiae dolorem, architecto dolore reprehenderit expedita. Distinctio.</p>
-            </div>
             <div class="card">
                 <img src="./EB/Kabeer.jpeg" alt=""><br><br>
                 <h2>Kabeer Bajaj</h2><h3>Co-Chairperson</h3><br>
@@ -36,9 +31,15 @@
                     Having had experience as a delegate, a member of the Executive Board and a successful Deputy Secretary General Kabeer is back to set his juniors on this path that he started many years ago. "I was inspired and mentored by my seniors and friends to take up the role of understanding: better than ever before, I plan to do the same." He looks forward to making this a delightful confrence for all.</p>
             </div>
             <div class="card">
-                <img src="./SC/Dhruv.JPG" alt=""><br><br>
-                <h2>Dhruv B Nair</h2><h3>Committee Expert</h3><br>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem eaque temporibus perspiciatis suscipit. Quisquam excepturi sunt, laboriosam quis ex voluptates dolor quam molestiae dolorem, architecto dolore reprehenderit expedita. Distinctio.</p>
+                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <h2>Rishabh Chaudhari</h2><h3>Co-Chairperson</h3><br>
+                <p>Available soon</p>
+            </div>
+            
+            <div class="card">
+                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <h2>Coming soon</h2><h3>Committee Expert</h3><br>
+                <p>Available soon</p>
             </div>
         </div>
     </div><br><br>
@@ -48,11 +49,11 @@
         
         <div id="bgdesc">
         <p><br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex alias rerum iste, et, qui vitae, labore natus autem ratione minima voluptas officia incidunt quam non aut cumque sed a possimus!
-        <br><br></p>
+            A Background Guide is a document prepared by the EB which gives information about the committee, agenda and other details. This document will also provide a list of key topics to prepare and be ready for, at the same time gives preparation tips. Reading this document will allow the delegates to understand what the committee expects from them and how to prepare accordingly.
+        <br><br><a href="./">View Background Guide →</a> <br><br></p>
         </div>
         <div id="preview">
-            <img src="./preview/handbook.jpg" alt="">
+            <img src="./preview/default.png" alt="">
         </div>
     </div>
     
@@ -186,6 +187,11 @@
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
+    }
+    #bgdesc a{
+        text-decoration: underline;
+        color: #D0BEA8;
+        font-weight: 600;
     }
     #links h1{
         margin-left: 5%;

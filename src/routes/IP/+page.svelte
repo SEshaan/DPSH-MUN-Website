@@ -16,7 +16,7 @@
 
     <div id="agenda">
         <h1>Agenda</h1><br>
-        <p>Discussing international security policies with special emphasis on extremist factions.</p>
+        <p>Classified</p>
     </div>
     <br><hr><br>
 
@@ -24,18 +24,16 @@
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">
+                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <h2>Avi Kotpalia</h2><h3>Head of IP</h3><br>
+                <p>Available soon</p>
+            </div>
+            <div class="card">
                 <img src="./EB/Aryan.jpg" alt=""><br><br>
                 <h2>Aryan Kumar</h2><h3>Editor-in-Chief</h3><br>
                 <p>Aryan is an incoming first-year student at Cornell University, majoring in Computer Science. He is delighted to be serving as the Editor-in-Chief for the International Press at DPSHMUN '23 <br><br>
 
                     Having surmounted invaluable debate experience throughout his MUN journey — spanning over 15 conferences in the capacity of a Delegate, EB member, and a Secretariat member — he believes that everyone can efficiently utilize the MUN platform as a gateway to realize their utmost potential in the art of prolific debate and discussion. He looks forward to creating a delightful conference experience for all.</p>
-            </div>
-            <div class="card">
-                <img src="./EB/Kabeer.jpeg" alt=""><br><br>
-                <h2>Kabeer Bajaj</h2><h3>Co-Chairperson</h3><br>
-                <p>Kabeer, one of our very own. He is incredibly excited to utilise his knowledge to provide everyone with invaluable experience. <br><br>
-
-                    Having had experience as a delegate, a member of the Executive Board and a successful Deputy Secretary General Kabeer is back to set his juniors on this path that he started many years ago. "I was inspired and mentored by my seniors and friends to take up the role of understanding: better than ever before, I plan to do the same." He looks forward to making this a delightful confrence for all.</p>
             </div>
         </div>
     </div><br><br>
@@ -44,12 +42,12 @@
     <div id="bgguide">
         
         <div id="bgdesc">
-        <p><br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex alias rerum iste, et, qui vitae, labore natus autem ratione minima voluptas officia incidunt quam non aut cumque sed a possimus!
-        <br><br></p>
+            <p><br>
+                A Background Guide is a document prepared by the EB which gives information about the committee, agenda and other details. This document will also provide a list of key topics to prepare and be ready for, at the same time gives preparation tips. Reading this document will allow the delegates to understand what the committee expects from them and how to prepare accordingly.
+            <br><br><a href="./">View Background Guide →</a> <br><br></p>
         </div>
         <div id="preview">
-            <img src="./preview/handbook.jpg" alt="">
+            <img src="./preview/default.png" alt="">
         </div>
     </div>
     
@@ -184,6 +182,11 @@
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
+    }
+    #bgdesc a{
+        text-decoration: underline;
+        color: #D0BEA8;
+        font-weight: 600;
     }
     #links h1{
         margin-left: 5%;

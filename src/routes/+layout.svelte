@@ -37,7 +37,7 @@
         }, 100);
     })
    
-    let commities = ['DISEC', 'NATO', 'UNSC', 'UNHRC', 'LK', 'IMF', 'IP'];
+    let commities = ['DISEC', 'NATO', 'UNSC', 'UNHRC', 'LS', 'IMF', 'IP'];
 </script>
 
 

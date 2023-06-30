@@ -16,7 +16,7 @@
 
     <div id="agenda">
         <h1>Agenda</h1><br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic neque quasi rerum consequatur eum sit at voluptates ullam impedit quis mollitia animi asperiores est, necessitatibus cum aliquid veritatis quisquam architecto.</p>
+        <p style="text-align: center;">Coming Soon</p>
     </div>
     <br><hr><br>
 
@@ -24,19 +24,19 @@
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">
-                <img src="./SC/Dhruv.JPG" alt=""><br><br>
-                <h2>Dhruv B Nair</h2><br>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem eaque temporibus perspiciatis suscipit. Quisquam excepturi sunt, laboriosam quis ex voluptates dolor quam molestiae dolorem, architecto dolore reprehenderit expedita. Distinctio.</p>
-            </div>
-            <div class="card">
                 <img src="./EB/Nikhil.jpeg" alt=""><br><br>
-                <h2>Dhruv B Nair</h2><h3>Co-Chairperson</h3><br>
+                <h2>Nikhil Sivakumar</h2><h3>Co-Chairperson</h3><br>
                 <p>Nikhil is currently pursuing a B.Tech degree in Computer Science. Having surmounted invaluable debate and public speaking experience throughout his MUN journey - spanning over 13 conferences in the capacity as a delegate, EB, and secretariat member - he believes that MUNs provide a platform for students to build on social qualities that help them tackle the obstacles we all face in life. He looks forward to being a part of the Executive Board for this year's edition of DPSHMUN, hoping to deliver an enjoyable conference experience.</p>
             </div>
             <div class="card">
-                <img src="./SC/Dhruv.JPG" alt=""><br><br>
-                <h2>Dhruv B Nair</h2><h3>Committee Expert</h3><br>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem eaque temporibus perspiciatis suscipit. Quisquam excepturi sunt, laboriosam quis ex voluptates dolor quam molestiae dolorem, architecto dolore reprehenderit expedita. Distinctio.</p>
+                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <h2>Tejas Rama</h2> <h3>Co-Chairperson</h3><br>
+                <p>Available soon</p>
+            </div>
+            <div class="card">
+                <img src="./EB/Srikar.jpg" alt=""><br><br>
+                <h2>Sai Srikar</h2><h3>Committee Expert</h3><br>
+                <p>Available soon</p>
             </div>
         </div>
     </div><br><br>
@@ -46,11 +46,12 @@
         
         <div id="bgdesc">
         <p><br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex alias rerum iste, et, qui vitae, labore natus autem ratione minima voluptas officia incidunt quam non aut cumque sed a possimus!
-        <br><br></p>
+            A Background Guide is a document prepared by the EB which gives information about the committee, agenda and other details. This document will also provide a list of key topics to prepare and be ready for, at the same time gives preparation tips. Reading this document will allow the delegates to understand what the committee expects from them and how to prepare accordingly.
+            <br><br><a href="./">View Background Guide →</a>
+            <br><br></p>
         </div>
         <div id="preview">
-            <img src="./preview/handbook.jpg" alt="">
+            <img src="./preview/default.png" alt="">
         </div>
     </div>
     
@@ -200,6 +201,11 @@
         width: 40vw;
         height: auto;
         aspect-ratio: 16/9;
+    }
+    #bgdesc a{
+        text-decoration: underline;
+        color: #D0BEA8;
+        font-weight: 600;
     }
     
     .unavailable {

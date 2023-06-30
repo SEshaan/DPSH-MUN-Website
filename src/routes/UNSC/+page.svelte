@@ -16,7 +16,7 @@
 
     <div id="agenda">
         <h1>Agenda</h1><br>
-        <p>Discussing international security policies with special emphasis on extremist factions.</p>
+        <p>Coming Soon</p>
     </div>
     <br><hr><br>
 
@@ -30,16 +30,18 @@
                     Ishan is currently doing his under graduation in International Relations at Queen Mary University of London. He is a talented speaker and a MUNer who has participated in more than 50 conferences till date. He takes a special interest in international business and investments, and voices his opinions on global affairs in articles that have been published on the internet. When not preoccupied with international politics, Ishan watches Formula 1 and cooks rather proficiently. He looks forward to enriching debate and meeting you at the conference.</p>
             </div>
             <div class="card">
-                <img src="./EB/Kabeer.jpeg" alt=""><br><br>
-                <h2>Kabeer Bajaj</h2><h3>Co-Chairperson</h3><br>
-                <p>Kabeer, one of our very own. He is incredibly excited to utilise his knowledge to provide everyone with invaluable experience. <br><br>
-
-                    Having had experience as a delegate, a member of the Executive Board and a successful Deputy Secretary General Kabeer is back to set his juniors on this path that he started many years ago. "I was inspired and mentored by my seniors and friends to take up the role of understanding: better than ever before, I plan to do the same." He looks forward to making this a delightful confrence for all.</p>
+                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <h2>Yuv Verdia</h2><h3>Vice Chairperson</h3><br>
+                <p>Yuv is a seasoned debater (I am writing this by the way), who has also been part of the Bengaluru and Hyderabad MUN circuits for the last four years. <br><br>
+                    His thorough, often pedantic, research sets him apart in a committee, and has led him to top positions at international MUNs like Harvard MUN India, TISB MUN, SHMUN, etc. <br><br>
+                    Yuv is a sharp listener, and also highly approachable, so he will be prompt in pointing out the loopholes in your speeches, but also be very glad to help you out in fixing those gaps.
+                    Apart from public speaking, you will mostly find Yuv buried in a Dan Brown novel (all Robert Langdon references are welcome!), or breaking his head (literally) over a math problem.
+                    </p>
             </div>
             <div class="card">
                 <img src="./EB/Minnila.jpeg" alt=""><br><br>
                 <h2>Mnnila Nalluri</h2><h3>Committee Expert</h3><br>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem eaque temporibus perspiciatis suscipit. Quisquam excepturi sunt, laboriosam quis ex voluptates dolor quam molestiae dolorem, architecto dolore reprehenderit expedita. Distinctio.</p>
+                <p>While doing her 11th grade at Gaudium International School, Minnila has delegated at over 15 MUNs since her 10th grade. Rather than being known as Minnila, she’s always been known as the delegate of Canada. She enjoys the heated debates as well as the small talks during the unmods. She is looking forward to meeting you all at the MUN!</p>
             </div>
         </div>
     </div><br><br>
@@ -49,11 +51,11 @@
         
         <div id="bgdesc">
         <p><br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex alias rerum iste, et, qui vitae, labore natus autem ratione minima voluptas officia incidunt quam non aut cumque sed a possimus!
-        <br><br></p>
+            A Background Guide is a document prepared by the EB which gives information about the committee, agenda and other details. This document will also provide a list of key topics to prepare and be ready for, at the same time gives preparation tips. Reading this document will allow the delegates to understand what the committee expects from them and how to prepare accordingly.
+        <br><br><a href="./">View Background Guide →</a> <br><br></p>
         </div>
         <div id="preview">
-            <img src="./preview/handbook.jpg" alt="">
+            <img src="./preview/default.png" alt="">
         </div>
     </div>
     
@@ -188,6 +190,11 @@
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
+    }
+    #bgdesc a{
+        text-decoration: underline;
+        color: #D0BEA8;
+        font-weight: 600;
     }
     #links h1{
         margin-left: 5%;
