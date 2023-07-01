@@ -25,7 +25,7 @@
         <div id="cards">
             <div class="card">
                 <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
-                <h2>Avi Kotpalia</h2><h3>Head of IP</h3><br>
+                <h2>Avi Kathpalia</h2><h3>Head of IP</h3><br>
                 <p>Available soon</p>
             </div>
             <div class="card">
