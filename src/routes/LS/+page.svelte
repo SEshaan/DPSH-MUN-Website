@@ -24,14 +24,16 @@
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">
-                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Nayan.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Nayan Chandra</h2><h3>Speaker</h3><br>
-                <p>Available soon</p>
+                <p>Nayan Chandra Veeranki has recently graduated with a Bachelor's in Sociology and Social Sciences from the University of Hyderabad. He will be pursuing a Master's in Public Policy this year. He is deeply intrigued by issues pertaining to Indian Society and politics. He has attended over 30 MUNs and has been invited to Harvard MUN ( Beijing Chapter) as an Assistant Director. His interests are in the fields of public policy, economics and political science. In accordance with his goal to serve the society, he wishes to pursue a career in governance and public policy.
+                </p>
             </div>
             <div class="card">
-                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Rithvik.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Rithwik</h2><h3>Deputy Speaker</h3><br>
-                <p>Avaialbe soon</p>
+                <p>DGV Rithvik is an alumni of NALSAR University of Law, Hyderabad. He is interested in issues surrounding constitutional law and public policy in India. He has previously been in the EB of DPSHMUN’20, International Press in DPSHMUN’19 and the Organising Committee of DPSHMUN’17.
+                </p>
             </div>
             <div class="card">
                 <img src="./EB/Yamini.jpg" alt="" style="object-fit: contain;"><br><br>

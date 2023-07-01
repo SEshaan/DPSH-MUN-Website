@@ -47,33 +47,33 @@ This book pdf is especially useful and recommended for those who have just start
         <h1 class="heading">Background Guides</h1><br>
         <div id="guides">
             <div class="guide">
-                <a href="./guides/handbook.pdf">
-                    <img src="./preview/handbook.jpg" alt="">
+                <a href="./">
+                    <img src="./preview/default.png" alt="">
                 </a>
             </div>
             <div class="guide">
-                <a href="./guides/handbook.pdf">
-                    <img src="./preview/handbook.jpg" alt="">
+                <a href="./">
+                    <img src="./preview/default.png" alt="">
                 </a>
             </div>
             <div class="guide">
-                <a href="./guides/handbook.pdf">
-                    <img src="./preview/handbook.jpg" alt="">
+                <a href="./">
+                    <img src="./preview/default.png" alt="">
                 </a>
             </div>
             <div class="guide">
-                <a href="./guides/handbook.pdf">
-                    <img src="./preview/handbook.jpg" alt="">
+                <a href="./">
+                    <img src="./preview/default.png" alt="">
                 </a>
             </div>
             <div class="guide">
-                <a href="./guides/handbook.pdf">
-                    <img src="./preview/handbook.jpg" alt="">
+                <a href="./">
+                    <img src="./preview/default.png" alt="">
                 </a>
             </div>
             <div class="guide">
-                <a href="./guides/handbook.pdf">
-                    <img src="./preview/handbook.jpg" alt="">
+                <a href="./">
+                    <img src="./preview/default.png" alt="">
                 </a>
             </div>
         </div>

@@ -25,7 +25,7 @@
         <div id="cards">
             <div class="card">
                 <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
-                <h2>Shriku Shriram</h2><h3>Co-Chairperson</h3><br>
+                <h2>ShriKrishna Sriram</h2><h3>Co-Chairperson</h3><br>
                 <p>Available soon</p>
             </div>
             <div class="card">

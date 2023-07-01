@@ -30,7 +30,7 @@
                     Ishan is currently doing his under graduation in International Relations at Queen Mary University of London. He is a talented speaker and a MUNer who has participated in more than 50 conferences till date. He takes a special interest in international business and investments, and voices his opinions on global affairs in articles that have been published on the internet. When not preoccupied with international politics, Ishan watches Formula 1 and cooks rather proficiently. He looks forward to enriching debate and meeting you at the conference.</p>
             </div>
             <div class="card">
-                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Yuv.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Yuv Verdia</h2><h3>Vice Chairperson</h3><br>
                 <p>Yuv is a seasoned debater (I am writing this by the way), who has also been part of the Bengaluru and Hyderabad MUN circuits for the last four years. <br><br>
                     His thorough, often pedantic, research sets him apart in a committee, and has led him to top positions at international MUNs like Harvard MUN India, TISB MUN, SHMUN, etc. <br><br>

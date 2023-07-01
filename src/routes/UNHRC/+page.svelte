@@ -24,9 +24,10 @@
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">
-                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Karthik.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Karthik Vegasena</h2><h3>Co-Chairperson</h3><br>
-                <p>Available soon</p>
+                <p>Kartheek Vegesana is really experienced in dealing with human rights committees. He’s academically interested in Constitutional Law and it’s connection to Human Rights Law. He is really excited to be serving as an EB member for this year’s DPSHMUN’23 and looks forward to an exciting and fruitful debate.
+                </p>
             </div>
             <div class="card">
                 <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>

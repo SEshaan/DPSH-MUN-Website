@@ -38,7 +38,7 @@
             
             <div class="card">
                 <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
-                <h2>Coming soon</h2><h3>Committee Expert</h3><br>
+                <h2>Navya Sreya</h2><h3>Committee Expert</h3><br>
                 <p>Available soon</p>
             </div>
         </div>
