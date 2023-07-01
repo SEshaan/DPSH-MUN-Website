@@ -24,9 +24,9 @@
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">
-                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Avi.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Avi Kathpalia</h2><h3>Head of IP</h3><br>
-                <p>Available soon</p>
+                <p>Avi Kathpalia is currently a Media Studies student at Christ University, Bangalore as well as a freelance photographer. Alongside picking up his camera and wandering about the country, he keenly looks up to any and every story he can find around him. Having an overall experience of over 60 MUNs experiences, it brings him great pleasure to be back to DPSH for this year’s conference and is looking forward to it!</p>
             </div>
             <div class="card">
                 <img src="./EB/Aryan.jpg" alt=""><br><br>

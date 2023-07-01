@@ -24,19 +24,22 @@
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">
-                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
-                <h2>ShriKrishna Sriram</h2><h3>Co-Chairperson</h3><br>
-                <p>Available soon</p>
+                <img src="./EB/Shrikrishna.jpg" alt="" style="object-fit: contain;"><br><br>
+                <h2>Shrikrishna Sriram</h2><h3>Co-Chairperson</h3><br>
+                <p>Shrikrishna is a rising Junior at Duke University studying Data Science. Having attended Model UN conferences since he was in the 6th grade, they have in part shaped the person he is today. He can't wait to see everyone at DPSHMUN and promises to have great fun, thorough deliberations, and interesting conversations.
+                </p>
             </div>
             <div class="card">
-                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Gaurav.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Gaurav Pallod</h2><h3>Co-Chairperson</h3><br>
-                <p>Available soon</p>
+                <p>Gaurav Pallod is a rising junior at Duke University studying Math and Finance. DPSHMUN has always held a special place in his heart having been the Secretary General of it in 2020. He can't wait to come back and see everyone in DPS!
+                </p>
             </div>
             <div class="card">
                 <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
                 <h2>Ojas Arun</h2><h3>Committee Expert</h3><br>
-                <p>Available soon</p>
+                <p>Ojas Arun is a rising senior at Boston University studying Business and Data Analytics. MUNs have always been special to him and he can't wait to help bring that same magic to everyone at DPSHMUN this year!
+                </p>
             </div>
         </div>
     </div><br><br>
