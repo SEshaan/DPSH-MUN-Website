@@ -24,7 +24,7 @@
 {"Name": "Shweta Kraleti", "Image": "./SC/Shweta.JPG", "Designation": "Head of Conference Affairs"},
 {"Name": "Alekhya Ajay Kumar", "Image": "./SC/Alekhya.JPG", "Designation": "USG of Conference Affairs"},
 {"Name": "Sruti Boyapati", "Image": "./SC/Sruti.JPG", "Designation": "Head of Marketing"},
-{"Name": "Sri Sai Vyshnavi", "Image": "./SC/Vyshnavi.JPG", "Designation": "Head of Marketing & PR"},
+{"Name": "Sri Sai Vyshnavi", "Image": "./SC/Vyshnavi.JPG", "Designation": "Head of Marketing"},
 {"Name": "Prisha Pradhan", "Image": "./SC/Prisha.JPG", "Designation": "USG of Marketing"},
 {"Name": "Preethi Uyyuru", "Image": "./SC/Preethi (2).JPG", "Designation": "Head of Photography"},
 {"Name": "Gayatri Gorti", "Image": "./SC/Gayatri.JPG", "Designation": "USG of Photography"}
