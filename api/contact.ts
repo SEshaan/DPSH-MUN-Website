@@ -1,6 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 import db from './utils/database';
+import config from './static';
 
 //
 
@@ -20,7 +21,7 @@ type hCaptchaResponse = {
 	'error-codes': string[];
 };
 
-const hCaptchaSecret: string = process.env.CAPTCHA_SECRET ?? '';
+const hCaptchaSecret: string = config.hCaptchaToken ?? '';
 
 async function post(request: VercelRequest, response: VercelResponse): Promise<VercelResponse> {
 	try {
@@ -101,8 +102,6 @@ export default async (
 	switch (request.method?.toLowerCase()) {
 		case 'post':
 			return await post(request, response);
-		// case 'post':
-		// 	return await post(request, response);
 		default:
 			return response.status(404).json({
 				error: true,
