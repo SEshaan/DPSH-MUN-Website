@@ -1,103 +1,115 @@
 <html>
+	<body>
+		<div id="container" style="height: 100%; width: 100%"></div>
+	</body>
 
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+	<script src="./datamaps.world.hires.min.js"></script>
+	<script>
+		var map = new Datamap({
+			fill: '#ffffff',
+			element: document.getElementById('container'),
+			projection: 'mercator',
+			geographyConfig: {
+				borderColor: '#3f4f5e',
+				popupTemplate: function (geography, data) {
+					//this function should just return a string
+					if (!data.delegate) {
+						return '';
+					}
+					return (
+						'<div class="hoverinfo" style="font-family: \'Plus Jakarta Sans\', sans-serif;font-weight:600">' +
+						data.country +
+						' - ' +
+						data.delegate +
+						' - ' +
+						data.section +
+						'</div>'
+					);
+				}
+			},
+			fills: {
+				defaultFill: '#D0BEA8',
+				available: '#be965b'
+			}
+		});
 
-<body>
-    <div id="container" style="height: 100%; width: 100%;"></div>
-</body>
+		let codes;
+		const getCache = (commitee) => JSON.parse(sessionStorage?.getItem(commitee)) ?? null;
+		function updateCache({ com, data }) {
+			sessionStorage.setItem(com, JSON.stringify(data));
+			return data;
+		}
+		async function data_handler(committee) {
+			packed_data = {};
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
-<script src="./datamaps.world.hires.min.js"></script>
-<script>
+			var requestOptions = {
+				method: 'GET',
+				redirect: 'follow',
+				headers: {
+					'Content-Type': 'application/json'
+				}
+			};
 
+			if (!codes) codes = await fetch('./codes.json').then((r) => r.json());
+			com =
+				getCache(committee) ??
+				(await fetch(`api/allocations?c=${committee.toLowerCase()}`, requestOptions)
+					.then((r) => r.json())
+					.catch(console.error));
+			com.data.forEach((element) => {
+				if (!codes[element['Country'].trim()]) {
+					console.log(element);
+				}
+				packed_data[codes[element['Country'].trim()]] = {
+					delegate: element['Allocation'],
+					section: element['Section'],
+					country: element['Country'],
+					fillKey: 'available'
+				};
+			});
 
+			return packed_data;
+		}
 
-    var map = new Datamap({
-        fill: "#ffffff", element: document.getElementById('container'), projection: 'mercator',
-        geographyConfig: {
-            borderColor: "#3f4f5e",
-            popupTemplate: function (geography, data) { //this function should just return a string
-                if (!data.delegate) { return "" }
-                return '<div class="hoverinfo" style="font-family: \'Plus Jakarta Sans\', sans-serif;font-weight:600">' + data.country + " - " + data.delegate + " - " + data.section +'</div>';
-            }
-        }, fills: {
-            defaultFill: '#D0BEA8',
-            available: "#be965b"
-        },
-    });
+		class map_handler {
+			constructor() {
+				//Data loading and what not here
+				// this.data = {
+				//     "SC":{
+				//         USA: {
+				//             delegate:"Joe Biden",
+				//             fillkey:"available"
+				//         },
+				//         CAN:{
+				//             delegate:"Srinivas Confetti",
+				//             fillKey:"available"
+				//         },
+				//         HUN:{
+				//             delegate:"hungry guy",
+				//             fillkey:"available"
+				//         }
+				//     },
+				//     "DISEC":{
+				//         USA: {
+				//             delegate:"deez nuts"
+				//         },
+				//         CAN: '#0fa0fa'
+				//     }
+				// }
+			}
+			async data_update(committee) {
+				let x = await data_handler(committee);
+				map.updateChoropleth(x, { reset: true });
+			}
+		}
 
-    var codes = null
+		handler = new map_handler();
+		handler.data_update('disec');
 
-    async function data_handler(committee){
-        packed_data = {}
-        
-        var requestOptions = {
-                method: 'GET',
-                redirect: 'follow'
-        };
-        
-        if (!codes){
-            codes = await fetch("./codes.json").then((r) => {return r.json()})
-        }
-
-        
-        com = await fetch(("api/allocations?c=" + committee.toLowerCase()),requestOptions).then((r) => {return r.json()}).then((r) => {return r.data})
-        com.forEach(element => {
-            if (!codes[element['Country'].trim()]){console.log(element)}
-            packed_data[codes[element['Country'].trim()]] = {
-                delegate:element['Allocation'],
-                section:element['Section'],
-                country:element['Country'],
-                fillKey:"available"
-            }
-        });
-
-        return packed_data
-    }
-
-
-
-
-
-    class map_handler {
-        constructor() {
-            //Data loading and what not here
-            // this.data = {
-            //     "SC":{
-            //         USA: {
-            //             delegate:"Joe Biden",
-            //             fillkey:"available"
-            //         },
-            //         CAN:{
-            //             delegate:"Srinivas Confetti",
-            //             fillKey:"available"
-            //         },
-            //         HUN:{
-            //             delegate:"hungry guy",
-            //             fillkey:"available"
-            //         }
-            //     },
-            //     "DISEC":{
-            //         USA: {
-            //             delegate:"deez nuts"
-            //         },
-            //         CAN: '#0fa0fa'
-            //     }
-            // }
-        }
-        async data_update(committee) {
-            let x = await data_handler(committee)
-            map.updateChoropleth(x, { reset: true });
-        }
-
-    }
-
-    handler = new map_handler()
-    handler.data_update("disec")
-
-    window.addEventListener("message", (event) => {
-        handler.data_update(event.data)
-    });
-</script>
-
+		window.addEventListener('message', (event) => {
+			handler.data_update(event.data);
+		});
+	</script>
 </html>

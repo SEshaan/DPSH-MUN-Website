@@ -1,105 +1,105 @@
 <script>
-// @ts-nocheck
-
-	// @ts-ignore
-	import { json } from '@sveltejs/kit';
+	// @ts-nocheck
+	// import { json } from '@sveltejs/kit';
 	import { onMount } from 'svelte';
+
+	const allocationsMatrix =
+		'https://docs.google.com/spreadsheets/d/1Pl-6l-04mVm6uD-WBpsZzHh7EHtrDj1XxkguzIDywAs/';
 
 	onMount(() => {
 		var e = document.querySelector('#com_sel');
 		e?.addEventListener('change', () => {
-			// @ts-ignore
 			var text = e.value;
-			// @ts-ignore
 			document.getElementById('frame').contentWindow.postMessage(text, '*');
 		});
-
 		var f = document.querySelector('#tab_sel');
 		f?.addEventListener('change', () => {
-			// @ts-ignore
 			var text = f.value;
-			// @ts-ignore
-			current_row = rows[f.value]
-			load_com(text)
+			current_row = rows[f.value];
+			load_com(text);
 		});
-		load_com("disec")
+		load_com('disec');
 	});
 
 	var requestOptions = {
 		method: 'GET',
-		redirect: 'follow'
+		redirect: 'follow',
+		headers: {
+			'Content-Type': 'application/json'
+		}
 	};
 
-    /**
+	/**
 	 * @type {any[]}
 	 */
-    let committees = []
+	let committees = [];
 
-    /**
+	/**
 	 * @type {string}
 	 */
-    // @ts-ignore
-    var data;
+
+	var data;
 
 	/**
 	 * @param {string} x
 	 */
-	async function load_com(x){
-		// @ts-ignore
-	fetch('https://dpshmun.vercel.app/api/allocations?c='+x.toLowerCase(), requestOptions)
-		.then((response) => response.text())
-		// @ts-ignore
-		.then((result) => {data_update(JSON.parse(result))})
-		.catch((error) => console.log('error', error));
+	function load_com(x) {
+		if (getCache(x)) return data_update(getCache(x));
+		fetch(`/api/allocations?c=${x.toLowerCase()}`, requestOptions)
+			.then((res) => res.json())
+			.then(data_update)
+			.then((data) => updateCache({ com: x, data }))
+			.catch(console.error);
 	}
 
-    // @ts-ignore
-    function data_update(x){
-        // @ts-ignore
-        committees = x["data"]
-    }
+	const getCache = (commitee) => JSON.parse(sessionStorage?.getItem(commitee)) ?? null;
+	function updateCache({ com, data }) {
+		sessionStorage.setItem(com, JSON.stringify(data));
+		return data;
+	}
+	function data_update(x) {
+		committees = x['data'];
+		return x;
+	}
+
 	let rows = {
-		disec:{
-			labels:["S.No","Country","Delegate","Class"],
-			db_row:["id","Country","Allocation","Section"]
+		disec: {
+			labels: ['S.No', 'Country', 'Delegate', 'Class'],
+			db_row: ['id', 'Country', 'Allocation', 'Section']
 		},
-		unsc:{
-			labels:["S.No","Country","Delegate","Class"],
-			db_row:["id","Country","Allocation","Section"]
+		unsc: {
+			labels: ['S.No', 'Country', 'Delegate', 'Class'],
+			db_row: ['id', 'Country', 'Allocation', 'Section']
 		},
-		unhrc:{
-			labels:["S.No","Country","Delegate","Class"],
-			db_row:["id","Country","Allocation","Section"]
+		unhrc: {
+			labels: ['S.No', 'Country', 'Delegate', 'Class'],
+			db_row: ['id', 'Country', 'Allocation', 'Section']
 		},
-		nato:{
-			labels:["S.No","Country","Delegate","Class"],
-			db_row:["id","Country","Allocation","Section"]
+		nato: {
+			labels: ['S.No', 'Country', 'Delegate', 'Class'],
+			db_row: ['id', 'Country', 'Allocation', 'Section']
 		},
-		imf:{
-			labels:["S.No","Country","Delegate","Class"],
-			db_row:["id","Country","Allocation","Section"]
+		imf: {
+			labels: ['S.No', 'Country', 'Delegate', 'Class'],
+			db_row: ['id', 'Country', 'Allocation', 'Section']
 		},
-		lk:{
-			labels:["S.No","Leader","Party","Name","Section"],
-			db_row:["id","politician","Party","Allocation","Section"]
+		lk: {
+			labels: ['S.No', 'Leader', 'Party', 'Name', 'Section'],
+			db_row: ['id', 'politician', 'Party', 'Allocation', 'Section']
 		},
-		ip:{
-			labels:["S.No","Committee","Name","Section"],
-			db_row:["id","Committee","Allocation","Section"]
+		ip: {
+			labels: ['S.No', 'Committee', 'Name', 'Section'],
+			db_row: ['id', 'Committee', 'Allocation', 'Section']
 		}
-	}
+	};
 
-	let current_row = rows['disec']
-
+	let current_row = rows['disec'];
 </script>
 
 <br />
 <div id="🧐">
 	<h1>Allocations</h1>
-	<a
-		href="https://docs.google.com/spreadsheets/d/1Pl-6l-04mVm6uD-WBpsZzHh7EHtrDj1XxkguzIDywAs/edit?usp=sharing"
-		>View Allocations Matrix →</a
-	><br />
+	<a href={allocationsMatrix}>View Allocations Matrix →</a><br />
 	<br />
 	<select name="" id="com_sel">
 		<option value="disec" id="disec">DISEC</option>
@@ -124,19 +124,13 @@
 		assignment process, allowing participants to easily identify their roles and responsibilities.
 	</p>
 	<br />
-	<a
-		href="https://docs.google.com/spreadsheets/d/1Pl-6l-04mVm6uD-WBpsZzHh7EHtrDj1XxkguzIDywAs/edit?usp=sharing"
-		style="font-size: larger;"
-	>
-		View Allocations Matrix →</a
-	>
+	<a href={allocationsMatrix} style="font-size: larger;"> View Allocations Matrix →</a>
 </div>
 
 <div id="list">
 	<h1>Allocations List</h1>
 	<br />
 	<select name="" id="tab_sel">
-		
 		<option value="disec" id="disec">DISEC</option>
 		<option value="unsc" id="sc">SC</option>
 		<option value="unhrc">UNHRC</option>
@@ -147,9 +141,21 @@
 	</select><br /><br />
 	<table>
 		<tbody>
-			<tr class="head"><th>{current_row["labels"][0]}</th><th>{current_row["labels"][1]}</th><th>{current_row["labels"][2]}</th><th>{current_row["labels"][3]}</th>{#if current_row["labels"][4]}<th>{current_row["labels"][4]}</th>{/if}</tr>
+			<tr class="head"
+				><th>{current_row['labels'][0]}</th><th>{current_row['labels'][1]}</th><th
+					>{current_row['labels'][2]}</th
+				><th>{current_row['labels'][3]}</th>{#if current_row['labels'][4]}<th
+						>{current_row['labels'][4]}</th
+					>{/if}</tr
+			>
 			{#each committees as i}
-				<tr><td>{i[current_row.db_row[0]]}</td><td>{i[current_row.db_row[1]]}</td><td>{i[current_row.db_row[2]]}</td><td>{i[current_row.db_row[3]]}</td>{#if current_row.db_row[4]}<td>{i[current_row.db_row[4]]}</td>{/if}</tr>
+				<tr
+					><td>{i[current_row.db_row[0]]}</td><td>{i[current_row.db_row[1]]}</td><td
+						>{i[current_row.db_row[2]]}</td
+					><td>{i[current_row.db_row[3]]}</td>{#if current_row.db_row[4]}<td
+							>{i[current_row.db_row[4]]}</td
+						>{/if}</tr
+				>
 			{/each}
 		</tbody>
 	</table>
