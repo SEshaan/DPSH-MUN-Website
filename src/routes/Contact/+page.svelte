@@ -106,6 +106,7 @@
 		border-bottom: solid #be965b 1px;
 		width: 95%;
 		height: 25px;
+		color: #d0bea8;
 	}
 	#con textarea {
 		background: none;
