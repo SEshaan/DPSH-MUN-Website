@@ -1,14 +1,15 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 import db from './utils/database';
-import { redisGet, redisGetKeys, redisSet } from './_functions';
+// import { redisGet, redisGetKeys, redisSet } from './_functions';
 
 //
 
 async function get(request: VercelRequest, response: VercelResponse): Promise<VercelResponse> {
 	const committeeList = ['disec', 'unsc', 'unhrc', 'lk', 'imf', 'nato', 'ip'];
 	try {
-		const { c, nocache } = request.query; // nocache should bypass redis
+		const { c } = request.query; // nocache should bypass redis
+		const nocache = 1; // bypasses redis
 		if (!c)
 			return response.status(400).json({
 				error: false,
