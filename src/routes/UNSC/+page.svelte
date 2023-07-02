@@ -40,7 +40,7 @@
             </div>
             <div class="card">
                 <img src="./EB/Minnila.jpeg" alt=""><br><br>
-                <h2>Mnnila Nalluri</h2><h3>Committee Expert</h3><br>
+                <h2>Minnila Nalluri</h2><h3>Committee Expert</h3><br>
                 <p>While doing her 11th grade at Gaudium International School, Minnila has delegated at over 15 MUNs since her 10th grade. Rather than being known as Minnila, she’s always been known as the delegate of Canada. She enjoys the heated debates as well as the small talks during the unmods. She is looking forward to meeting you all at the MUN!</p>
             </div>
         </div>
