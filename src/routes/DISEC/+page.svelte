@@ -37,9 +37,10 @@
             </div>
             
             <div class="card">
-                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Navya.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Navya Sreya</h2><h3>Committee Expert</h3><br>
-                <p>Available soon</p>
+                <p>Navya sreya is an alumni of DPSH and is  going to study  economics and finance at the University of Leeds. She loves to read about geopolitics and economics, and occasionally a romance novel.She has been in several MUNs as a delegate, but this will be her first time as a committee expert. She has previously won best delegate the Cambridge MUN, SGIAMUN to name a few and can write pretty savvy position paper :)
+                </p>
             </div>
         </div>
     </div><br><br>

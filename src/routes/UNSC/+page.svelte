@@ -31,12 +31,8 @@
             </div>
             <div class="card">
                 <img src="./EB/Yuv.jpg" alt="" style="object-fit: contain;"><br><br>
-                <h2>Yuv Verdia</h2><h3>Vice Chairperson</h3><br>
-                <p>Yuv is a seasoned debater (I am writing this by the way), who has also been part of the Bengaluru and Hyderabad MUN circuits for the last four years. <br><br>
-                    His thorough, often pedantic, research sets him apart in a committee, and has led him to top positions at international MUNs like Harvard MUN India, TISB MUN, SHMUN, etc. <br><br>
-                    Yuv is a sharp listener, and also highly approachable, so he will be prompt in pointing out the loopholes in your speeches, but also be very glad to help you out in fixing those gaps.
-                    Apart from public speaking, you will mostly find Yuv buried in a Dan Brown novel (all Robert Langdon references are welcome!), or breaking his head (literally) over a math problem.
-                    </p>
+                <h2>Coming Soon</h2><h3>Vice Chairperson</h3><br>
+                <p>Available Soon</p>
             </div>
             <div class="card">
                 <img src="./EB/Minnila.jpeg" alt=""><br><br>

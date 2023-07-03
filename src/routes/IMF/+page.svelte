@@ -29,9 +29,14 @@
                 <p>Nikhil is currently pursuing a B.Tech degree in Computer Science. Having surmounted invaluable debate and public speaking experience throughout his MUN journey - spanning over 13 conferences in the capacity as a delegate, EB, and secretariat member - he believes that MUNs provide a platform for students to build on social qualities that help them tackle the obstacles we all face in life. He looks forward to being a part of the Executive Board for this year's edition of DPSHMUN, hoping to deliver an enjoyable conference experience.</p>
             </div>
             <div class="card">
-                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Tejas.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Tejas Rama</h2> <h3>Co-Chairperson</h3><br>
-                <p>Available soon</p>
+                <p>Tejas is an incoming freshman at Boston University, intending to major in finance and entrepreneurship. He is elated to get the opportunity to serve as a co-chairperson for IMF and be back on campus again. 
+                    <br><br>
+                    Coming from a vast experience of debates, MUNs, and national-level quizzing, he has honed his skills over the years. Specializing in topics such as global security and finance, he yearns to bring knowledge to the committee. He aims to create a friendly environment within the committee to let delegates have the freedom to express their views without the fear of public speaking or holding themselves back. 
+                    <br><br>
+                    In his free time, you can catch him watching football endlessly and analyzing matches, vibing to music by FINNEAS and The 1975, or re-watching The Office for the 20th time.
+                    </p>
             </div>
             <div class="card">
                 <img src="./EB/Srikar.jpg" alt=""><br><br>
