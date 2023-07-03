@@ -39,6 +39,7 @@
 	"type": "module",
 	"dependencies": {
 		"@prisma/client": "^4.15.0",
+		"@upstash/redis": "^1.22.0",
 		"datamaps": "^0.5.9"
 	}
 }

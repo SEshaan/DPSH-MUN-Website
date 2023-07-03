@@ -1,4 +1,5 @@
 <script>
+	//@ts-nocheck
 	import { onMount } from 'svelte';
 
 	let d1 = new Date('2023-07-22');
@@ -9,8 +10,7 @@
 	/**
 	 * @type {string}
 	 */
-	// @ts-ignore
-	// @ts-ignore
+
 	let months = '00';
 	/**
 	 * @type {string | any[]}
@@ -30,7 +30,6 @@
 	let seconds = '00';
 	setInterval(() => {
 		date = new Date();
-		// @ts-ignore
 		countdown = new Date(d1 - date).getTime();
 		days = Math.floor(countdown / (1000 * 60 * 60 * 24)).toString();
 		hours = Math.floor((countdown % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString();
@@ -51,7 +50,6 @@
 		}
 	}, 100);
 
-	// @ts-ignore
 	let announcements = [{ date: '12/12/12', title: 'Delegate registrations are open' }];
 
 	let commities = ['DISEC', 'NATO', 'UNSC', 'UNHRC', 'LK', 'IMF', 'IP'];
@@ -59,24 +57,22 @@
 	/**
 	 * @param {Number} x
 	 */
-	// @ts-ignore
+
 	function move(x) {
 		if (status + x < 0) {
 			status = commities.length;
 		}
 		status = (status + x) % commities.length;
-		// @ts-ignore
-		document.getElementById('poster').src = './committees/' + commities[status] + '.jpg';
+		document.getElementById('poster').src = `./committees/${commities[status]}.jpg'`;
 	}
 
 	onMount(() => {
 		const scrollableElement = document.querySelector('#committiees');
-		// @ts-ignore
+
 		scrollableElement.addEventListener('wheel', (event) => {
 			event.preventDefault();
-			// @ts-ignore
+
 			scrollableElement.scrollBy({
-				// @ts-ignore
 				left: event.deltaY * 3,
 				behavior: 'smooth'
 			});
@@ -90,7 +86,7 @@
 
 <div id="😲">
 	<div id="Title" style="font-weight: 300;">
-		<h6 style="font-weight: 100;">Debate•Discuss•Deliberate</h6>
+		<h6 style="font-weight: 100;">Debate • Discuss • Deliberate</h6>
 		<h3>Delhi Public School, Hyderabad</h3>
 		Model United Nations<br /> 2023-24<br />
 	</div>
@@ -131,7 +127,7 @@
 		<div id="lettercont">
 			<img src="./SC/letter.JPG" alt="" id="letterimg" />
 			<p>
-				<br><br>
+				<br /><br />
 				Dear Dipsites and honorable Delegates,<br /><br />
 				It gives me immense pleasure to welcome all the esteemed participants to yet another edition
 				of the Delhi Public School Model United Nations 2023 (DPSHMUN'23). Irrespective of the number
@@ -202,13 +198,11 @@
 		<div id="committiees">
 			<div id="comhold">
 				{#each commities as com}
-					
-						<div id="img">
-							<a href="./{com}">
+					<div id="img">
+						<a href="./{com}">
 							<img id="poster" src="./committees/{com}.jpg" alt="" />
 						</a>
-						</div>
-					
+					</div>
 				{/each}
 			</div>
 		</div>
@@ -217,56 +211,76 @@
 	<br />
 
 	<div id="FAQs">
-		<h1 style="font-size:xxx-large">FAQs</h1><br>
+		<h1 style="font-size:xxx-large">FAQs</h1>
+		<br />
 		<ul>
 			<li>
-				<h3>Will there be any help or technical guidance provided?</h3><br>
-				<span>Yes, as part of our training sessions, we will discuss how the committee would operate and what the effective Rules of Procedure (ROP) would stand at. We look forward to meeting you there! 
-					<br><br>Additionally, we have already released a Delegate Handbook that aims to aid you with general navigation through the committee. 
+				<h3>Will there be any help or technical guidance provided?</h3>
+				<br />
+				<span
+					>Yes, as part of our training sessions, we will discuss how the committee would operate
+					and what the effective Rules of Procedure (ROP) would stand at. We look forward to meeting
+					you there!
+					<br /><br />Additionally, we have already released a Delegate Handbook that aims to aid
+					you with general navigation through the committee.
 				</span>
 			</li>
-			<br>
+			<br />
 			<li>
-				<h3>How do we prepare for the conference?</h3><br>
-				<span> Pre-conference preparation majorly consists of research. Analysis and understanding of the agenda at hand play a major role in this. Background Guides that will be released by the said committee will provide you with a foundation to initiate your research. For further tips on preparation please refer to the "Tips & tricks to secure awards at DPSHMUN’23” section of the delegate Handbook. 
-
-				</span>
-			</li>
-			<br>
-			<li>
-				<h3>What is the dress code for the conference?</h3><br>
+				<h3>How do we prepare for the conference?</h3>
+				<br />
 				<span>
-					DPSHMUN’23 strives to ensure professionalism in all aspects of the conference; hence delegates are expected to adhere to a dress code throughout the 2 days. If you are a member of the Lok Sabha, traditionals are compulsory on both days. Jeans, cargo pants, hats, caps, skirts with inappropriate length and other indecent clothing
-					are strictly prohibited <br><br>
-					Day 1: Western Business Attire <br>
-					Day 2: Indian Traditional Attire <br>
-					
+					Pre-conference preparation majorly consists of research. Analysis and understanding of the
+					agenda at hand play a major role in this. Background Guides that will be released by the
+					said committee will provide you with a foundation to initiate your research. For further
+					tips on preparation please refer to the "Tips & tricks to secure awards at DPSHMUN’23”
+					section of the delegate Handbook.
 				</span>
 			</li>
-			<br>
+			<br />
 			<li>
-				<h3>When will the allocations be released?</h3><br>
-				<span> The allocations will be released sometime in the week, and you will be notified on both GCR and allocations will also be posted on the softboard.
- 
+				<h3>What is the dress code for the conference?</h3>
+				<br />
+				<span>
+					DPSHMUN’23 strives to ensure professionalism in all aspects of the conference; hence
+					delegates are expected to adhere to a dress code throughout the 2 days. If you are a
+					member of the Lok Sabha, traditionals are compulsory on both days. Jeans, cargo pants,
+					hats, caps, skirts with inappropriate length and other indecent clothing are strictly
+					prohibited <br /><br />
+					Day 1: Western Business Attire <br />
+					Day 2: Indian Traditional Attire <br />
 				</span>
 			</li>
-			<br>
+			<br />
 			<li>
-				<h3>What would be the timing of the conference?</h3><br>
-				<span>The conference timings will be the same as the school timings  (7:45-2:30)
+				<h3>When will the allocations be released?</h3>
+				<br />
+				<span>
+					The allocations will be released sometime in the week, and you will be notified on both
+					GCR and allocations will also be posted on the softboard.
 				</span>
 			</li>
-			<br>
+			<br />
 			<li>
-				<h3>Is there a payment that is to be made?</h3><br>
-				<span>No, the conference is free for all DPSH students. 
-
-				</span>
+				<h3>What would be the timing of the conference?</h3>
+				<br />
+				<span>The conference timings will be the same as the school timings (7:45-2:30) </span>
 			</li>
-			<br>
+			<br />
 			<li>
-				<h3>What are the ideal criterias for a delegate to win an award?</h3><br>
-				<span>Every delegate who participates can’t win an award however, it is certain that the award goes to those who speak, provide a substantial debate and also have the ability to influence and move the committee. Besides that, participation certificates will be provided to everyone who attends both the days of the conference.
+				<h3>Is there a payment that is to be made?</h3>
+				<br />
+				<span>No, the conference is free for all DPSH students. </span>
+			</li>
+			<br />
+			<li>
+				<h3>What are the ideal criterias for a delegate to win an award?</h3>
+				<br />
+				<span
+					>Every delegate who participates can’t win an award however, it is certain that the award
+					goes to those who speak, provide a substantial debate and also have the ability to
+					influence and move the committee. Besides that, participation certificates will be
+					provided to everyone who attends both the days of the conference.
 				</span>
 			</li>
 		</ul>
@@ -274,22 +288,22 @@
 </div>
 
 <style>
-	#FAQs{
+	#FAQs {
 		padding: 5%;
 	}
-	#FAQs h3{
+	#FAQs h3 {
 		font-size: x-large;
 	}
-	#letterimg{
-		aspect-ratio:3/4;
+	#letterimg {
+		aspect-ratio: 3/4;
 		height: auto;
-		width:80%;
+		width: 80%;
 		margin: auto;
 		object-fit: cover;
 	}
-	#lettercont{
-		display:flex;
-		justify-content:space-evenly;
+	#lettercont {
+		display: flex;
+		justify-content: space-evenly;
 		flex-direction: column;
 	}
 	#letter {
@@ -390,7 +404,7 @@
 		color: white;
 		font-size: xx-large;
 		text-align: center;
-		text-shadow: 2px 2px 16px rgba(0,0,0,0.75);
+		text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.75);
 	}
 
 	#Content {
@@ -435,11 +449,11 @@
 	}
 
 	@media (min-width: 600px) {
-		#letterimg{
+		#letterimg {
 			width: 45%;
 			margin: initial;
 		}
-		#lettercont{
+		#lettercont {
 			flex-direction: row;
 			font-size: large;
 		}
