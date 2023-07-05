@@ -264,7 +264,7 @@
 			<li>
 				<h3>What would be the timing of the conference?</h3>
 				<br />
-				<span>The conference timings will be the same as the school timings (7:45-2:30) </span>
+				<span>Itenary will be released soon.</span>
 			</li>
 			<br />
 			<li>
