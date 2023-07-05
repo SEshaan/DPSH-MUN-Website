@@ -16,7 +16,7 @@
 
     <div id="agenda">
         <h1>Agenda</h1><br>
-        <p style="text-align: center;">Deliberating on the obstacles confronting States affected by conflict and exploring strategies to foster economic stability and growth in these regions
+        <p style="text-align: center;">Analyzing the difficulties confronting States affected by conflict and proposing measures to foster economic stability and growth in these regions
         </p>
     </div>
     <br><hr><br>

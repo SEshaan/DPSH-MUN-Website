@@ -16,7 +16,8 @@
 
     <div id="agenda">
         <h1>Agenda</h1><br>
-        <p>Analysing and Understanding the demand for Marriage Equality and creating a global framework</p>
+        <p>Deliberating on a peaceful resolution to Russia’s invasion of Ukraine with attention on possible proliferation of WMDs
+        </p>
     </div>
     <br><hr><br>
 

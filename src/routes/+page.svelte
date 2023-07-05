@@ -257,8 +257,7 @@
 				<h3>When will the allocations be released?</h3>
 				<br />
 				<span>
-					The allocations will be released sometime in the week, and you will be notified on both
-					GCR and allocations will also be posted on the softboard.
+					The allocations can be found at <a href="./Allocations" style="color: #d0bea8;">Allocations</a>
 				</span>
 			</li>
 			<br />
