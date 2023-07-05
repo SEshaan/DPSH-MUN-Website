@@ -99,7 +99,8 @@
 <br />
 <div id="🧐">
 	<h1>Allocations</h1>
-	<a href={allocationsMatrix}>View Allocations Matrix →</a><br />
+	<!-- <p style="color: #d0bea8;">Please scroll down to view allocations for Lok Sabha and International Press (IP)</p> -->
+	<p style="color: #d0bea8;">Lok Sabha and International Press (IP) can be found <a href="#list">here</a></p>
 	<br />
 	<select name="" id="com_sel">
 		<option value="disec" id="disec">DISEC</option>

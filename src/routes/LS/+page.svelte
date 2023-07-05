@@ -36,11 +36,10 @@
                 </p>
             </div>
             <div class="card">
-                <img src="./EB/Yamini.jpg" alt="" style="object-fit: contain;"><br><br>
-                <h2>Yamini Tumu</h2><h3>Committee Expert</h3><br>
-                <p>In addition to engaging in thoughtful discussions about geopolitics and the global economy, Yamini immerses herself in pursuing & propagating Indian culture with a passion for Kuchipudi and Veena. Recognising her fondness for debating, she has attended a couple of MUNs with a particular interest in committees addressing humanitarian issues. Currently a high school junior, Yamini wishes to pursue foreign relations and/or economics. She strongly believes in learning from history and time-tested cultures. K-Ballad, R&B and Webtoons are on the long list of things she relaxes with.
-                    <br><br>
-                    She is looking forward to hosting this year’s conference as the Committee Expert!
+                <img src="./EB/Ishan.jpg" alt="" style="object-fit: contain;"><br><br>
+                <h2>Ishan Bhasin</h2><h3>Committee Expert</h3><br>
+                <p>Ishan is excited to be a part of the executive board of the Lok Sabha. A Physics and CS major with a love for race cars and fighter jets, he can't wait to experience the intense debate the committee is so well known for, and he wishes everyone the best of luck.
+
                     </p>
             </div>
         </div>
