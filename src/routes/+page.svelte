@@ -150,6 +150,7 @@
 				So, join us this July and get to experience this yourself. I and the team cannot wait to host
 				you all at the DPSHMUN'23. <br /><br />
 				Sincerely,<br />
+				<img src="./Signature.png" alt="" style="aspect-ratio:3/2;object-fit:cover"><br>
 				Dhruv B Nair <br />
 				Secretary General, DPSHMUN'23
 				<br /><br />

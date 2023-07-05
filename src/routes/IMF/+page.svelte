@@ -16,7 +16,8 @@
 
     <div id="agenda">
         <h1>Agenda</h1><br>
-        <p style="text-align: center;">Coming Soon</p>
+        <p style="text-align: center;">Deliberating on the obstacles confronting States affected by conflict and exploring strategies to foster economic stability and growth in these regions
+        </p>
     </div>
     <br><hr><br>
 
@@ -41,7 +42,8 @@
             <div class="card">
                 <img src="./EB/Srikar.jpg" alt=""><br><br>
                 <h2>Sai Srikar</h2><h3>Committee Expert</h3><br>
-                <p>Available soon</p>
+                <p>Srikar is a Grade 11 student at Delhi Public School, Hyderabad. He wholeheartedly believes that simply attending numerous MUN conferences is not nearly as important as what you learn from them. Despite being quite new to the Hyderabad circuit, he has found the debate in MUN conferences to be quite intriguing and sometimes even exciting. He wishes all the delegates the best of luck in their research and hopes to see well-researched and fruitful debate at the conference
+                </p>
             </div>
         </div>
     </div><br><br>

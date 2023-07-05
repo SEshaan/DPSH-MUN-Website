@@ -16,7 +16,8 @@
 
     <div id="agenda">
         <h1>Agenda</h1><br>
-        <p>Coming Soon</p>
+        <p>Countering Russian Aggression in Eastern Europe
+        </p>
     </div>
     <br><hr><br>
 

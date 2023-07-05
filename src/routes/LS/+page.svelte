@@ -16,7 +16,7 @@
 
     <div id="agenda">
         <h1>Agenda</h1><br>
-        <p>Coming Soon</p>
+        <p>Promulgation of Bill for Uniform Civil Code</p>
     </div>
     <br><hr><br>
 

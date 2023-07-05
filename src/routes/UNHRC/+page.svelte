@@ -16,7 +16,7 @@
 
     <div id="agenda">
         <h1>Agenda</h1><br>
-        <p>Coming Soon</p>
+        <p>Analysing and Understanding the demand for Marriage Equality and creating a global framework</p>
     </div>
     <br><hr><br>
 

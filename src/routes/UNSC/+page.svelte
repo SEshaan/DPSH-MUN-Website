@@ -16,7 +16,7 @@
 
     <div id="agenda">
         <h1>Agenda</h1><br>
-        <p>Coming Soon</p>
+        <p>Analysing and Understanding the demand for Marriage Equality and creating a global framework</p>
     </div>
     <br><hr><br>
 
@@ -30,9 +30,10 @@
                     Ishan is currently doing his under graduation in International Relations at Queen Mary University of London. He is a talented speaker and a MUNer who has participated in more than 50 conferences till date. He takes a special interest in international business and investments, and voices his opinions on global affairs in articles that have been published on the internet. When not preoccupied with international politics, Ishan watches Formula 1 and cooks rather proficiently. He looks forward to enriching debate and meeting you at the conference.</p>
             </div>
             <div class="card">
-                <img src="./EB/Yuv.jpg" alt="" style="object-fit: contain;"><br><br>
-                <h2>Coming Soon</h2><h3>Vice Chairperson</h3><br>
-                <p>Available Soon</p>
+                <img src="./EB/Vetali.jpg" alt="" style="object-fit: contain;"><br><br>
+                <h2>Vetali Machavarapu</h2><h3>Vice Chairperson</h3><br>
+                <p>Vetali Machavrapu is a student of Grade 12 CBSE at Oakridge International School, studying biology, physics, chemistry, psychology and english. She has been a passionate and active MUNer as a delegate, an IP member and as a part of the secretariat for over half of a decade. Vetali is an avid reader and a theater nerd. You might find her walking down corridors humming tunes from her favorite musicals. She also loves to engage in debate with her friends about everything from the latest marvel content to global issues and conflicts. All in all, Vetali believes that MUNs are a great way for young minds to inculcate values of research, critical thinking and problem solving. They provide a platform for students to debate and understand issues that are relevant in the world we live in today. She has no doubt that MUNs provide a learning experience like no other and will strive to make this experience a fulfilling one.
+                </p>
             </div>
             <div class="card">
                 <img src="./EB/Minnila.jpeg" alt=""><br><br>
