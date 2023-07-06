@@ -143,7 +143,7 @@
 		<option value="imf">IMF</option>
 		<option value="nato">NATO</option>
 		<option value="ip">IP</option>
-		<option value="lk">LK</option>
+		<option value="lk">LS</option>
 	</select>
 	<table>
 		<tbody>

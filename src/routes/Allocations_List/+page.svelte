@@ -104,7 +104,7 @@ let current_row = rows['disec'];
     <h1>Allocations: IP and Lok Sabha</h1>
 <select name="" id="tab_sel">
     <option value="ip">IP</option>
-    <option value="lk">LK</option>
+    <option value="lk">LS</option>
 </select>
 </div>
 <br /><br />
