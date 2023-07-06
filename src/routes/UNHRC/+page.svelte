@@ -37,7 +37,7 @@
             <div class="card">
                 <img src="./EB/Jaynay.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Jayany Nunna</h2><h3>Committee Expert</h3><br>
-                <p>
+                <p>Introducing our Committee Expert for UNHRC, Jayany Nunna. She is known for her expertise in participatory planning, training, action research and volunteer work. Over the last several years of her experience, she has worked as team leaders of several projects on education, sanitation, women empowerment and sustainable development. Following the mantra of "The best way to predict the future is to create it", Jayany has never shyd away from hard work and promises to make excuses but to make results. Jayany, being a part of the MUN circuit since 2020 and having served as Charge’d Affairs for the previous edition of DPSHMUN understands the difficulties around organising a conference of this scale and is prepared to be as flexible as possible to ensure delegates have the best time.
                     </p>    
                 </div>
         </div>
