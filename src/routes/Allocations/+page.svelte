@@ -100,7 +100,7 @@
 <div id="🧐">
 	<h1>Allocations</h1>
 	<!-- <p style="color: #d0bea8;">Please scroll down to view allocations for Lok Sabha and International Press (IP)</p> -->
-	<p style="color: #d0bea8;">Lok Sabha and International Press (IP) can be found <a href="#list">here</a></p>
+	<p style="color: #d0bea8;">Lok Sabha and International Press (IP) can be found <a href="#list">here</a> <br> <b><i>Hover on countries to see allocations</i></b></p>
 	<br />
 	<select name="" id="com_sel">
 		<option value="disec" id="disec">DISEC</option>
