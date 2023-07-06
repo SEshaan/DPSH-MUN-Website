@@ -124,3 +124,68 @@ let current_row = rows['disec'];
         {/each}
     </tbody>
 </table>
+
+<style>
+    table {
+		width: 90vw;
+		margin: auto;
+		text-align: center;
+		color: #d0bea8;
+	}
+	.head {
+		font-size: x-large;
+		font-weight: 600;
+	}
+	#list {
+		padding: 0% 5% 5% 5%;
+	}
+	#Matrix {
+		padding: 5%;
+	}
+	#Matrix p {
+		text-align: justify;
+		font-size: large;
+	}
+	h1 {
+		color: #d0bea8;
+		font-size: xxx-large;
+	}
+	#🧐 {
+		margin-left: 5vw;
+	}
+	a {
+		text-decoration: underline;
+		color: #d0bea8;
+	}
+	#com_sel,
+	#tab_sel {
+		font-size: large;
+		border-radius: 5px;
+	}
+	#frame {
+		width: 100%;
+		height: 100%;
+	}
+	.frame {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		aspect-ratio: 2/1;
+		width: 75vw;
+		margin: auto;
+		overflow: visible;
+	}
+	@media (max-width: 600px) {
+		iframe {
+			width: 150vw !important;
+		}
+		.frame {
+			display: block;
+			overflow-x: scroll;
+		}
+		.frame {
+			height: 50vh;
+			width: 100vw;
+		}
+	}
+</style>
