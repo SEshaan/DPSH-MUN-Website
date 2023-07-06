@@ -136,7 +136,7 @@
 <div id="list">
 	<h1>Allocations List</h1>
 	<br />
-	<select name="" id="tab_sel">
+	<select name="" id="tab_sel" style="display:none">
 		<option value="disec" id="disec">DISEC</option>
 		<option value="unsc" id="sc">SC</option>
 		<option value="unhrc">UNHRC</option>
@@ -144,7 +144,7 @@
 		<option value="nato">NATO</option>
 		<option value="ip">IP</option>
 		<option value="lk">LK</option>
-	</select><br /><br />
+	</select>
 	<table>
 		<tbody>
 			<tr class="head"
