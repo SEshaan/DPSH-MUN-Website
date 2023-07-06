@@ -9,7 +9,7 @@
             <img src="./committees_logos/imf.png" alt="">
         </div>
         <div id="info">
-            <h1>International Montary Fund</h1><br>
+            <h1>International Monetary Fund</h1><br>
             <p>Holding the regard of a fundamental post-WW2 institution, the IMF aims to promote global macroeconomic and financial stability by providing policy advice and capacity development support to help countries build and maintain strong economies. It provides short- and medium-term loans to help countries that are experiencing balance of payments problems and difficulty meeting international payment obligations</p>
         </div>
     </div>

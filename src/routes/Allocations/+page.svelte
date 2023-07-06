@@ -12,6 +12,7 @@
 			var text = e.value;
 			document.getElementById('frame').contentWindow.postMessage(text, '*');
 			load_com(text);
+			e.value=text
 		});
 		var f = document.querySelector('#tab_sel');
 		f?.addEventListener('change', () => {
