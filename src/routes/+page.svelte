@@ -495,4 +495,9 @@
 			padding: 0 15% 0 15%;
 		}
 	}
+	@media (max-width:600px){
+		.pair h2{
+			font-size: medium;
+		}
+	}
 </style>
