@@ -43,7 +43,7 @@ This book pdf is especially useful and recommended for those who have just start
         </div>
     </div><br>
 
-    <div id="bgguides">
+    <!-- <div id="bgguides">
         <h1 class="heading">Background Guides</h1><br>
         <div id="guides">
             <div class="guide">
@@ -77,7 +77,7 @@ This book pdf is especially useful and recommended for those who have just start
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div id="links">
         <h1>Links</h1> <br>
