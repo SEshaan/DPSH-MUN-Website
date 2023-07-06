@@ -68,14 +68,17 @@
 
 	onMount(() => {
 		const scrollableElement = document.querySelector('#committiees');
-
+		let scrolling = false
 		scrollableElement.addEventListener('wheel', (event) => {
+			if (scrolling){return}
 			event.preventDefault();
 
 			scrollableElement.scrollBy({
 				left: event.deltaY * 3,
 				behavior: 'smooth'
 			});
+			scrolling = true
+			setTimeout(() => {scrolling = false},20)
 		});
 	});
 </script>
@@ -487,6 +490,9 @@
 		#letter p {
 			width: 45%;
 			margin: initial;
+		}
+		#FAQs{
+			padding: 0 15% 0 15%;
 		}
 	}
 </style>
