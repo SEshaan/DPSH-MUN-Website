@@ -38,8 +38,8 @@
                 <img src="./EB/Jaynay.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Jayany Nunna</h2><h3>Committee Expert</h3><br>
                 <p>
-                    Meet Jaynay, a formidable force in the world of Model United Nations (MUN). With her sharp intellect, exceptional diplomatic skills, and unwavering passion for global affairs, Jaynay commands attention and respect. Her confident presence, strategic mindset, and persuasive rhetoric make her a natural leader and a masterful negotiator. Jaynay's dedication to research and preparation, coupled with her empathetic nature, allow her to understand diverse perspectives and advocate for positive change. With a trail of accolades behind her, Jaynay stands as an inspiration to aspiring delegates and a true powerhouse in the realm of MUN.</p>
-            </div>
+                    </p>    
+                </div>
         </div>
     </div><br><br>
 
