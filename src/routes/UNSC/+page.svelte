@@ -43,7 +43,7 @@
             </div>
         </div>
     </div><br><br>
-
+<!-- 
     <h1 id="bgtitle">Background Guide</h1>
     <div id="bgguide">
         
@@ -55,7 +55,7 @@
         <div id="preview">
             <img src="./preview/default.png" alt="">
         </div>
-    </div>
+    </div> -->
     
     <div id="links" class="unavailable">
         <h1>Links</h1>

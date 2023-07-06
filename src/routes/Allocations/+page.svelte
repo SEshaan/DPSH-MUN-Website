@@ -11,12 +11,16 @@
 		e?.addEventListener('change', () => {
 			var text = e.value;
 			document.getElementById('frame').contentWindow.postMessage(text, '*');
+			load_com(text);
 		});
 		var f = document.querySelector('#tab_sel');
 		f?.addEventListener('change', () => {
 			var text = f.value;
 			current_row = rows[f.value];
 			load_com(text);
+			if (text in ["disec","sc","unhrc","nato","imf"]){
+				document.getElementById('frame').contentWindow.postMessage(text, '*');
+			}
 		});
 		load_com('disec');
 	});

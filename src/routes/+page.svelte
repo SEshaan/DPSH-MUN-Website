@@ -167,7 +167,7 @@
 			</div>
 			<div class="stat">
 				<h1>7</h1>
-				<h3>Commities</h3>
+				<h3>Committees</h3>
 			</div>
 			<div class="stat">
 				<h1>15+</h1>

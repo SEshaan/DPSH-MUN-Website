@@ -35,14 +35,14 @@
                 <p>Shriya Sriram is a student studying at Jindal Global Law School (JGLS), and prior to her time at JGLS, she studied at DPS. She looks forward to the discussions and interactions that will take place during this conference. She is grateful for the enthusiasm shown towards the 2023 edition of DPSHMUN and is hoping to meet everyone to have a good time.</p>
             </div>
             <div class="card">
-                <img src="./EB/Default_pfp.png" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Jaynay.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Jayany Nunna</h2><h3>Committee Expert</h3><br>
                 <p>Available soon</p>
             </div>
         </div>
     </div><br><br>
 
-    <h1 id="bgtitle">Background Guide</h1>
+    <!-- <h1 id="bgtitle">Background Guide</h1>
     <div id="bgguide">
         
         <div id="bgdesc">
@@ -53,7 +53,7 @@
         <div id="preview">
             <img src="./preview/default.png" alt="">
         </div>
-    </div>
+    </div> -->
     
     <div id="links" class="unavailable">
         <h1>Links</h1>
