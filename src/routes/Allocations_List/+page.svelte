@@ -100,10 +100,14 @@ let rows = {
 let current_row = rows['disec'];
 </script>
 
+<div style="margin: 5% 0 0 5%;">
+    <h1 >IP and LS</h1>
 <select name="" id="tab_sel">
     <option value="ip">IP</option>
     <option value="lk">LK</option>
-</select><br /><br />
+</select>
+</div>
+<br /><br />
 <table>
     <tbody>
         <tr class="head"
