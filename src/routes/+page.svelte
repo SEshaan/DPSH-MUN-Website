@@ -84,8 +84,8 @@
 	<link rel="preload" as="image" href="./committees/{com}.jpg" />
 {/each}
 
-<div id="😲">
-	<div id="Title" style="font-weight: 300;">
+<div id="😲" style="background-position:bottom">
+	<div id="Title" style="font-weight: 300;color:#d0bea8;">
 		<h6 style="font-weight: 100;">Debate • Discuss • Deliberate</h6>
 		<h3>Delhi Public School, Hyderabad</h3>
 		Model United Nations<br /> 2023-24<br />
