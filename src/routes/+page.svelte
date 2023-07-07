@@ -215,7 +215,7 @@
 	<br />
 
 	<div id="FAQs">
-		<h1 style="font-size:xxx-large">FAQs</h1>
+		<h1 style="font-size:xxx-large">Frequently Asked Questions</h1>
 		<br />
 		<ul>
 			<li>
