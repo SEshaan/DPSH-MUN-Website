@@ -15,7 +15,7 @@
     A full on Russia-Hungary joint military operation  neutralising ISIS terrorists on sight and capturing and war prisoners(if any),
     A take over of the Saudi capital after which a government, under the control of the Tripartite coalition of Russia, Hungary and Argentina will be established to prevent such a crisis from rising again.
 
-    <h1>Directive Master Chief</h1>
+    <h1>Directive Master Chief</h1> <h3>Tribute to Amitesh</h3>
 <pre>
     Covert
 Country: United Arab Emirates, Japan, Canada, Germany, Australia, France, Switzerland,
