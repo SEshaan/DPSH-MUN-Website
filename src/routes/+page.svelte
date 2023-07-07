@@ -128,7 +128,7 @@
 		<h1>Letter from the Secretary-General</h1>
 		<br />
 		<div id="lettercont">
-			<img src="./SC/letter.JPG" alt="" id="letterimg" />
+			<img src="./SC/letter.JPG" alt="" id="letterimg" style="aspect-ratio: 3/2; padding-top: 0.5in" />
 			<p>
 				<br /><br />
 				Dear Dipsites and honorable Delegates,<br /><br />
