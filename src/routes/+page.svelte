@@ -415,6 +415,7 @@
 		height: auto;
 		background: #3f4f5f;
 		color: #d0bea8;
+		padding-bottom: 2%;
 	}
 
 	#countdown {
