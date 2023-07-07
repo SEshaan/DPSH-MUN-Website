@@ -22,7 +22,7 @@ onMount(() => {
             document.getElementById('frame').contentWindow.postMessage(text, '*');
         }
     });
-    load_com('disec');
+    load_com('ip');
 });
 
 var requestOptions = {
