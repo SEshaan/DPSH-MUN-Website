@@ -35,7 +35,11 @@
 
 <div id="content">
 	<div id="con">
-		<h1>Contact Us</h1>
+		<div id="title">
+			<h1>Contact Us</h1>
+			<span style="font-size: small;">Reach us at dpshydmun@dpshyderabad.com</span>
+		</div>
+		
 		<form on:submit={submitForm}>
 			<div class="field_cont">
 				<h3>Name</h3>
@@ -109,14 +113,15 @@
 		color: #d0bea8;
 	}
 	#con textarea {
+		color: #d0bea8;
 		background: none;
 		border: none;
 		border-bottom: solid #be965b 1px;
 		resize: none;
 		width: 95%;
 	}
-	#con h1 {
-		padding: 5%;
+	#con #title {
+		padding: 2.5%;
 	}
 	#con h3 {
 		font-size: small;

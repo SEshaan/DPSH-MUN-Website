@@ -1,3 +1,18 @@
+<script>
+    // @ts-nocheck
+    
+        import { onMount } from "svelte";
+    
+        function secret(){
+            window.location = "./Secret"
+        }
+    
+        onMount(() => {
+            let x = 0
+            document.querySelector("#secret").onclick = () => {x+=1;if (x >= 10){secret()}}
+        })
+</script>    
+
 <div id="intro">
     <img src="./committees/DISEC.jpg" alt="" id="post">
     <!-- <h1>DISEC</h1> -->
@@ -6,7 +21,7 @@
 <div id="content">
     <div id="desc">
         <div id="img">
-            <img src="./committees_logos/disec.png" alt="">
+            <img src="./committees_logos/disec.png" alt="" id="secret">
         </div>
         <div id="info">
             <h1>Disarmament and International Security Committee</h1><br>

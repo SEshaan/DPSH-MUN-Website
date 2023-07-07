@@ -222,7 +222,7 @@
 				<h3>Will there be any help or technical guidance provided?</h3>
 				<br />
 				<span
-					>Yes, as part of our training sessions, we will discuss how the committee would operate
+					>Yes, as part of our training sessions, we will discuss how the committees would operate
 					and what the effective Rules of Procedure (ROP) would stand at. We look forward to meeting
 					you there!
 					<br /><br />Additionally, we have already released a Delegate Handbook that aims to aid
@@ -235,7 +235,7 @@
 				<br />
 				<span>
 					Pre-conference preparation majorly consists of research. Analysis and understanding of the
-					agenda at hand play a major role in this. Background Guides that will be released by the
+					agenda at hand plays a major role in this. Background Guides that will be released by the
 					said committee will provide you with a foundation to initiate your research. For further
 					tips on preparation please refer to the "Tips & tricks to secure awards at DPSHMUN’23”
 					section of the delegate Handbook.
@@ -281,7 +281,7 @@
 				<br />
 				<span
 					>Every delegate who participates can’t win an award however, it is certain that the award
-					goes to those who speak, provide a substantial debate and also have the ability to
+					goes to those who speak, provide a substantive debate and also have the ability to
 					influence and move the committee. Besides that, participation certificates will be
 					provided to everyone who attends both the days of the conference.
 				</span>
