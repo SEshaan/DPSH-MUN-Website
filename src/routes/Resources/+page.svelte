@@ -81,7 +81,7 @@ This book pdf is especially useful and recommended for those who have just start
 
     <div id="links">
         <h1>Links</h1> <br>
-        <p style="width: 90vw;margin:auto;font-size:larger">Refer to these links to get a concise understanding of the MUN. This will provide clarity as to what you will be doing in the conference. These videos are highly suggested for beginners <br><br><span style="font-size: medium;"> (Do note that the links provided below is only for educational purposes and is meant to assist the delegates in their preparation)</span>
+        <p style="width: 90%;margin:auto;font-size:larger">Refer to these links to get a concise understanding of the MUN. This will provide clarity as to what you will be doing in the conference. These videos are highly suggested for beginners <br><br><span style="font-size: medium;"> (Do note that the links provided below is only for educational purposes and is meant to assist the delegates in their preparation)</span>
         </p>
         <div id="link_holder">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/xZGhU6P3Dcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
