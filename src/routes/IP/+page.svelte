@@ -9,7 +9,7 @@
             <img src="./committees_logos/ip.png" alt="">
         </div>
         <div id="info">
-            <h1>Internation Press</h1><br>
+            <h1>International Press</h1><br>
             <p>IP is a collection of international press agencies that gather from all corners of the world to capture, document and report on the proceedings of various UN committees. They are mandated with the task of providing comprehensive and unbiased coverage of issues of debate and simulating the role of the media in international affairs.</p>
         </div>
     </div>
