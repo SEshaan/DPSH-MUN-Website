@@ -28,7 +28,7 @@ async function get(request: VercelRequest, response: VercelResponse): Promise<Ve
 			? await db[committee].findMany()
 			: (await redisGet(committee)) ?? (await db[committee].findMany());
 		if (!(await redisGetKeys()).includes(committee) && !nocache) {
-			redisSet(committee, data, 1800);
+			redisSet(committee, data, 86400);
 		}
 		return response.status(200).json({
 			error: false,
