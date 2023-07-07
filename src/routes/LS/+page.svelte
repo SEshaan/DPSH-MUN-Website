@@ -31,7 +31,7 @@
             </div>
             <div class="card">
                 <img src="./EB/Rithvik.jpg" alt="" style="object-fit: contain;"><br><br>
-                <h2>DGV Rithwik</h2><h3>Deputy Speaker</h3><br>
+                <h2>DGV Rithvik</h2><h3>Deputy Speaker</h3><br>
                 <p>DGV Rithvik is an alumni of NALSAR University of Law, Hyderabad. He is interested in issues surrounding constitutional law and public policy in India. He has previously been in the EB of DPSHMUN’20, International Press in DPSHMUN’19 and the Organising Committee of DPSHMUN’17.
                 </p>
             </div>
