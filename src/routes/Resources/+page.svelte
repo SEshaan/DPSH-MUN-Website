@@ -5,7 +5,8 @@
 
     onMount(() => {
         let e = document.querySelector("#presentation")
-        e.innerHTML = '<iframe title="PPT" src="https://onedrive.live.com/embed?resid=3F03CFDBE97CB596%211296&amp;authkey=!APO4aGLS3106Q6w&amp;em=2&amp;wdAr=1.7770833333333333" width="' + window.innerWidth*0.9 + '" height="'+ window.innerWidth*0.6*0.9 +'" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>'
+        //https://onedrive.live.com/embed?resid=3F03CFDBE97CB596%211306&amp;authkey=!ADGFWpU7QphbMfM&amp;em=2&amp;wdAr=1.7777777777777777
+        e.innerHTML = '<iframe title="PPT" src="https://onedrive.live.com/embed?resid=3F03CFDBE97CB596%211296&amp;authkey=!APO4aGLS3106Q6w&amp;em=2&amp;wdAr=1.7770833333333333" width="' + window.innerWidth*0.9 + '" height="'+ window.innerWidth*0.6*0.9 +'" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe><br><iframe title="PPT" src="https://onedrive.live.com/embed?resid=3F03CFDBE97CB596%211306&amp;authkey=!ADGFWpU7QphbMfM&amp;em=2&amp;wdAr=1.7777777777777777" width="' + window.innerWidth*0.9 + '" height="'+ window.innerWidth*0.6*0.9 +'" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>'
         console.log('ifrme')
     })
 </script>
@@ -36,7 +37,7 @@ This book pdf is especially useful and recommended for those who have just start
     </div>
 
     <div id="ppt">
-        <h1 class="heading">MUN PPT</h1>
+        <h1 class="heading">MUN PPTs</h1>
         <br>
         <div id="presentation">
         
@@ -146,8 +147,10 @@ This book pdf is especially useful and recommended for those who have just start
     }
     #presentation{
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
     }
     #guides{
         display: flex;

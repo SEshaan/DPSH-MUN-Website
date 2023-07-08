@@ -4,7 +4,7 @@
 	import { onMount } from 'svelte';
 
 	const allocationsMatrix =
-		'https://docs.google.com/spreadsheets/d/1Pl-6l-04mVm6uD-WBpsZzHh7EHtrDj1XxkguzIDywAs/';
+		'https://docs.google.com/spreadsheets/d/1A0Lt_BIkwgk-n3vNDaYEo3tBlsN-rXdrK8kR8A-SVlY/';
 
 	onMount(() => {
 		var e = document.querySelector('#com_sel');
