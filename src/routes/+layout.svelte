@@ -108,6 +108,8 @@
 
 <slot />
 
+<br><br>
+
 <style>
 	#com {
 		border: none;

@@ -501,5 +501,11 @@
 		.pair h2{
 			font-size: medium;
 		}
+		#FAQs h1{
+			text-align: center;
+		}
+		#FAQs ul{
+			padding: 0;
+		}
 	}
 </style>

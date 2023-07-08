@@ -133,7 +133,7 @@ let current_row = rows['ip'];
     table {
 		width: 90vw;
 		margin: auto;
-		text-align: center;
+        text-align: left;
 		color: #d0bea8;
 	}
 	.head {
