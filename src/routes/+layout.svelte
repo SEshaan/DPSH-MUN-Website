@@ -49,15 +49,15 @@
 
 <nav>
 	<a id="Title" href="../"
-		><img id="logo" src="./logo.png" alt="MUN Logo" />
-		<div
+		><img id="logo" src="./logo_banner.png" alt="MUN Logo" />
+		<!-- <div
 			style="text-align: center; display:flex;justify-content:center;align-items:center;flex-direction:column;height:100%"
 		>
 			<span style="font-weight: 600;">DPSH MUN</span><span
 				style="text-align: center;font-size:large;font-weight:100">2023</span
 			>
-		</div></a
-	>
+		</div>-->
+	</a>
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<img id="hamburger_menu" src="./Hamburger_Menu.png" alt="Menu" on:click={Sidebar} />
 	<div id="Nav_Buttons">
