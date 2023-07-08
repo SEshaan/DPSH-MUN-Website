@@ -97,6 +97,7 @@
     #desc{
         background-color: #be9460;
         color: #3e4f5f;
+        padding-bottom: 5%;
     }
     #desc #img img{
         width: 50vw;
@@ -146,7 +147,7 @@
         flex-wrap: wrap;
     }
     .card{
-        width: 60vw;
+        width: 80vw;
         margin: 5%;
     }
     .card img{
@@ -219,6 +220,7 @@
             justify-content: space-evenly;
             align-items: center;
             min-height: 50vh;
+            padding-bottom: 0%;
         }
         #info{
             max-width: 50vw;

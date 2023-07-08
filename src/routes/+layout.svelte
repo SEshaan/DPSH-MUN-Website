@@ -153,6 +153,10 @@
 		margin-top: 5%;
 	}
 
+	#sidebar ul{
+		width: 100%;
+	}
+
 	#sidebar ul li a {
 		font-size: larger;
 		color: gray;
