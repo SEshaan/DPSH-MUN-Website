@@ -226,6 +226,9 @@
 	}
 
 	@media (min-width: 900px) {
+		#sidebar{
+			display: none;
+		}
 		#margin {
 			width: 100vw;
 			height: 10vh;
