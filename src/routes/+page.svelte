@@ -366,6 +366,7 @@
 		width: 50vw;
 		aspect-ratio: 1/1;
 		overflow: hidden;
+		margin: 1%;
 	}
 	#img img {
 		width: 100%;
