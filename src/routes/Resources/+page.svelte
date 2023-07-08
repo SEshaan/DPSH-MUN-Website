@@ -91,10 +91,15 @@ This book pdf is especially useful and recommended for those who have just start
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ukocFZ2MyDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/8NwN1NiIDdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+        <span style="display:block;text-align:center;width:100vw">DPSHMUN 2022 Website <br> <a href="https://dpshmun.netlify.app/" style="color:#D0BEA8">https://dpshmun.netlify.app/</a></span>
+        <br>
     </div>
 </div>
 
 <style>
+    #old a{
+        margin-left:10%
+    }
     #content{
         color: #D0BEA8;
     }
