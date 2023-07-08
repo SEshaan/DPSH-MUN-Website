@@ -267,7 +267,8 @@
 			<li>
 				<h3>What would be the timing of the conference?</h3>
 				<br />
-				<span>Itenary will be released soon.</span>
+				<span>
+					Itinerary will be released soon.</span>
 			</li>
 			<br />
 			<li>
