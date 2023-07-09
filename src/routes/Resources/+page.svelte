@@ -4,10 +4,11 @@
 	import { onMount } from "svelte";
 
     onMount(() => {
-        let e = document.querySelector("#presentation")
-        //https://onedrive.live.com/embed?resid=3F03CFDBE97CB596%211306&amp;authkey=!ADGFWpU7QphbMfM&amp;em=2&amp;wdAr=1.7777777777777777
-        e.innerHTML = '<iframe title="PPT" src="https://onedrive.live.com/embed?resid=3F03CFDBE97CB596%211306&amp;authkey=!ADGFWpU7QphbMfM&amp;em=2&amp;wdAr=1.7777777777777777" width="' + window.innerWidth*0.9 + '" height="'+ window.innerWidth*0.6*0.9 +'" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe><br><iframe title="PPT" src="https://onedrive.live.com/embed?resid=3F03CFDBE97CB596%211296&amp;authkey=!APO4aGLS3106Q6w&amp;em=2&amp;wdAr=1.7770833333333333" width="' + window.innerWidth*0.9 + '" height="'+ window.innerWidth*0.6*0.9 +'" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>'
-        console.log('ifrme')
+        let e = document.querySelector("#p1")
+        let f = document.querySelector("#p2")
+        e.innerHTML = '<iframe title="PPT" src="https://onedrive.live.com/embed?resid=3F03CFDBE97CB596%211306&amp;authkey=!ADGFWpU7QphbMfM&amp;em=2&amp;wdAr=1.7777777777777777" width="' + window.innerWidth*0.9 + '" height="'+ window.innerWidth*0.6*0.9 +'" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>'
+        f.innerHTML = '<iframe title="PPT" src="https://onedrive.live.com/embed?resid=3F03CFDBE97CB596%211296&amp;authkey=!APO4aGLS3106Q6w&amp;em=2&amp;wdAr=1.7770833333333333" width="' + window.innerWidth*0.9 + '" height="'+ window.innerWidth*0.6*0.9 +'" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>'
+        
     })
 </script>
 
@@ -40,7 +41,13 @@ This book pdf is especially useful and recommended for those who have just start
         <h1 class="heading">MUN PPTs</h1>
         <br>
         <div id="presentation">
-        
+            <h3>Training Session</h3>
+            <br>
+            <div id="p1"></div>
+            <br>
+            <h3>Benefits of a MUN</h3>
+            <br>
+            <div id="p2"></div>
         </div>
     </div><br>
 
@@ -98,6 +105,11 @@ This book pdf is especially useful and recommended for those who have just start
 </div>
 
 <style>
+    #presentation h3{
+        margin: 0 0 0 5%;
+        align-self: baseline;
+    }
+
     #old a{
         margin-left:10%
     }
