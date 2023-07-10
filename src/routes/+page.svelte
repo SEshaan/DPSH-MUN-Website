@@ -80,7 +80,10 @@
 			scrolling = true
 			setTimeout(() => {scrolling = false},20)
 		});
-		fetch("/api/visitorcount")
+		if (document.cookie == ""){
+			document.cookie += "new:false;"
+			fetch("/api/visitorcount")
+		}		
 	});
 </script>
 
