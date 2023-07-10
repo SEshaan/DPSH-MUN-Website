@@ -1,20 +1,3 @@
-<head>
-	<meta name="language" content="English">
-	<meta name="keywords" content="dpsh mun, delhi public school model united nations 2023, dpshmun2023, dpsh mun 2023, delhi public school mun 2023, mun2023, dpsh , dps">
-
-	<meta property="og:title" content="DPSH MUN 2023">
-  <meta name="twitter:title" content="DPSH MUN 2023">
-  
-  <meta name="description" content="The Official Website for the Delhi Public School Model United Nations 2023">
-  <meta property="og:description" content="The Official Website for the Delhi Public School Model United Nations 2023">
-  <meta name="twitter:description" content="The Official Website for the Delhi Public School Model United Nations 2023">
-  
-  <meta property="og:image" content="https://dpshmun.vercel.app/logo.png">
-  <meta name="twitter:image" content="https://dpshmun.vercel.app/logo.png">
-
-</head>
-
-
 <script>
 	//@ts-nocheck
 	import { onMount } from 'svelte';
