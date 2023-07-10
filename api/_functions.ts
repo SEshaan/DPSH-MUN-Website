@@ -41,3 +41,11 @@ export async function redisGetKeys(): Promise<string[]> {
 		return [];
 	}
 }
+
+export async function redisIncr(key: string): Promise<number | undefined | null> {
+	try {
+		return await redis?.incr(key);
+	} catch {
+		return null;
+	}
+}

@@ -80,6 +80,7 @@
 			scrolling = true
 			setTimeout(() => {scrolling = false},20)
 		});
+		fetch("/api/visitorcount")
 	});
 </script>
 
