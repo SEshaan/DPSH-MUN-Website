@@ -1,5 +1,19 @@
 User-agent: *
 Disallow: /subpages/
-Disallow: /pictures/
+Disallow: /committees/
+Disallow: /committees_background/
+Disallow: /committees_logo/
+Disallow: /EB/
+Disallow: /preview/
+Disallow: /SC/
+
+Disallow: /Close_Button.png
+Disallow: /contactbg.png
+Disallow: /Hamburger_Menu.png
+Disallow: /logo.png
+Disallow: /logo_banner.png
+Disallow: /munbg.jpeg
+Disallow: /Signature.png
+
 
 Sitemap: https://dpshmun.vercel.app/sitemap.xml
