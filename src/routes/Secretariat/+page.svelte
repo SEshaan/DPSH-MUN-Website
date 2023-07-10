@@ -13,7 +13,7 @@
 {"Name": "Siddharth Gumma", "Image": "./SC/Siddarth.JPG", "Designation": "Head of Delegate Affairs"},
 {"Name": "Sanya Thakur", "Image": "./SC/Sanya.JPG", "Designation": "USG of Delegate Affairs"},
 {"Name": "Ashmita Sirivella", "Image": "./SC/Ashmita.JPG", "Designation": "Head of Logistics"},
-{"Name": "Abhinav Vadadi", "Image": "./SC/Abhinav.JPG", "Designation": "Head of Hospitality"},
+{"Name": "Abhinav Vadali", "Image": "./SC/Abhinav.JPG", "Designation": "Head of Hospitality"},
 {"Name": "Naila Sarah", "Image": "./SC/Naila Sarah (2).JPG", "Designation": "USG of Hospitality"},
 {"Name": "Shravishta Ghawalkar", "Image": "/SC/Shravishta.JPG", "Designation": "Head of OC"},
 {"Name": "Ditti Vijay Maroo", "Image": "./SC/Ditti.JPG", "Designation": "Head of OC"},
