@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /subpages/
+Disallow: /pictures/
+
+Sitemap: https://dpshmun.vercel.app/sitemap.xml
