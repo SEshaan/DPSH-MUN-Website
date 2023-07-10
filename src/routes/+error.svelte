@@ -9,3 +9,9 @@ border-image: repeating-linear-gradient( -75deg, yellow, yellow 10px, black 10px
 <div style="border-top: solid 10px;
 border-image: repeating-linear-gradient( -75deg, yellow, yellow 10px, black 10px, black 20px) 20;">
 </div>
+
+<style>
+    h1,p{
+        color: #d0bea8;
+    }
+</style>
