@@ -101,29 +101,29 @@
 <div id="Content">
 	<br />
 	<div id="countdown">
-		<div class="pair">
-			<div class="card_holder">
-				<div class="card">{days}</div>
+		<div class="pair" style="overflow:hidden">
+			<div class="card_holder" style="overflow:hidden">
+				<div class="card" style="overflow:hidden">{days}</div>
 			</div>
-			<h2>Days</h2>
+			<h2 style="overflow:hidden">Days</h2>
 		</div>
-		<div class="pair">
-			<div class="card_holder">
-				<div class="card">{hours}</div>
+		<div class="pair" style="overflow:hidden">
+			<div class="card_holder" style="overflow:hidden">
+				<div class="card" style="overflow:hidden">{hours}</div>
 			</div>
-			<h2>Hours</h2>
+			<h2 style="overflow:hidden">Hours</h2>
 		</div>
-		<div class="pair">
-			<div class="card_holder">
-				<div class="card">{minutes}</div>
+		<div class="pair" style="overflow:hidden">
+			<div class="card_holder" style="overflow:hidden">
+				<div class="card" style="overflow:hidden">{minutes}</div>
 			</div>
-			<h2>Minutes</h2>
+			<h2 style="overflow:hidden">Minutes</h2>
 		</div>
-		<div class="pair">
-			<div class="card_holder">
-				<div class="card">{seconds}</div>
+		<div class="pair" style="overflow:hidden">
+			<div class="card_holder" style="overflow:hidden">
+				<div class="card" style="overflow:hidden">{seconds}</div>
 			</div>
-			<h2>Seconds</h2>
+			<h2 style="overflow:hidden">Seconds</h2>
 		</div>
 	</div>
 	<br />
