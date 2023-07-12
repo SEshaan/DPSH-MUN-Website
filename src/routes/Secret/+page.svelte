@@ -138,8 +138,8 @@ stonks world domination)
 	<iframe
 		width="560"
 		height="315"
-		src="https://www.youtube-nocookie.com/embed/HWQqabCkAjU?controls=0"
-		title="YouTube video player"
+		src="https://www.youtube-nocookie.com/embed/HvUY80Dhgxo?controls=0"
+		title="Bing chilling Player"
 		frameborder="0"
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 		allowfullscreen
