@@ -1,22 +1,27 @@
-
-
 <div id="directive">
-    <h1>Highlights from 2022</h1> <br> <br>
+	<h1>Highlights from 2022</h1>
+	<br /> <br />
 
-    <h1>Directive Oil Stonks Global Domination</h1>
-    COVERT,<br>
-    COUNTRIES - THE RUSSIAN FEDERATION, HUNGARY, ARGENTINA,<br>
-    Primary objective: To dismantle ISIS,<br>
-    Secondary objective : To Establish a responsible government under the control of the Oil Stonks Coalition, in order to ensure such a crisis would not emerge again,
-    <br>Plan of action : 
-    Using the 78 Argentinian sleeper agents planted in Saudi Arabia, 15 years prior under the Operation Saudi Intel, the coalition will find the location of the ISIS nuclear arsenal,
-    Send 100 Hungarian troops to Saudi Arabia and dismantle ISIS via military operations covertly using Russian jets, undetectable by the current technology of Saudi radars.
-    Storm the Saudi nuclear arsenal and take over physical access to the nuclear weapons and cut off the ISIS from their nuclear weaponry,
-    A full on Russia-Hungary joint military operation  neutralising ISIS terrorists on sight and capturing and war prisoners(if any),
-    A take over of the Saudi capital after which a government, under the control of the Tripartite coalition of Russia, Hungary and Argentina will be established to prevent such a crisis from rising again.
+	<h1>Directive Oil Stonks Global Domination</h1>
+	COVERT,<br />
+	COUNTRIES - THE RUSSIAN FEDERATION, HUNGARY, ARGENTINA,<br />
+	Primary objective: To dismantle ISIS,<br />
+	Secondary objective : To Establish a responsible government under the control of the Oil Stonks Coalition,
+	in order to ensure such a crisis would not emerge again,
+	<br />Plan of action : Using the 78 Argentinian sleeper agents planted in Saudi Arabia, 15 years
+	prior under the Operation Saudi Intel, the coalition will find the location of the ISIS nuclear
+	arsenal, Send 100 Hungarian troops to Saudi Arabia and dismantle ISIS via military operations
+	covertly using Russian jets, undetectable by the current technology of Saudi radars. Storm the
+	Saudi nuclear arsenal and take over physical access to the nuclear weapons and cut off the ISIS
+	from their nuclear weaponry, A full on Russia-Hungary joint military operation neutralising ISIS
+	terrorists on sight and capturing and war prisoners(if any), A take over of the Saudi capital
+	after which a government, under the control of the Tripartite coalition of Russia, Hungary and
+	Argentina will be established to prevent such a crisis from rising again.
 
-    <h1>Directive Master Chief</h1> <h3>Tribute to Amitesh</h3>
-<pre>
+	<h1>Directive Master Chief</h1>
+	<h3>Tribute to Amitesh</h3>
+	<h4>rightsiedd >>>>></h4>
+	<pre>
     Covert
 Country: United Arab Emirates, Japan, Canada, Germany, Australia, France, Switzerland,
 Russian Federation, People’s Republic Of China, Republic of India
@@ -89,12 +94,9 @@ Nuclear Power Plant in Abu Dhabi in the United Arab Emirates.
 
 </pre>
 
+	<h1>Operation USA go boom</h1>
 
-<h1>
-    Operation USA go boom
-</h1>
-
-<pre>
+	<pre>
     
 Primary Objective:- detonating the nuclear weapons in USA
 
@@ -112,11 +114,9 @@ Plan of Action:-
 
 </pre>
 
-<h1>
-    Directive Endgame
-</h1>
+	<h1>Directive Endgame</h1>
 
-<pre>
+	<pre>
     Covert
 Argentina
 
@@ -135,26 +135,35 @@ domination)
 2. Getting royalties on oil sales via puppet government in Saudi Arabia (Directive oil
 stonks world domination)
 </pre>
+	<iframe
+		width="560"
+		height="315"
+		src="https://www.youtube-nocookie.com/embed/HWQqabCkAjU?controls=0"
+		title="YouTube video player"
+		frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		allowfullscreen
+	/>
 </div>
 
 <style>
-    *{
-        color:#D0BEA8;
-    }
-    #directive{
-        width: 50vw;
-        margin: auto;
-    }
-    #directive pre {
-    white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
-    @media (max-width:600px){
-        #directive{
-            width: 80vw;
-        }
-    }
+	* {
+		color: #d0bea8;
+	}
+	#directive {
+		width: 50vw;
+		margin: auto;
+	}
+	#directive pre {
+		white-space: pre-wrap; /* Since CSS 2.1 */
+		white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+		white-space: -pre-wrap; /* Opera 4-6 */
+		white-space: -o-pre-wrap; /* Opera 7 */
+		word-wrap: break-word; /* Internet Explorer 5.5+ */
+	}
+	@media (max-width: 600px) {
+		#directive {
+			width: 80vw;
+		}
+	}
 </style>
