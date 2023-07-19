@@ -65,6 +65,7 @@
 			<li><a href="./" id="Home" class="active">Home</a></li>
 			<li><a href="./Allocations" id="Allocations">Allocations</a></li>
 			<li><a href="./Resources" id="Resources">Resources</a></li>
+			<li><a href="./Schedule" id="Schedule">Schedule</a></li>
 			<li><a href="./Secretariat" id="Secretariat">Secretariat</a></li>
 			<!-- <li><a href='./#com' id="Committees" style="">Committees</a></li> -->
 			<li>
@@ -92,6 +93,7 @@
 		<li><a href="./" class="mob_link">Home</a></li>
 		<li><a href="./Allocations" class="mob_link">Allocations</a></li>
 		<li><a href="./Resources" class="mob_link">Resources</a></li>
+		<li><a href="./Schedule" class="mob_link">Schedule</a></li>
 		<li><a href="./Secretariat" class="mob_link">Secretariat</a></li>
 		<li>
 			<div style="color:#D0BEA8">
