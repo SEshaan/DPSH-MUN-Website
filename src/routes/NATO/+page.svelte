@@ -45,18 +45,18 @@
         </div>
     </div><br><br>
 
-    <!-- <h1 id="bgtitle">Background Guide</h1>
+    <h1 id="bgtitle">Background Guide</h1>
     <div id="bgguide">
         
         <div id="bgdesc">
             <p><br>
                 A Background Guide is a document prepared by the EB which gives information about the committee, agenda and other details. This document will also provide a list of key topics to prepare and be ready for, at the same time gives preparation tips. Reading this document will allow the delegates to understand what the committee expects from them and how to prepare accordingly.
-            <br><br><a href="./">View Background Guide →</a> <br><br></p>
+            <br><br><a href="./guides/NATO.pdf">View Background Guide →</a> <br><br></p>
         </div>
         <div id="preview">
-            <img src="./preview/default.png" alt="">
+            <img src="./preview/NATO.jpg" alt="">
         </div>
-    </div> -->
+    </div>
     
     <div id="links" class="unavailable">
         <h1>Links</h1>

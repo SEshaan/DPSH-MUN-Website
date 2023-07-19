@@ -1,47 +1,49 @@
-Algeria	Zahra Faisal	11-B
-Argentina 	Maanvi Mittal	11-I
-Bangladesh	Mohammed Waleed	11-D
-Belgium	Tanvi Satti	11-H
-Benin	Nomika Paruchuri	11-G
-Bolivia 	Barisha Dureja	11-B
-Cameroon 	Divija Chandrapati	11-H
-Chile	Bhavya Sri Kommanapalli	11-G
-China	Sujay Yalla	11-C
-Costa Rica	Briti Reddy Jaggavarapu	11-K
-Côte d’Ivoire	Neha Kanneganti	11-G
-Cuba	Krithika Reddy Bommineni	11-B
-Czechia 	Ananya Chandrasekhar	11-G
-Eritrea	Naumika Durbha	11-I
-Finland	Sanghita Dutta	11-G
-France	Parnika Dan	11-B
-Gabon	Ananya Duvvuru	12-F
-Gambia 	Aarushi Kulkarni	11-J
-Georgia	Avishi Srivastava	12-J
-Germany	Sanjana Vydyula	11-H
-Honduras	Aditya Vijay Singh Thakur	11-D
-India	Brahmani Chunchu	11-D
-Kazakhstan	Mohammed Anser Ali Alyaan	11-F
-Kyrygyzstan	Yoshaa Awasthi	12-F
-Lithuania	Sruthi Reddy Cirra	11-D
-Luxembourg 	Vedika Das	11-B
-Malawi	Mihika Dangwal	11-E
-Malaysia	Laksh Baxani	12-G
-Maldives	Kanha Kirtikumar	12-F
-Mexico	Ananya Tripathi	11-B
-Montenegro	Avni Dugar	11-B
-Morocco 	K Pravinya Skanda	12-B
-Nepal	Adil Saleem Deepak	11-F
-Pakistan	Medhavi Gupta	11-I
-Paraguay	Vihaan H Raju	11-A
-Qatar	Michelle Jose	11-C
-Romania	K Vedika	11-A
-Senegal	Shaurya Singh	12-D 
-Somalia 	Advait Gavaravarapu	12-D
-South Africa	Ancy Siya	11-B
-Sudan	Naina Vigilapuram	11-K
-Ukraine	Ibrah Ayesha	12-J
-United Arab Emirates	Lehar Agarwal	12-G
-United Kingdom	Rohan Ramadugu	11-J
-United States of America	Jahnavi Arani Mallisetty	12-C
-Uzbekistan	Vihaan Mopidevi	11-I
-Vietnam	Diipit Nayyan	11-D
+Afghanistan	Aayushi Dipankar	11-F
+Albania	Anas Ahmed	11-F
+Angola	Stephen Arya	11-G
+Argentina	Avi Upadhyay	12-B
+Armenia	Kaavya Johri	11-H
+Australia	DG Kirtana	12-E
+Austria	Amishi kapoor	11-K
+Bahrain	Tanay Gupta 	12-H
+Bangladesh	Moksh Jain	12-B
+Belgium	David Samuel	11-B
+Brazil 	Paritosh Kothapalli	11-J
+Canada	Sankarshana Karnam	12-F
+Chad	Charvi Lakshmi Kamireddy	11-B
+China	Hardik Agarwal	11-H
+Egypt	Bhaumi Nadella	11-E
+Finland	Mahua Pragada	11-F
+France	Chanakya Gutta	11-I
+Germany	Nidhi Srivastava	12-B
+Greece	Irashree Devrath	11-B
+Iceland	Kirat Kaur Ahluwalia	12-A
+India	Pitla Nikhita	11-I
+Iran	Komirishetty Poojitha	11-H
+Iraq	Rishit Raj Redyam	12-A
+Ireland	Sahana Pavuluri	11-E
+Israel	ABHEESHU BUDDHA	11-A
+Italy	Mallipudi Harshith	11-H
+Jamaica	Manasvi Puppala	11-A
+Japan	Kaushik Sai Kurra	11-B 
+Kenya	Ayaan Shareef	11-K
+Lebanon	Tinkle Singh	12-F
+Lithuania	Devishi Upadhyay	12-I 
+Myanmar	Aashitha Kurra	11-D
+Nigeria	Kundanika Chennuru	11-G
+Oman	Sabgani Advait	12-H
+Pakistan	Priyanshi Arora	11-B
+Peru	Saniya Agarwal	11-H
+Portugal	Anika Gulati	12-D
+Romania	Shanmukh Sai Gara	12-D
+Russia	Sriram Lanka	11-H
+Saudi Arabia	Shriyans Ananth Tokala	12-H
+Somalia	Amal Krishna	11-F
+South Korea	Arni Chandwani	11-K
+Spain	Sana Sukhija	11-K
+Syria	Katamreddy Pratheek Reddy	11-F
+Turkey	Arya Vaddadi	11-G
+United Arab Emirates	Nayan Maloth	11-G
+United Kingdom	Saransh Sharma	11-H
+United States of America	Sai Abhiram Vempati	12-F
+Venezuela	Tapasya Goel	11-K

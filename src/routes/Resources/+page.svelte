@@ -37,6 +37,14 @@ This book pdf is especially useful and recommended for those who have just start
         </div>
     </div>
 
+    <h1 id="bgtitle">Itinerary</h1>
+    <br>
+    <div id="bgguide">
+        
+        <img src="./preview/itenary.jpg" alt="" id="itenary">
+
+    </div><br>
+
     <div id="ppt">
         <h1 class="heading">MUN PPTs</h1>
         <br>
@@ -51,41 +59,46 @@ This book pdf is especially useful and recommended for those who have just start
         </div>
     </div><br>
 
-    <!-- <div id="bgguides">
+    <div id="bgguides">
         <h1 class="heading">Background Guides</h1><br>
         <div id="guides">
             <div class="guide">
-                <a href="./">
-                    <img src="./preview/default.png" alt="">
+                <a href="./guides/DISEC.pdf">
+                    <img src="./preview/DISEC.jpg" alt="">
                 </a>
             </div>
             <div class="guide">
-                <a href="./">
-                    <img src="./preview/default.png" alt="">
+                <a href="./guides/NATO.pdf">
+                    <img src="./preview/NATO.jpg" alt="">
                 </a>
             </div>
             <div class="guide">
-                <a href="./">
-                    <img src="./preview/default.png" alt="">
+                <a href="./guides/UNSC.pdf">
+                    <img src="./preview/UNSC.jpg" alt="">
                 </a>
             </div>
             <div class="guide">
-                <a href="./">
-                    <img src="./preview/default.png" alt="">
+                <a href="./guides/UNHRC.pdf">
+                    <img src="./preview/UNHRC.jpg" alt="">
                 </a>
             </div>
             <div class="guide">
-                <a href="./">
-                    <img src="./preview/default.png" alt="">
+                <a href="./guides/LS.pdf">
+                    <img src="./preview/LS.jpg" alt="">
                 </a>
             </div>
             <div class="guide">
-                <a href="./">
-                    <img src="./preview/default.png" alt="">
+                <a href="./guides/IMF.pdf">
+                    <img src="./preview/IMF.jpg" alt="">
+                </a>
+            </div>
+            <div class="guide">
+                <a href="./guides/IP.pdf">
+                    <img src="./preview/IP.jpg" alt="">
                 </a>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <div id="links">
         <h1>Links</h1> <br>
@@ -105,6 +118,10 @@ This book pdf is especially useful and recommended for those who have just start
 </div>
 
 <style>
+    #itenary{
+        width:80vw;
+        height:auto;
+    }
     #presentation h3{
         margin: 0 0 0 5%;
         align-self: baseline;
@@ -200,6 +217,9 @@ This book pdf is especially useful and recommended for those who have just start
         display: none;
     }
     @media (min-width:600px){
+        #itenary{
+            width:60vw;
+        }
         .guide{
             width: 25vw;
         }
