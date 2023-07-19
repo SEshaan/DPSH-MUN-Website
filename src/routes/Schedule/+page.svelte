@@ -1,4 +1,3 @@
-<h1 id="bgtitle">Itinerary</h1>
     <br>
     <div id="bgguide">
         
