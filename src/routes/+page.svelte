@@ -272,7 +272,7 @@
 				<h3>What would be the timing of the conference?</h3>
 				<br />
 				<span>
-					Itinerary will be released soon.</span>
+					Itinerary can be found in the <a href="./Resources" style="color: #d0bea8;">Resources</a> page </span>
 			</li>
 			<br />
 			<li>
