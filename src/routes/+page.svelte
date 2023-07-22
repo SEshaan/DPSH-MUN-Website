@@ -7,26 +7,9 @@
 
 	let countdown = new Date().getTime();
 
-	/**
-	 * @type {string}
-	 */
-
-	let months = '00';
-	/**
-	 * @type {string | any[]}
-	 */
 	let days = '00';
-	/**
-	 * @type {string | any[]}
-	 */
 	let hours = '00';
-	/**
-	 * @type {string | any[]}
-	 */
 	let minutes = '00';
-	/**
-	 * @type {string | any[]}
-	 */
 	let seconds = '00';
 	setInterval(() => {
 		date = new Date();
@@ -53,18 +36,6 @@
 	let announcements = [{ date: '12/12/12', title: 'Delegate registrations are open' }];
 
 	let commities = ['DISEC', 'NATO', 'UNSC', 'UNHRC', 'LK', 'IMF', 'IP'];
-	let status = 0;
-	/**
-	 * @param {Number} x
-	 */
-
-	function move(x) {
-		if (status + x < 0) {
-			status = commities.length;
-		}
-		status = (status + x) % commities.length;
-		document.getElementById('poster').src = `./committees/${commities[status]}.jpg'`;
-	}
 
 	onMount(() => {
 		const scrollableElement = document.querySelector('#committiees');
@@ -101,7 +72,7 @@
 <div id="Content">
 	<br />
 	<div id="countdown">
-		<div class="pair" style="overflow:hidden">
+		<!-- <div class="pair" style="overflow:hidden">
 			<div class="card_holder" style="overflow:hidden">
 				<div class="card" style="overflow:hidden">{days}</div>
 			</div>
@@ -124,7 +95,8 @@
 				<div class="card" style="overflow:hidden">{seconds}</div>
 			</div>
 			<h2 style="overflow:hidden">Seconds</h2>
-		</div>
+		</div> -->
+		<h1>Will update shortly</h1>
 	</div>
 	<br />
 
