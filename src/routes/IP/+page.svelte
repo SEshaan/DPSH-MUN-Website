@@ -20,7 +20,7 @@
     </div>
     <br><hr><br>
 
-    <div id="eb">
+    <div id="eb" style="display: none;">
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">

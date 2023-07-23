@@ -46,19 +46,6 @@
 
                     Having had experience as a delegate, a member of the Executive Board and a successful Deputy Secretary General Kabeer is back to set his juniors on this path that he started many years ago. "I was inspired and mentored by my seniors and friends to take up the role of understanding: better than ever before, I plan to do the same." He looks forward to making this a delightful confrence for all.</p>
             </div>
-            <div class="card">
-                <img src="./EB/Rishabh.jpeg" alt="" style="object-fit: contain;"><br><br>
-                <h2>Rishabh Chaudhari</h2><h3>Co-Chairperson</h3><br>
-                <p>Rishabh is a prolific MUNner with multiple awards at various high level conferences. Having chaired DISEC last year, he is back with more ideas and plans to make a more fun, exciting, and informative committee this year.
-                    <br><br>
-                    Having graduated from DPSH just this year, Rishabh is gearing up for college at the Indian Institute of Science Education and Research. However, a career in Science isn't going to stop him from getting involved in every conference he can get into.
-                    <br><br>
-                    When not MUNning, Rishabh can be found daydreaming about fantasy worlds, reading, binging Star Wars and Lord of the Rings, drooling over sushi, and cursing at his DnD party for trivialising his combat encounters.
-                    <br><br>
-                    He looks forward to a thought-provoking MUN experience for all.
-                    
-                    </p>
-            </div>
             
             <div class="card">
                 <img src="./EB/Navya.jpg" alt="" style="object-fit: contain;"><br><br>
