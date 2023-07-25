@@ -2,7 +2,7 @@
 	//@ts-nocheck
 	import { onMount } from 'svelte';
 
-	let d1 = new Date('2023-07-22');
+	let d1 = new Date('2023-08-4 8:30');
 	let date = new Date();
 
 	let countdown = new Date().getTime();
@@ -72,7 +72,7 @@
 <div id="Content">
 	<br />
 	<div id="countdown">
-		<!-- <div class="pair" style="overflow:hidden">
+		<div class="pair" style="overflow:hidden">
 			<div class="card_holder" style="overflow:hidden">
 				<div class="card" style="overflow:hidden">{days}</div>
 			</div>
@@ -95,8 +95,7 @@
 				<div class="card" style="overflow:hidden">{seconds}</div>
 			</div>
 			<h2 style="overflow:hidden">Seconds</h2>
-		</div> -->
-		<h1>Will update shortly</h1>
+		</div>
 	</div>
 	<br />
 
