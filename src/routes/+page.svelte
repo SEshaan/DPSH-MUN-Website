@@ -2,7 +2,7 @@
 	//@ts-nocheck
 	import { onMount } from 'svelte';
 
-	let d1 = new Date('2023-08-4');
+	let d1 = new Date('2023/08/04');
 	let date = new Date();
 
 	let countdown = new Date().getTime();
