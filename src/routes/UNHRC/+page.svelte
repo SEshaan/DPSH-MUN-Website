@@ -36,8 +36,10 @@
             </div>
             <div class="card">
                 <img src="./EB/Jaynay.jpg" alt="" style="object-fit: contain;"><br><br>
-                <h2>Jayany Nunna</h2><h3>Committee Expert</h3><br>
-                <p>Introducing our Committee Expert for UNHRC, Jayany Nunna. She is known for her expertise in participatory planning, training, action research and volunteer work. Over the last several years of her experience, she has worked as team leaders of several projects on education, sanitation, women empowerment and sustainable development. Following the mantra of "The best way to predict the future is to create it", Jayany has never shyd away from hard work and promises to make excuses but to make results. Jayany, being a part of the MUN circuit since 2020 and having served as Charge’d Affairs for the previous edition of DPSHMUN understands the difficulties around organising a conference of this scale and is prepared to be as flexible as possible to ensure delegates have the best time.
+                <h2>Yamini Tumu</h2><h3>Committee Expert</h3><br>
+                <p>In addition to engaging in thoughtful discussions about geopolitics and the global economy, Yamini immerses herself in pursuing & propagating Indian culture with a passion for Kuchipudi and Veena. Recognising her fondness for debating, she has attended a couple of MUNs with a particular interest in committees addressing humanitarian issues. Currently a high school junior, Yamini wishes to pursue foreign relations and/or economics. She strongly believes in learning from history and time-tested cultures. K-Ballad, R&B and Webtoons are on the long list of things she relaxes with.
+
+                    She is looking forward to hosting this year’s conference as the Committee Expert!
                     </p>    
                 </div>
         </div>

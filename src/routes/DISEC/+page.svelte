@@ -46,13 +46,28 @@
 
                     Having had experience as a delegate, a member of the Executive Board and a successful Deputy Secretary General Kabeer is back to set his juniors on this path that he started many years ago. "I was inspired and mentored by my seniors and friends to take up the role of understanding: better than ever before, I plan to do the same." He looks forward to making this a delightful confrence for all.</p>
             </div>
-            
+            <div class="card">
+                <img src="./EB/Rishabh.jpeg" alt="" style="object-fit: contain;"><br><br>
+                <h2>Rishabh Chaudhari</h2><h3>Co-Chairperson</h3><br>
+                <p>Rishabh is a prolific MUNner with multiple awards at various high level conferences. Having chaired DISEC last year, he is back with more ideas and plans to make a more fun, exciting, and informative committee this year.
+
+                    Having graduated from DPSH just this year, Rishabh is gearing up for college at the Indian Institute of Science Education and Research. However, a career in Science isn't going to stop him from getting involved in every conference he can get into.
+                    
+                    When not MUNning, Rishabh can be found daydreaming about fantasy worlds, reading, binging Star Wars and Lord of the Rings, drooling over sushi, and cursing at his DnD party for trivialising his combat encounters.
+                    
+                    He looks forward to a thought-provoking MUN experience for all.
+                    
+                    
+                </p>
+            </div>
             <div class="card">
                 <img src="./EB/Navya.jpeg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Navya Sreya</h2><h3>Committee Expert</h3><br>
                 <p>Navya sreya is an alumni of DPSH and is  going to study  economics and finance at the University of Leeds. She loves to read about geopolitics and economics, and occasionally a romance novel.She has been in several MUNs as a delegate, but this will be her first time as a committee expert. She has previously won best delegate the Cambridge MUN, SGIAMUN to name a few and can write pretty savvy position paper :)
                 </p>
             </div>
+
+            <div></div>
         </div>
     </div><br><br>
 

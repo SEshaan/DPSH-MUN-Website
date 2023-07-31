@@ -2,7 +2,7 @@
 	//@ts-nocheck
 	import { onMount } from 'svelte';
 
-	let d1 = new Date('2023-08-4 8:30');
+	let d1 = new Date('2023-08-4');
 	let date = new Date();
 
 	let countdown = new Date().getTime();
@@ -148,11 +148,11 @@
 				<h3>Committees</h3>
 			</div>
 			<div class="stat">
-				<h1>15+</h1>
+				<h1>20</h1>
 				<h3>EB Members</h3>
 			</div>
 			<div class="stat">
-				<h1>200+</h1>
+				<h1>250+</h1>
 				<h3>Delegates</h3>
 			</div>
 		</div>

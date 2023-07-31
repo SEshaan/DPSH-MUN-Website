@@ -29,14 +29,13 @@
                 <p>Nayan Chandra Veeranki has recently graduated with a Bachelor's in Sociology and Social Sciences from the University of Hyderabad. He will be pursuing a Master's in Public Policy this year. He is deeply intrigued by issues pertaining to Indian Society and politics. He has attended over 30 MUNs and has been invited to Harvard MUN ( Beijing Chapter) as an Assistant Director. His interests are in the fields of public policy, economics and political science. In accordance with his goal to serve the society, he wishes to pursue a career in governance and public policy.
                 </p>
             </div>
-
             <div class="card">
-                <img src="./EB/Ishan.jpg" alt="" style="object-fit: contain;"><br><br>
-                <h2>Ishan Bhasin</h2><h3>Committee Expert</h3><br>
-                <p>Ishan is excited to be a part of the executive board of the Lok Sabha. A Physics and CS major with a love for race cars and fighter jets, he can't wait to experience the intense debate the committee is so well known for, and he wishes everyone the best of luck.
-
-                    </p>
+                <img src="./EB/Gaurav.jpg" alt="" style="object-fit: contain;"><br><br>
+                <h2>Gaurav Pallod</h2><h3>Deputy-Speaker</h3><br>
+                <p>Gaurav Pallod is a rising junior at Duke University studying Math and Finance. DPSHMUN has always held a special place in his heart having been the Secretary General of it in 2020. He can't wait to come back and see everyone in DPS!
+                </p>
             </div>
+            
         </div>
     </div><br><br>
 

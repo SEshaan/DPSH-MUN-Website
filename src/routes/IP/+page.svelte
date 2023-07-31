@@ -20,17 +20,18 @@
     </div>
     <br><hr><br>
 
-    <div id="eb" style="display: none;">
+    <div id="eb">
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">
-                <img src="./EB/Avi.jpg" alt="" style="object-fit: contain;"><br><br>
-                <h2>Avi Kathpalia</h2><h3>Head of IP</h3><br>
-                <p>Avi Kathpalia is currently a Media Studies student at Christ University, Bangalore as well as a freelance photographer. Alongside picking up his camera and wandering about the country, he keenly looks up to any and every story he can find around him. Having an overall experience of over 60 MUNs experiences, it brings him great pleasure to be back to DPSH for this year’s conference and is looking forward to it!</p>
+                <img src="./EB/Nikhil.jpeg" alt="" style="object-fit: contain;"><br><br>
+                <h2>Nikhil Om Sivakumar</h2><h3>Co-Editor-in-Chief</h3><br>
+                <p>Nikhil is currently pursuing a B.Tech degree in Computer Science. Having surmounted invaluable debate and public speaking experience throughout his MUN journey - spanning over 13 conferences in the capacity as a delegate, EB, and secretariat member - he believes that MUNs provide a platform for students to build on social qualities that help them tackle the obstacles we all face in life. He looks forward to being a part of the Executive Board for this year's edition of DPSHMUN, hoping to deliver an enjoyable conference experience.
+                </p>
             </div>
             <div class="card">
                 <img src="./EB/Aryan.jpg" alt=""><br><br>
-                <h2>Aryan Kumar</h2><h3>Editor-in-Chief</h3><br>
+                <h2>Aryan Kumar</h2><h3>Co-Editor-in-Chief</h3><br>
                 <p>Aryan is an incoming first-year student at Cornell University, majoring in Computer Science. He is delighted to be serving as the Editor-in-Chief for the International Press at DPSHMUN '23 <br><br>
 
                     Having surmounted invaluable debate experience throughout his MUN journey — spanning over 15 conferences in the capacity of a Delegate, EB member, and a Secretariat member — he believes that everyone can efficiently utilize the MUN platform as a gateway to realize their utmost potential in the art of prolific debate and discussion. He looks forward to creating a delightful conference experience for all.</p>
