@@ -24,12 +24,12 @@
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">
-                <img src="./EB/Karthik.jpg" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Eswar.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Eswar Chava</h2><h3>Co-Chairperson</h3><br>
                 <p>Eswar Chava is currently working in the field of Product Management at a startup. Having studied at CBIT, he discovered his passion for debating through his involvement in MUNs over the years. He has always taken a keen interest in international law, foreign policies, and enjoys engaging in thought-provoking arguments. He is honoured to serve as a part of the Executive Board and is looking forward to seeing you all!</p>
             </div>
             <div class="card">
-                <img src="./EB/Shriya.jpg" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Vishnu.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Vishnu Prasad</h2><h3>Co-Chairperson</h3><br>
                 <p>
                     Vishnu Prasad Gopishetty, an undergraduate student pursuing his Bachelors of Engineering in Computer Science from CBIT, is a strong believer in the power of the spoken word. Currently a member of the CBITMUN Secretariat, he believes that MUNs are a way to better oneself. With a strong inclination towards geopolitics, international relations and Indian politics, Vishnu is well known in the Indian MUN circuit with multiple accolades to his name. If asked what his version of unwinding is, you’d understand that he loves nothing more than a good old cricket match and depressing Bollywood music. As he assumes the position of Vice Chairperson at the DPS MUN, he extends his best wishes to all the delegates of UNHRC for a fruitful debate experience.
