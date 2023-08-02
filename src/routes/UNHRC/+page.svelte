@@ -20,22 +20,23 @@
     </div>
     <br><hr><br>
 
-    <div id="eb" style="display: none;">
+    <div id="eb">
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">
                 <img src="./EB/Karthik.jpg" alt="" style="object-fit: contain;"><br><br>
-                <h2>Kartheek Vegesana</h2><h3>Co-Chairperson</h3><br>
-                <p>Kartheek Vegesana is really experienced in dealing with human rights committees. He’s academically interested in Constitutional Law and it’s connection to Human Rights Law. He is really excited to be serving as an EB member for this year’s DPSHMUN’23 and looks forward to an exciting and fruitful debate.
-                </p>
+                <h2>Eswar Chava</h2><h3>Co-Chairperson</h3><br>
+                <p>Eswar Chava is currently working in the field of Product Management at a startup. Having studied at CBIT, he discovered his passion for debating through his involvement in MUNs over the years. He has always taken a keen interest in international law, foreign policies, and enjoys engaging in thought-provoking arguments. He is honoured to serve as a part of the Executive Board and is looking forward to seeing you all!</p>
             </div>
             <div class="card">
                 <img src="./EB/Shriya.jpg" alt="" style="object-fit: contain;"><br><br>
-                <h2>Shriya Sriram</h2><h3>Co-Chairperson</h3><br>
-                <p>Shriya Sriram is a student studying at Jindal Global Law School (JGLS), and prior to her time at JGLS, she studied at DPS. She looks forward to the discussions and interactions that will take place during this conference. She is grateful for the enthusiasm shown towards the 2023 edition of DPSHMUN and is hoping to meet everyone to have a good time.</p>
+                <h2>Vishnu Prasad</h2><h3>Co-Chairperson</h3><br>
+                <p>
+                    Vishnu Prasad Gopishetty, an undergraduate student pursuing his Bachelors of Engineering in Computer Science from CBIT, is a strong believer in the power of the spoken word. Currently a member of the CBITMUN Secretariat, he believes that MUNs are a way to better oneself. With a strong inclination towards geopolitics, international relations and Indian politics, Vishnu is well known in the Indian MUN circuit with multiple accolades to his name. If asked what his version of unwinding is, you’d understand that he loves nothing more than a good old cricket match and depressing Bollywood music. As he assumes the position of Vice Chairperson at the DPS MUN, he extends his best wishes to all the delegates of UNHRC for a fruitful debate experience.
+                </p>
             </div>
             <div class="card">
-                <img src="./EB/Jaynay.jpg" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Yamini.JPG" alt="" style="object-fit: contain;"><br><br>
                 <h2>Yamini Tumu</h2><h3>Committee Expert</h3><br>
                 <p>In addition to engaging in thoughtful discussions about geopolitics and the global economy, Yamini immerses herself in pursuing & propagating Indian culture with a passion for Kuchipudi and Veena. Recognising her fondness for debating, she has attended a couple of MUNs with a particular interest in committees addressing humanitarian issues. Currently a high school junior, Yamini wishes to pursue foreign relations and/or economics. She strongly believes in learning from history and time-tested cultures. K-Ballad, R&B and Webtoons are on the long list of things she relaxes with.
 

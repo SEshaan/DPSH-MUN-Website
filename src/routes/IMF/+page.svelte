@@ -35,6 +35,13 @@
                     </p>
             </div>
             <div class="card">
+                <img src="./EB/Raghav.jpg" alt="" style="object-fit: contain;"><br><br>
+                <h2>Raghav Panjiray</h2> <h3>Co-Chairperson</h3><br>
+                <p>
+                    Raghav Panjiray is a witty and wide-eyed wanderer. Having graduated from Amity University with a BBA in Finance and Economics, he is an avid observer of the modern-day business world. An adept debater and writing enthusiast, he has been in the Model UN circuit for over five years. He is a staunch vocalist about human rights and equality and has consistently advocated multidimensional inclusion. An amicable person, with a penchant for the funny bone, he is a highly approachable and encouraging entity in leadership, who gives teamwork and mutual respect a great deal of importance.
+                </p>
+            </div>
+            <div class="card">
                 <img src="./EB/Srikar.jpg" alt=""><br><br>
                 <h2>Sai Srikar</h2><h3>Committee Expert</h3><br>
                 <p>Srikar is a Grade 11 student at Delhi Public School, Hyderabad. He wholeheartedly believes that simply attending numerous MUN conferences is not nearly as important as what you learn from them. Despite being quite new to the Hyderabad circuit, he has found the debate in MUN conferences to be quite intriguing and sometimes even exciting. He wishes all the delegates the best of luck in their research and hopes to see well-researched and fruitful debate at the conference
