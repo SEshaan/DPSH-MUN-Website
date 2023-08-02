@@ -37,7 +37,7 @@
 
                     </p>
             </div>
-            <div class="card" style:"display:none">
+            <div class="card" style="display:none">
                 <img src="./EB/" alt="" style="object-fit: contain;"><br><br>
                 <h2>Madhavan</h2><h3>Committee Expert</h3><br>
                 <p>Ojas Arun is a rising senior at Boston University studying Business and Data Analytics. MUNs have always been special to him and he can't wait to help bring that same magic to everyone at DPSHMUN this year!
