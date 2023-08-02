@@ -24,6 +24,12 @@
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">
+                <img src="./EB/Mahveen.jpeg" alt="" style="object-fit: contain;"><br><br>
+                <h2>Mahveen Fatima</h2><h3>Head of IP</h3><br>
+                <p>Nikhil is currently pursuing a B.Tech degree in Computer Science. Having surmounted invaluable debate and public speaking experience throughout his MUN journey - spanning over 13 conferences in the capacity as a delegate, EB, and secretariat member - he believes that MUNs provide a platform for students to build on social qualities that help them tackle the obstacles we all face in life. He looks forward to being a part of the Executive Board for this year's edition of DPSHMUN, hoping to deliver an enjoyable conference experience.
+                </p>
+            </div>
+            <div class="card">
                 <img src="./EB/Nikhil.jpeg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Nikhil Om Sivakumar</h2><h3>Co-Editor-in-Chief</h3><br>
                 <p>Nikhil is currently pursuing a B.Tech degree in Computer Science. Having surmounted invaluable debate and public speaking experience throughout his MUN journey - spanning over 13 conferences in the capacity as a delegate, EB, and secretariat member - he believes that MUNs provide a platform for students to build on social qualities that help them tackle the obstacles we all face in life. He looks forward to being a part of the Executive Board for this year's edition of DPSHMUN, hoping to deliver an enjoyable conference experience.

@@ -1,49 +1,123 @@
-Afghanistan	Aayushi Dipankar	11-F
-Albania	Anas Ahmed	11-F
-Angola	Stephen Arya	11-G
-Argentina	Avi Upadhyay	12-B
-Armenia	Kaavya Johri	11-H
-Australia	DG Kirtana	12-E
-Austria	Amishi kapoor	11-K
-Bahrain	Tanay Gupta 	12-H
-Bangladesh	Moksh Jain	12-B
-Belgium	David Samuel	11-B
-Brazil 	Paritosh Kothapalli	11-J
-Canada	Sankarshana Karnam	12-F
-Chad	Charvi Lakshmi Kamireddy	11-B
-China	Hardik Agarwal	11-H
-Egypt	Bhaumi Nadella	11-E
-Finland	Mahua Pragada	11-F
-France	Chanakya Gutta	11-I
-Germany	Nidhi Srivastava	12-B
-Greece	Irashree Devrath	11-B
-Iceland	Kirat Kaur Ahluwalia	12-A
-India	Pitla Nikhita	11-I
-Iran	Komirishetty Poojitha	11-H
-Iraq	Rishit Raj Redyam	12-A
-Ireland	Sahana Pavuluri	11-E
-Israel	ABHEESHU BUDDHA	11-A
-Italy	Mallipudi Harshith	11-H
-Jamaica	Manasvi Puppala	11-A
-Japan	Kaushik Sai Kurra	11-B 
-Kenya	Ayaan Shareef	11-K
-Lebanon	Tinkle Singh	12-F
-Lithuania	Devishi Upadhyay	12-I 
-Myanmar	Aashitha Kurra	11-D
-Nigeria	Kundanika Chennuru	11-G
-Oman	Sabgani Advait	12-H
-Pakistan	Priyanshi Arora	11-B
-Peru	Saniya Agarwal	11-H
-Portugal	Anika Gulati	12-D
-Romania	Shanmukh Sai Gara	12-D
-Russia	Sriram Lanka	11-H
-Saudi Arabia	Shriyans Ananth Tokala	12-H
-Somalia	Amal Krishna	11-F
-South Korea	Arni Chandwani	11-K
-Spain	Sana Sukhija	11-K
-Syria	Katamreddy Pratheek Reddy	11-F
-Turkey	Arya Vaddadi	11-G
-United Arab Emirates	Nayan Maloth	11-G
-United Kingdom	Saransh Sharma	11-H
-United States of America	Sai Abhiram Vempati	12-F
-Venezuela	Tapasya Goel	11-K
+Shri Balashowry Vallabbhaneni
+Sarvadhar Reddy Nomula
+11-A
+Shri Deepak (Dev) Adhikari
+Arshan Siddiqui
+11-A
+Adv. A. M. Ariff
+Akshita Agarwal
+11-C
+Dr. Shashi Tharoor
+Guduri Vishruth Reddy
+11-C
+Shri Hanuman Beniwal
+Vignesh R Warrier
+11-D
+Shri Kuldeep Rai Sharma
+Savith Mullapudi
+11-D
+Shri Rajendra Agrawal
+Sathvik E
+11-D
+Smt. Kavitha Maloth
+Nainika Reddy Chilukuri
+11-E
+Smt. Maneka Sanjay Gandhi
+Purvai Garg
+11-E
+Smt Navneet Ravi Rana
+Siddhartha Reddy
+11-F
+Shri Jugal Kishore Sharma
+Nikhil Potluri
+11-F
+Shri K. Muraleedharan
+Aditi Bajaj
+11-F
+Shri Mukesh Rajput
+Pranshu
+11-F
+Dr. Farooq Abdullah
+Aaron Ronak Kumar
+11-G
+Shri Guharam Ajgalley
+Maheen Sultana
+11-G
+Dr. Mahesh Sharma
+Sankalp Samrat
+11-G
+Sadhvi Niranjan Jyoti
+Perumandla Nithya Reddy
+11-H
+Shri Maddila Gurumoorthy
+Aashrith Reddy
+11-H
+Shri Mahabali Singh
+Yug Vijay Wargi
+11-H
+Shri Narendra Damodardas Modi
+Ishita Chintalapati
+11-H
+Shri Rajnath Singh
+Parth Poddar
+11-H
+Shri Anurag Singh Thakur
+Valluru Sai Kesav
+11-I
+Shri Bholanath (B.P. Saroj)
+Vaibhav Bhakkad
+11-I
+Shri Narayana Swamy Abbaiah
+Stuti Tiwari
+11-J
+Shri Malook Nagar
+Sivaiahgari Avani
+11-K
+Shri Omprakash Bhupalsingh alias Pavan Rajenimbalkar
+Khyathi
+11-K
+Shri Rajmohan Unnithan
+G. Darsh Dhana Koti
+11-K
+Shri Sellaperumal Ramalingam
+Hrishika Kothamasu
+11-K
+Shri Vishnu Dayal Ram
+Nishtha Nagpal
+11-K
+Shri Arjun Munda
+Jayesh Kanodia
+12-A
+Smt. Sonia Gandhi
+Kabir Nagpal
+12-B
+Komatireddy Venkat Reddy
+Sireesh
+12-C
+Shri Rajdeep Roy
+B. Mohan Reddy
+12-C
+Shri Vijayakumar (Alias) Vijay Vasanth
+Nelabhotla Alekhya
+12-C
+Shri S. Muniswamy
+Raja Rajeshwari
+12-D
+Smt. Mahua Moitra
+Joshita Chennu
+12-F
+Shri Nitin Jairam Gadkari
+Sai Surya Prathap Reddy Miryala
+12-G
+Shri P.R. Natarajan
+Chris Nathan
+12-I
+Shri Nama Nageswara Rao
+Anya Rao
+12-J
+Smt. Ranjanben Dhananjay Bhatt
+Anantosh Srivastava
+12-J
+Shri Anumula Revanth Reddy
+Sangam Dhiraj Kumar
+12-J
