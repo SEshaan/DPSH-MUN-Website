@@ -25,6 +25,13 @@
         <h1>EB Members</h1><br>
         <div id="cards">
             <div class="card">
+                <img src="./EB/Raghav.jpg" alt="" style="object-fit: contain;"><br><br>
+                <h2>Raghav Panjiray</h2> <h3>Co-Chairperson</h3><br>
+                <p>
+                    Raghav Panjiray is a witty and wide-eyed wanderer. Having graduated from Amity University with a BBA in Finance and Economics, he is an avid observer of the modern-day business world. An adept debater and writing enthusiast, he has been in the Model UN circuit for over five years. He is a staunch vocalist about human rights and equality and has consistently advocated multidimensional inclusion. An amicable person, with a penchant for the funny bone, he is a highly approachable and encouraging entity in leadership, who gives teamwork and mutual respect a great deal of importance.
+                </p>
+            </div>
+            <div class="card">
                 <img src="./EB/Tejas.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Tejas Rama</h2> <h3>Co-Chairperson</h3><br>
                 <p>Tejas is an incoming freshman at Boston University, intending to major in finance and entrepreneurship. He is elated to get the opportunity to serve as a co-chairperson for IMF and be back on campus again. 
@@ -33,13 +40,6 @@
                     <br><br>
                     In his free time, you can catch him watching football endlessly and analyzing matches, vibing to music by FINNEAS and The 1975, or re-watching The Office for the 20th time.
                     </p>
-            </div>
-            <div class="card">
-                <img src="./EB/Raghav.jpg" alt="" style="object-fit: contain;"><br><br>
-                <h2>Raghav Panjiray</h2> <h3>Co-Chairperson</h3><br>
-                <p>
-                    Raghav Panjiray is a witty and wide-eyed wanderer. Having graduated from Amity University with a BBA in Finance and Economics, he is an avid observer of the modern-day business world. An adept debater and writing enthusiast, he has been in the Model UN circuit for over five years. He is a staunch vocalist about human rights and equality and has consistently advocated multidimensional inclusion. An amicable person, with a penchant for the funny bone, he is a highly approachable and encouraging entity in leadership, who gives teamwork and mutual respect a great deal of importance.
-                </p>
             </div>
             <div class="card">
                 <img src="./EB/Srikar.jpg" alt=""><br><br>
