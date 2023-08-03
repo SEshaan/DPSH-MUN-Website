@@ -38,7 +38,7 @@
                     </p>
             </div>
             <div class="card">
-                <img src="./EB/Madhvan.jpeg" alt="" style="object-fit: contain;"><br><br>
+                <img src="./EB/Madhvan.png" alt="" style="object-fit: contain;"><br><br>
                 <h2>Madhavan</h2><h3>Committee Expert</h3><br>
                 <p>Madhavan is a 3rd year student at Jindal Global Law School. An avid political science enthusiast, his interests lie in both domestic and international political affairs as well as economics and finance. He is excited to be a part of the Executive Board as the Committee Expert for NATO.
                 </p>
