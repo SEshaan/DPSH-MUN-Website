@@ -37,10 +37,10 @@
 
                     </p>
             </div>
-            <div class="card" style="display:none">
-                <img src="./EB/" alt="" style="object-fit: contain;"><br><br>
+            <div class="card">
+                <img src="./EB/Madhvan.jpeg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Madhavan</h2><h3>Committee Expert</h3><br>
-                <p>Ojas Arun is a rising senior at Boston University studying Business and Data Analytics. MUNs have always been special to him and he can't wait to help bring that same magic to everyone at DPSHMUN this year!
+                <p>Madhavan is a 3rd year student at Jindal Global Law School. An avid political science enthusiast, his interests lie in both domestic and international political affairs as well as economics and finance. He is excited to be a part of the Executive Board as the Committee Expert for NATO.
                 </p>
             </div>
         </div>
