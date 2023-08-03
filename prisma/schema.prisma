@@ -69,7 +69,6 @@ model imf {
 model lk {
   id         Int     @id @default(autoincrement()) @map("_id")
   politician String? @db.VarChar(255)
-  Party      String  @db.VarChar(50)
   Allocation String? @db.VarChar(100)
   Section    String? @db.Char(3)
 }
