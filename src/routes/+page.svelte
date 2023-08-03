@@ -148,7 +148,7 @@
 				<h3>Committees</h3>
 			</div>
 			<div class="stat">
-				<h1>20</h1>
+				<h1>20+</h1>
 				<h3>EB Members</h3>
 			</div>
 			<div class="stat">

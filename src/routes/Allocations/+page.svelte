@@ -44,11 +44,12 @@
 	 */
 
 	var data;
-
+	let current_affairs;
 	/**
 	 * @param {string} x
 	 */
 	function load_com(x) {
+		current_affairs = x
 		if (getCache(x)) return data_update(getCache(x));
 		fetch(`/api/allocations?c=${x.toLowerCase()}`, requestOptions)
 			.then((res) => res.json())
@@ -134,7 +135,7 @@
 </div>
 
 <div id="list">
-	<h1>Allocations List</h1>
+	<h1>Allocations List - {String(current_affairs).toUpperCase()}</h1>
 	<br />
 	<select name="" id="tab_sel" style="display:none">
 		<option value="disec" id="disec">DISEC</option>
