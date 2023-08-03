@@ -88,8 +88,8 @@ let rows = {
         db_row: ['id', 'Country', 'Allocation', 'Section']
     },
     lk: {
-        labels: ['S.No', 'Leader', 'Party', 'Name', 'Section'],
-        db_row: ['id', 'politician', 'Party', 'Allocation', 'Section']
+        labels: ['S.No', 'Leader', 'Name', 'Section'],
+        db_row: ['id', 'politician', 'Allocation', 'Section']
     },
     ip: {
         labels: ['S.No', 'Committee', 'Name', 'Section'],

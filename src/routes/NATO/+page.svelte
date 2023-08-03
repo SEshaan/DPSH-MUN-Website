@@ -33,7 +33,7 @@
             <div class="card">
                 <img src="./EB/Ishan.jpg" alt="" style="object-fit: contain;"><br><br>
                 <h2>Ishan Bhasin</h2><h3>Co-Chairperson</h3><br>
-                <p>Ishan is excited to be a part of the executive board of the Lok Sabha. A Physics and CS major with a love for race cars and fighter jets, he can't wait to experience the intense debate the committee is so well known for, and he wishes everyone the best of luck.
+                <p>Ishan is excited to be a part of the executive board of NATO. A Physics and CS major with a love for race cars and fighter jets, he can't wait to experience the intense debate the committee is so well known for, and he wishes everyone the best of luck.
 
                     </p>
             </div>
