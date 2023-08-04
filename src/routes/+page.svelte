@@ -74,25 +74,25 @@
 	<div id="countdown">
 		<div class="pair" style="overflow:hidden">
 			<div class="card_holder" style="overflow:hidden">
-				<div class="card" style="overflow:hidden">{days}</div>
+				<div class="card" style="overflow:hidden">00</div>
 			</div>
 			<h2 style="overflow:hidden">Days</h2>
 		</div>
 		<div class="pair" style="overflow:hidden">
 			<div class="card_holder" style="overflow:hidden">
-				<div class="card" style="overflow:hidden">{hours}</div>
+				<div class="card" style="overflow:hidden">00</div>
 			</div>
 			<h2 style="overflow:hidden">Hours</h2>
 		</div>
 		<div class="pair" style="overflow:hidden">
 			<div class="card_holder" style="overflow:hidden">
-				<div class="card" style="overflow:hidden">{minutes}</div>
+				<div class="card" style="overflow:hidden">00</div>
 			</div>
 			<h2 style="overflow:hidden">Minutes</h2>
 		</div>
 		<div class="pair" style="overflow:hidden">
 			<div class="card_holder" style="overflow:hidden">
-				<div class="card" style="overflow:hidden">{seconds}</div>
+				<div class="card" style="overflow:hidden">00</div>
 			</div>
 			<h2 style="overflow:hidden">Seconds</h2>
 		</div>
