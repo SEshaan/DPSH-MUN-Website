@@ -42,9 +42,9 @@
             <div class="card">
                 <img src="./EB/Kabeer.jpeg" alt=""><br><br>
                 <h2>Kabeer Bajaj</h2><h3>Co-Chairperson</h3><br>
-                <p>Kabeer, one of our very own. He is incredibly excited to utilise his knowledge to provide everyone with invaluable experience. <br><br>
+                <p>Kabeer, one of our very own. He is incredibly excited to utilise his knowledge to provide everyone with invaluable experience. <br>
 
-                    Having had experience as a delegate, a member of the Executive Board and a successful Deputy Secretary General Kabeer is back to set his juniors on this path that he started many years ago. "I was inspired and mentored by my seniors and friends to take up the role of understanding: better than ever before, I plan to do the same." He looks forward to making this a delightful confrence for all.</p>
+                </p>    
                     <br> His website can be found here: <a href="https://sjlepyneedscoffee.github.io/me/" style="color: #D0BEA8;">https://sjlepyneedscoffee.github.io/me/</a>
             </div>
             <div class="card">
