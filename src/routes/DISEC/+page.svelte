@@ -45,6 +45,7 @@
                 <p>Kabeer, one of our very own. He is incredibly excited to utilise his knowledge to provide everyone with invaluable experience. <br><br>
 
                     Having had experience as a delegate, a member of the Executive Board and a successful Deputy Secretary General Kabeer is back to set his juniors on this path that he started many years ago. "I was inspired and mentored by my seniors and friends to take up the role of understanding: better than ever before, I plan to do the same." He looks forward to making this a delightful confrence for all.</p>
+                    <br> His website can be found here: <a href="https://sjlepyneedscoffee.github.io/me/" style="color: #D0BEA8;">https://sjlepyneedscoffee.github.io/me/</a>
             </div>
             <div class="card">
                 <img src="./EB/Rishabh.jpeg" alt="" style="object-fit: contain;"><br><br>
@@ -56,7 +57,6 @@
                     When not MUNning, Rishabh can be found daydreaming about fantasy worlds, reading, binging Star Wars and Lord of the Rings, drooling over sushi, and cursing at his DnD party for trivialising his combat encounters.
                     
                     He looks forward to a thought-provoking MUN experience for all.
-                    
                     
                 </p>
             </div>
