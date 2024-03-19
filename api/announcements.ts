@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-import db from './utils/database';
+// import db from './utils/database';
 
 // Fetch all active announcements
 
@@ -11,23 +11,28 @@ import db from './utils/database';
 // };
 
 async function get(request: VercelRequest, response: VercelResponse): Promise<VercelResponse> {
-	try {
-		return response.status(200).json({
-			error: false,
-			message: '',
-			data: await db.annoucements.findMany({
-				where: { IsActive: true },
-				select: { Message: true, Title: true, Type: true }
-			})
-		});
-	} catch (err) {
-		console.error(err);
-		return response.status(500).json({
-			error: true,
-			message: 'An error occured.',
-			data: []
-		});
-	}
+	// try {
+	// 	return response.status(200).json({
+	// 		error: false,
+	// 		message: '',
+	// 		data: await db.annoucements.findMany({
+	// 			where: { IsActive: true },
+	// 			select: { Message: true, Title: true, Type: true }
+	// 		})
+	// 	});
+	// } catch (err) {
+	// 	console.error(err);
+	// 	return response.status(500).json({
+	// 		error: true,
+	// 		message: 'An error occured.',
+	// 		data: []
+	// 	});
+	// }
+	return response.status(500).json({
+		error: true,
+		message: 'An error occured.',
+		data: []
+	});
 }
 
 // async function post(request: VercelRequest, response: VercelResponse): Promise<VercelResponse> {

@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-import db from './utils/database';
-import { redisGet, redisGetKeys, redisSet } from './_functions';
+// import db from './utils/database';
+// import { redisGet, redisGetKeys, redisSet } from './_functions';
 
 //
 
@@ -24,17 +24,14 @@ async function get(request: VercelRequest, response: VercelResponse): Promise<Ve
 				message: 'Invalid search parameter.',
 				data: []
 			});
-		const data = nocache
-			? await db[committee].findMany()
-			: (await redisGet(committee)) ?? (await db[committee].findMany());
-		if (!(await redisGetKeys()).includes(committee) && !nocache) {
-			redisSet(committee, data, 86400);
-		}
-		return response.status(200).json({
-			error: false,
-			message: '',
-			data
-		});
+		// const data = nocache
+		// 	? await db[committee].findMany()
+		// 	: (await redisGet(committee)) ?? (await db[committee].findMany());
+		// if (!(await redisGetKeys()).includes(committee) && !nocache) {
+		// 	redisSet(committee, data, 86400);
+		// }
+		const data = require(`./_static/${encodeURIComponent(committee)}.json`);
+		return response.status(200).json(data);
 	} catch (err) {
 		console.error(err);
 		return response.status(500).json({

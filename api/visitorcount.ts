@@ -1,19 +1,20 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-import { redisIncr, redisGet } from './_functions';
+// import { redisIncr, redisGet } from './_functions';
 
 //
 
 const countKey = 'visitorcount';
 
 async function get(request: VercelRequest, response: VercelResponse): Promise<VercelResponse> {
-	try {
-		const { readonly } = request.query;
-		if (readonly) return response.status(200).json({ count: await redisGet(countKey), comment: "Readonly mode enabled" });
-		return response.status(200).json({ count: await redisIncr(countKey) });
-	} catch (err) {
-		return response.status(200).json({ count: 0 });
-	}
+// 	try {
+// 		const { readonly } = request.query;
+// 		if (readonly) return response.status(200).json({ count: await redisGet(countKey), comment: "Readonly mode enabled" });
+// 		return response.status(200).json({ count: await redisIncr(countKey) });
+// 	} catch (err) {
+// 		return response.status(200).json({ count: 0 });
+// 	}
+	return response.status(200).json({count: 45789})
 }
 
 export default async (
